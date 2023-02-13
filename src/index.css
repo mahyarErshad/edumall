@@ -1,5 +1,22 @@
+@font-face {
+  font-family: Yekan;
+  src: url(./assets/font/iranyekanwebregularfanum.woff);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Yekan;
+  src: url(./assets/font/iranyekanwebmediumfanum.woff);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Yekan;
+  src: url(./assets/font/iranyekanwebboldfanum.woff);
+  font-weight: 700;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
