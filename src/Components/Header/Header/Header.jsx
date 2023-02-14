@@ -2,7 +2,7 @@ import React, { memo, useState } from "react";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import logo from "../../../assets/images/logo.png";
 import BuyProButton from "../../Utils/Buttons/BuyProButton/BuyProButton";
-import HeaderNavigationSection from "../../Utils/HeaderNavigationSection/HeaderNavigationSection";
+import HeaderNavigationSection from "../../Utils/HeaderUtils/HeaderNavigationSection/HeaderNavigationSection";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);

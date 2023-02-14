@@ -1,5 +1,5 @@
 import React from "react";
-import NavLink from "../../Header/NavLink/NavLink";
+import NavLink from "../../../Header/NavLink/NavLink";
 
 function NavLinks() {
   return (
