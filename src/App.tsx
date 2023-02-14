@@ -1,10 +1,10 @@
 import React from "react";
-import MainHeader from "./Components/Header/Header/Header";
+import HeroSection from "./Components/Header/HeroSection/HeroSection";
 
 function App() {
   return (
     <>
-      <MainHeader />
+      <HeroSection />
     </>
   );
 }
