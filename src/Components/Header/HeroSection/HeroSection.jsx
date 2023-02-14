@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../Header/Header'
 
 function HeroSection() {
   return (
-    <div>HeroSection</div>
+    <div>
+        <Header />
+    </div>
   )
 }
 
