@@ -1,0 +1,13 @@
+.wrapper:before {
+  content: " ";
+  display: block;
+  height: 4px;
+  background-color: rgb(243, 241, 241);
+  opacity: 0;
+  transition: all ease 0.3s;
+  position: relative;
+  bottom: -3.25rem;
+}
+.wrapper:hover:before {
+  opacity: 1;
+}
