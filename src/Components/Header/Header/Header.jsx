@@ -4,7 +4,7 @@ import NavLink from "../NavLink/NavLink";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import logo from "../../../assets/images/logo.png";
 
-function MainHeader() {
+function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const NavLinks = () => {
     return (
@@ -18,7 +18,7 @@ function MainHeader() {
     );
   };
   return (
-    <header className="min-h-[4.375rem] w-full py-2 bg-secondary shadow-lg z-50 fixed top-0">
+    <header className="min-h-[4.375rem] w-full py-2 bg-transparent z-50">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center lg:flex-row-reverse max-lg:justify-between lg:justify-end lg:gap-24 h-16">
           <div className="-mr-2 flex lg:hidden">
@@ -49,4 +49,4 @@ function MainHeader() {
   );
 }
 
-export default memo(MainHeader);
+export default memo(Header);
