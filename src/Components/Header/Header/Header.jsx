@@ -9,11 +9,10 @@ function Header() {
   const NavLinks = () => {
     return (
       <>
-        <NavLink text="صفحه اصلی" href="#home" />
-        <NavLink text="پیش نمایش ها" href="#demos" />
-        <NavLink text="صفحات سفارشی" href="#custom-pages" />
-        <NavLink text="صفحه مقالات" href="#blog-pages" />
-        <NavLink text="صفحات فروشگاهی" href="#store-pages" />
+        <NavLink text="ویژگی ها" href="#features" />
+        <NavLink text="ویدئوهای آموزشی" href="#tutorials" />
+        <NavLink text="دموها" href="#demos" />
+        <NavLink text="دوره ها" href="courses" />
       </>
     );
   };
@@ -41,9 +40,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div>
-        {/* <NavLinks /> */}
-      </div>
+      <div>{/* <NavLinks /> */}</div>
     </header>
   );
 }
