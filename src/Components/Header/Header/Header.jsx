@@ -1,5 +1,5 @@
 import React, { memo, useState } from "react";
-import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import BurgerMenu from "../../Utils/HeaderUtils/BurgerMenu/BurgerMenu";
 import BuyProButton from "../../Utils/Buttons/BuyProButton/BuyProButton";
 import HeaderNavigationSection from "../../Utils/HeaderUtils/HeaderNavigationSection/HeaderNavigationSection";
 import Logo from "../../Utils/HeaderUtils/Logo/Logo";
