@@ -2,7 +2,7 @@ import React, { memo, useState } from "react";
 import { Transition } from "@headlessui/react";
 import NavLink from "../NavLink/NavLink";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
-import logo from "../../../assets/images/logo.webp";
+import logo from "../../../assets/images/logo.png";
 
 function MainHeader() {
   const [isOpen, setIsOpen] = useState(false);
