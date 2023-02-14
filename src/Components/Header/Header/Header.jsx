@@ -6,16 +6,6 @@ import styles from "./styles.module.css";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const NavLinks = () => {
-    return (
-      <>
-        <NavLink text="ویژگی ها" href="#features" />
-        <NavLink text="ویدئوهای آموزشی" href="#tutorials" />
-        <NavLink text="دموها" href="#demos" />
-        <NavLink text="دوره ها" href="#courses" />
-      </>
-    );
-  };
   return (
     <header className="min-h-[4.375rem] w-full py-2 bg-transparent z-50">
       <div className="max-w-[93.75rem] mx-auto sm:px-6 lg:px-8 px-4">
