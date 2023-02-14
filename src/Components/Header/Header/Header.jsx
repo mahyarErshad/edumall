@@ -1,8 +1,8 @@
 import React, { memo, useState } from "react";
-import NavLink from "../NavLink/NavLink";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import logo from "../../../assets/images/logo.png";
 import styles from "./styles.module.css";
+import NavLinks from "../../Utils/NavLinks/NavLinks";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
