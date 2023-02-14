@@ -4,6 +4,7 @@ import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import logo from "../../../assets/images/logo.png";
 import styles from "./styles.module.css";
 import { slide as Menu } from "react-burger-menu";
+import "./slide-menu.css";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
