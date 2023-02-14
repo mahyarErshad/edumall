@@ -10,9 +10,7 @@ function Header() {
     <header className="min-h-[4.375rem] w-full py-2 bg-transparent z-50">
       <div className="max-w-[93.75rem] mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center lg:flex-row-reverse justify-between h-16">
-          <div className="-mr-2 flex lg:hidden mt-[0.375rem]">
-            <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
-          </div>
+          <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
           <BuyProButton />
           <HeaderNavigationSection />
           <div onClick={() => window.scrollTo({ top: 0 })} className="flex-center h-full cursor-pointer">
