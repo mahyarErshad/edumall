@@ -4,17 +4,17 @@
 
 @font-face {
   font-family: Yekan;
-  src: url(./assets/font/yekanBakhRegular.woff2);
+  src: url(./assets/font/IRANYekanRegular.ttf);
   font-weight: 400;
 }
 @font-face {
   font-family: Yekan;
-  src: url(./assets/font/yekanBakhSemiBold.woff2);
+  src: url(./assets/font/IRANYekanMedium.ttf);
   font-weight: 500;
 }
 @font-face {
   font-family: Yekan;
-  src: url(./assets/font/yekanBakhBold.woff2);
+  src: url(./assets/font/IRANYekanBold.ttf);
   font-weight: 700;
 }
 
