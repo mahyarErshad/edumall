@@ -43,14 +43,8 @@ function Header() {
           </div>
         </div>
       </div>
-      <Menu right isOpen={isOpen}>
-        {() => (
-          <div className="lg:hidden -mt-1" id="mobile-menu">
-            <div ref={React.createRef()} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <NavLinks />
-            </div>
-          </div>
-        )}
+      <Menu right isOpen={isOpen} onClose={() => setIsOpen(false)} animation="scaleDown">
+        <NavLinks />
       </Menu>
     </header>
   );
