@@ -30,3 +30,8 @@
 :root {
   --primary-color: "#066CC9";
 }
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
