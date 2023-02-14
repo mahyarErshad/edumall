@@ -41,7 +41,9 @@ function Header() {
           </div>
         </div>
       </div>
-      <NavLinks />
+      <div>
+        <NavLinks />
+      </div>
     </header>
   );
 }
