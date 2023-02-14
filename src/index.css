@@ -36,6 +36,7 @@ html,
 
 :root {
   --primary-color: "#066CC9";
+  --secondary-color: "#FFC221";
 }
 .flex-center {
   display: flex;
