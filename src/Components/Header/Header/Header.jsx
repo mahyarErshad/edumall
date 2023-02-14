@@ -1,8 +1,8 @@
 import React, { memo, useState } from "react";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import logo from "../../../assets/images/logo.png";
-import NavLinks from "../../Utils/NavLinks/NavLinks";
 import BuyProButton from "../../Utils/Buttons/BuyProButton/BuyProButton";
+import HeaderNavigationSection from "../../Utils/HeaderNavigationSection/HeaderNavigationSection";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,13 +14,7 @@ function Header() {
             <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
           </div>
           <BuyProButton />
-          <div className="flex items-center">
-            <div className="hidden lg:block">
-              <ul className="ml-10 flex items-baseline gap-10">
-                <NavLinks />
-              </ul>
-            </div>
-          </div>
+          <HeaderNavigationSection />
           <div onClick={() => window.scrollTo({ top: 0 })} className="flex-center h-full cursor-pointer">
             <img className="max-w-[9.375rem] lg:ml-4" src={logo} alt="Logo" />
           </div>
