@@ -3,6 +3,7 @@ import { Transition } from "@headlessui/react";
 import NavLink from "../NavLink/NavLink";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import logo from "../../../assets/images/logo.png";
+import styles from "./styles.module.css";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,8 +25,10 @@ function Header() {
           <div className="-mr-2 flex lg:hidden mt-[0.375rem]">
             <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
           </div>
-          <div className="h-full flex-center lg:mt-[0.375rem]">
-            <button>خرید نسخه حرفه ای</button>
+          <div className="h-full flex-center lg:mt-[0.375rem] max-lg:order-2">
+            <a className={`${styles.proButton} max-md:hidden`} href="#app">
+              خرید نسخه حرفه ای
+            </a>
           </div>
           <div className="flex items-center">
             <div className="hidden lg:block">
