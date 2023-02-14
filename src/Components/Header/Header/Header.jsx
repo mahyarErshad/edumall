@@ -1,8 +1,8 @@
 import React, { memo, useState } from "react";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import logo from "../../../assets/images/logo.png";
-import styles from "./styles.module.css";
 import NavLinks from "../../Utils/NavLinks/NavLinks";
+import BuyProButton from "../../Utils/Buttons/BuyProButton/BuyProButton";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,11 +13,7 @@ function Header() {
           <div className="-mr-2 flex lg:hidden mt-[0.375rem]">
             <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
           </div>
-          <div className="h-full flex-center lg:mt-[0.375rem] max-lg:order-2">
-            <a className={`${styles.proButton} max-sm:hidden text-sm font-bold`} href="#app">
-              خرید نسخه حرفه ای
-            </a>
-          </div>
+          <BuyProButton />
           <div className="flex items-center">
             <div className="hidden lg:block">
               <ul className="ml-10 flex items-baseline gap-10">
