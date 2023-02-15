@@ -8,12 +8,12 @@ function App() {
   return (
     <MyContext.Provider value={{ isOpen, setIsOpen }}>
       <div className="grid">
-        <main>
-          <HeroSection />
-        </main>
         <aside>
           <SideBar />
         </aside>
+        <main>
+          <HeroSection />
+        </main>
       </div>
     </MyContext.Provider>
   );

@@ -46,3 +46,7 @@ html,
 li {
   list-style: none;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
