@@ -49,9 +49,16 @@ li {
   display: grid;
   grid-template-columns: auto 1fr;
 }
-.icon-button::before {
+.close-button-animation::before {
   content: "";
   background-color: #fff;
-  height: 100%;
-  width: 4px;
+  height: 85%;
+  width: 0.5rem;
+  position: absolute;
+  left: -0.5rem;
+  opacity: 0.9;
+  transition: all ease 500ms;
+}
+.close-button-animation:hover:before {
+  transform: translateX(2.5rem);
 }
