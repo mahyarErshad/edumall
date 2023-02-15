@@ -14,7 +14,7 @@ function Header() {
           {!context.isOpen && <BurgerMenu />}
           <BuyProButton />
           <HeaderNavigationSection />
-          <Logo />
+          {!context.isOpen && <Logo />}
         </div>
       </div>
     </header>

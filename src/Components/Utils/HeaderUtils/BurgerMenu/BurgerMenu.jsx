@@ -7,7 +7,7 @@ function BurgerMenu({ close }) {
   const Context = useContext(MyContext);
   return (
     <div className="-mr-2 flex lg:hidden mt-[0.375rem]">
-      <button onClick={() => Context.setIsOpen((prev) => !prev)} type="button" className="bg-transparent flex-center p-2 rounded-md text-black transition-all duration-300" aria-controls="mobile-menu" aria-expanded="false">
+      <button onClick={() => Context.setIsOpen((prev) => !prev)} type="button" className="bg-transparent -mt-[0.375rem] flex-center p-2 rounded-md text-black transition-all duration-300" aria-controls="mobile-menu" aria-expanded="false">
         {close ? <FontAwesomeIcon size="2xl" className="svg-black" icon={faTimes} /> : <FontAwesomeIcon color="#fff" size="xl" icon={faBars} />}
       </button>
     </div>
