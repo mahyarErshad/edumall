@@ -1,8 +1,5 @@
 import { createContext } from "react";
 
-const MyContext = createContext({
-  open,
-  isOpen,
-});
+const MyContext = createContext();
 
 export default MyContext;
