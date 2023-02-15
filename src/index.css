@@ -34,8 +34,8 @@ html,
 }
 
 :root {
-  --primary-color: "#066CC9";
-  --secondary-color: "#FFC221";
+  --primary-color: #066cc9;
+  --secondary-color: #ffc221;
 }
 .flex-center {
   display: flex;
@@ -65,6 +65,7 @@ li {
 .open-button-animation::before {
   content: "";
   background-color: var(--primary-color);
+  z-index: 2;
   height: 85%;
   width: 0.5rem;
   position: absolute;
