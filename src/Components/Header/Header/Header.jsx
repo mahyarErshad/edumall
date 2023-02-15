@@ -16,7 +16,6 @@ function Header() {
           <Logo />
         </div>
       </div>
-      <div>{/* <NavLinks /> */}</div>
     </header>
   );
 }
