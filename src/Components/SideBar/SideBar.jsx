@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import MyContext from "../../Context/MyContext";
 import BurgerMenu from "../Utils/HeaderUtils/BurgerMenu/BurgerMenu";
 import Logo from "../Utils/HeaderUtils/Logo/Logo";
+import styles from "./sidebar.module.css"
 
 function SideBar() {
   const context = useContext(MyContext);
@@ -13,6 +14,9 @@ function SideBar() {
         <BurgerMenu close />
         <Logo dark />
       </header>
+      <main className={styles.main}>
+
+      </main>
     </div>
   );
 }
