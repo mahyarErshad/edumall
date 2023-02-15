@@ -9,9 +9,9 @@ function SideBar() {
 
   return (
     <div className={`${width} lg:hidden transition-all duration-500`}>
-      <header className="min-h-[5rem] flex justify-between px-4">
-        <Logo />
-        <BurgerMenu />
+      <header className="min-h-[5rem] flex justify-between items-center px-4">
+        <BurgerMenu close />
+        <Logo dark />
       </header>
     </div>
   );
