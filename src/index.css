@@ -49,3 +49,9 @@ li {
   display: grid;
   grid-template-columns: auto 1fr;
 }
+.icon-button::before {
+  content: "";
+  background-color: #fff;
+  height: 100%;
+  width: 4px;
+}
