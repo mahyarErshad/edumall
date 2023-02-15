@@ -1,5 +1,8 @@
 import { createContext } from "react";
 
-const context = createContext();
+const MyContext = createContext({
+  open,
+  isOpen,
+});
 
-export default context;
+export default MyContext;
