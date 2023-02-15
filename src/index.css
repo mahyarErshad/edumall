@@ -62,3 +62,16 @@ li {
 .close-button-animation:hover:before {
   transform: translateX(2.5rem);
 }
+.open-button-animation::before {
+  content: "";
+  background-color: var(--primary-color);
+  height: 85%;
+  width: 0.5rem;
+  position: absolute;
+  left: -0.5rem;
+  opacity: 0.9;
+  transition: all ease 500ms;
+}
+.open-button-animation:hover:before {
+  transform: translateX(2.5rem);
+}
