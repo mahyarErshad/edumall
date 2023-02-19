@@ -76,3 +76,6 @@ li {
 .open-button-animation:hover:before {
   transform: translateX(2.5rem);
 }
+.mirror {
+  transform: scaleX(-1);
+}
