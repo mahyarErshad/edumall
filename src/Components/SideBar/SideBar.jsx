@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import MyContext from "../../Context/MyContext";
+import BuyProButton from "../Utils/Buttons/BuyProButton/BuyProButton";
 import BurgerMenu from "../Utils/HeaderUtils/BurgerMenu/BurgerMenu";
 import Logo from "../Utils/HeaderUtils/Logo/Logo";
 import styles from "./sidebar.module.css";
@@ -14,7 +15,9 @@ function SideBar() {
         <BurgerMenu close />
         <Logo dark />
       </header>
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+      <BuyProButton />
+      </main>
     </div>
   );
 }
