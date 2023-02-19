@@ -3,6 +3,7 @@ import MyContext from "../../Context/MyContext";
 import BuyProButton from "../Utils/Buttons/BuyProButton/BuyProButton";
 import BurgerMenu from "../Utils/HeaderUtils/BurgerMenu/BurgerMenu";
 import Logo from "../Utils/HeaderUtils/Logo/Logo";
+import NavLinks from "../Utils/HeaderUtils/NavLinks/NavLinks";
 import styles from "./sidebar.module.css";
 
 function SideBar() {
@@ -16,7 +17,8 @@ function SideBar() {
         <Logo dark />
       </header>
       <main className={styles.main}>
-        <BuyProButton className="flex justify-center items-start w-[90%] text-center sm:hidden mt-8" />
+        <NavLinks />
+        <BuyProButton className="flex justify-center items-start w-full text-center sm:hidden mt-8" />
       </main>
     </div>
   );
