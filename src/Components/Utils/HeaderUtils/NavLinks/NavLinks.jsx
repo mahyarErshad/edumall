@@ -1,13 +1,13 @@
 import React from "react";
 import NavLink from "../NavLink/NavLink";
 
-function NavLinks() {
+function NavLinks({className}) {
   return (
     <>
-      <NavLink text="ویژگی ها" href="#features" />
-      <NavLink text="ویدئوهای آموزشی" href="#tutorials" />
-      <NavLink text="دموها" href="#demos" />
-      <NavLink text="دوره ها" href="#courses" />
+      <NavLink className={className} text="ویژگی ها" href="#features" />
+      <NavLink className={className} text="ویدئوهای آموزشی" href="#tutorials" />
+      <NavLink className={className} text="دموها" href="#demos" />
+      <NavLink className={className} text="دوره ها" href="#courses" />
     </>
   );
 }
