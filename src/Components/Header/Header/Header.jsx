@@ -12,7 +12,7 @@ function Header() {
       <div className="max-w-[93.75rem] mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center lg:flex-row-reverse justify-between h-16">
           {!context.isOpen && <BurgerMenu />}
-          <BuyProButton />
+          <BuyProButton className="flex-center" />
           <HeaderNavigationSection />
           {!context.isOpen && <Logo />}
         </div>
