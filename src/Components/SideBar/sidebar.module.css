@@ -4,7 +4,7 @@
 }
 .main {
   width: 100%;
-  background-image: linear-gradient(#000000cc,#000000cc), url(../../assets/images/slideMenu.jpg);
+  background-image: linear-gradient(#000000cc, #000000cc), url(../../assets/images/slideMenu.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,4 +13,10 @@
   justify-content: flex-start;
   align-items: flex-start;
   padding: 2rem 1.5rem;
+}
+.main li {
+  border-bottom: 1px solid #ffffff26;
+}
+.main li:nth-child(4) {
+  border-bottom: none;
 }
