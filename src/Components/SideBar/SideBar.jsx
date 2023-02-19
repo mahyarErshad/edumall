@@ -16,7 +16,7 @@ function SideBar() {
         <Logo dark />
       </header>
       <main className={styles.main}>
-      <BuyProButton />
+        <BuyProButton className="flex justify-center items-start w-[90%] text-center sm:hidden mt-8" />
       </main>
     </div>
   );
