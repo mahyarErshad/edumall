@@ -17,7 +17,7 @@ function SideBar() {
         <Logo dark />
       </header>
       <main className={styles.main}>
-        <NavLinks className="w-full py-5 border-b " />
+        <NavLinks className="w-full py-4" />
         <BuyProButton className="flex justify-center items-start w-full text-center sm:hidden mt-8" />
       </main>
     </div>
