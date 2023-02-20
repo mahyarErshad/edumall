@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import image from "../../../assets/images/hero-image.png";
 import { TypeAnimation } from "react-type-animation";
+import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
 
 function HeroSection() {
   return (
