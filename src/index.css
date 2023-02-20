@@ -79,6 +79,3 @@ li {
 .mirror {
   transform: scaleX(-1);
 }
-#mouse-parallax-container {
-  overflow: visible !important;
-}
