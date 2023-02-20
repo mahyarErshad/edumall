@@ -64,7 +64,7 @@ li {
 }
 .open-button-animation::before {
   content: "";
-  background-color: var(--primary-color);
+  background-color: #0564B6;
   z-index: 2;
   height: 85%;
   width: 0.5rem;
