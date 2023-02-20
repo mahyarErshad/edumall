@@ -18,16 +18,18 @@ function HeroSection() {
         </div>
         <img src={image} alt="Edumall" className="lg:absolute lg:w-[90%] md:-left-12 lg:left-0 lg:top-6 mirror z-10" />
       </div>
-      <div className="absolute w-full h-screen bg-gradient-to-br from-primary to-[#055CAA] overflow-hidden max-lg:hidden">
-        <div className="bg-[#0666BD] rounded-[50%] absolute bottom-[-25rem] right-[-25rem] w-[50rem] h-[50rem]"></div>
-        <div className="bg-[#055CAA] rounded-[50%] absolute bottom-[-12.5rem] right-[-12.5rem] w-[25rem] h-[25rem]"></div>
-        <div className="bg-transparent border border-white rounded-[50%] absolute bottom-[-33rem] left-[-28rem] w-[50rem] h-[50rem] opacity-40"></div>
-        <div className="bg-transparent border border-white rounded-[50%] absolute bottom-[-15rem] left-[-12.5rem] w-[25rem] h-[25rem] opacity-40"></div>
-        <div className="bg-gradient-to-b from-[#FDE190] to-[#FEC93D] h-[0.9375rem] w-[0.9375rem] absolute top-[28%] right-[44%] rounded-[50%]"></div>
-        <div className="bg-gradient-to-b from-[#ABE54B] to-[#5EA82C] h-[2.5rem] w-[2.5rem] absolute top-[33%] right-[38%] rounded-[50%]"></div>
-        <div className="bg-gradient-to-b from-[#FDE190] to-[#FEC93D] h-[0.9375rem] w-[0.9375rem] absolute bottom-[12.5rem] left-[7.75rem] rounded-[50%]"></div>
-        <div className="bg-gradient-to-b from-[#F9CC57] to-[#F87924] h-[2.5rem] w-[2.5rem] absolute bottom-[17rem] left-[5rem] rounded-[50%]"></div>
-      </div>
+      <MouseParallaxContainer>
+        <div className="absolute w-full h-screen bg-gradient-to-br from-primary to-[#055CAA] overflow-hidden max-lg:hidden">
+          <div className="bg-[#0666BD] rounded-[50%] absolute bottom-[-25rem] right-[-25rem] w-[50rem] h-[50rem]"></div>
+          <div className="bg-[#055CAA] rounded-[50%] absolute bottom-[-12.5rem] right-[-12.5rem] w-[25rem] h-[25rem]"></div>
+          <div className="bg-transparent border border-white rounded-[50%] absolute bottom-[-33rem] left-[-28rem] w-[50rem] h-[50rem] opacity-40"></div>
+          <div className="bg-transparent border border-white rounded-[50%] absolute bottom-[-15rem] left-[-12.5rem] w-[25rem] h-[25rem] opacity-40"></div>
+          <div className="bg-gradient-to-b from-[#FDE190] to-[#FEC93D] h-[0.9375rem] w-[0.9375rem] absolute top-[28%] right-[44%] rounded-[50%]"></div>
+          <div className="bg-gradient-to-b from-[#ABE54B] to-[#5EA82C] h-[2.5rem] w-[2.5rem] absolute top-[33%] right-[38%] rounded-[50%]"></div>
+          <div className="bg-gradient-to-b from-[#FDE190] to-[#FEC93D] h-[0.9375rem] w-[0.9375rem] absolute bottom-[12.5rem] left-[7.75rem] rounded-[50%]"></div>
+          <div className="bg-gradient-to-b from-[#F9CC57] to-[#F87924] h-[2.5rem] w-[2.5rem] absolute bottom-[17rem] left-[5rem] rounded-[50%]"></div>
+        </div>
+      </MouseParallaxContainer>
     </section>
   );
 }
