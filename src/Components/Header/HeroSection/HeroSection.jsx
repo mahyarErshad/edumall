@@ -17,6 +17,12 @@ function HeroSection() {
         </div>
         <img src={image} alt="Edumall" className="lg:absolute lg:w-[90%] md:-left-12 lg:left-0 lg:top-6 mirror z-10" />
       </div>
+      <div className="absolute w-full h-screen bg-gradient-to-br from-primary to-[#055CAA] overflow-hidden max-lg:hidden">
+        <div className="bg-[#0666BD] rounded-[50%] absolute bottom-[-25rem] right-[-25rem] w-[50rem] h-[50rem]"></div>
+        <div className="bg-[#055CAA] rounded-[50%] absolute bottom-[-12.5rem] right-[-12.5rem] w-[25rem] h-[25rem]"></div>
+        <div className="bg-transparent border border-white rounded-[50%] absolute bottom-[-33rem] left-[-28rem] w-[50rem] h-[50rem]"></div>
+        <div className="bg-transparent border border-white rounded-[50%] absolute bottom-[-15rem] left-[-12.5rem] w-[25rem] h-[25rem]"></div>
+      </div>
     </section>
   );
 }
