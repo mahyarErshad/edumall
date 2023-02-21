@@ -2,7 +2,9 @@ import React from 'react'
 
 function WhyEdumall() {
   return (
-    <div>WhyEdumall</div>
+    <section className='w-full pt-12 '>
+
+    </section>
   )
 }
 
