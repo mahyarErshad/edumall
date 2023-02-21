@@ -1,5 +1,5 @@
 .proButton {
-  background-image: linear-gradient(-135deg, #ffc221, #fe5b34) !important;
+  background-image: linear-gradient(220deg, #abe54b, #5ea82c) !important;
   border: none;
   padding: 1rem 1.5rem;
   border-radius: 8px;
@@ -10,6 +10,6 @@
 .proButton:hover {
   box-shadow: 0 10px 24px rgb(0 0 0 / 42%);
 }
-.proButton:active{
+.proButton:active {
   box-shadow: none;
 }
