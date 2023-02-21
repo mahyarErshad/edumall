@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import HeroSection from "./Components/Header/HeroSection/HeroSection";
+import MainBody from "./Components/Body/MainBody/MainBody";
 import SideBar from "./Components/SideBar/SideBar";
 import MyContext from "./Context/MyContext";
 
@@ -12,7 +12,7 @@ function App() {
           <SideBar />
         </aside>
         <main>
-          <HeroSection />
+          <MainBody />
         </main>
       </div>
     </MyContext.Provider>

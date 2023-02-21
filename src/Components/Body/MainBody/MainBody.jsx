@@ -1,8 +1,11 @@
 import React from 'react'
+import HeroSection from '../../Header/HeroSection/HeroSection'
 
 function MainBody() {
   return (
-    <div>MainBody</div>
+    <>
+      <HeroSection />
+    </>
   )
 }
 
