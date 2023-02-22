@@ -10,18 +10,15 @@ function WhiteHeader() {
   const [activeSecondHeader, setActiveSecondHeader] = useState(false);
   window.addEventListener("scroll", () => {
     let secondHeader = window.scrollY;
-    if (secondHeader > 50) {
+    if (secondHeader > 100) {
       setActiveSecondHeader(true);
     } else {
       setActiveSecondHeader(false);
     }
-    console.log(activeSecondHeader);
   });
 
-  const className = activeSecondHeader ? "bg-white fixed" : "bg-transparent relative";
-
   return (
-    <header className={`${className} transition-all duration-300 min-h-[4.375rem] w-full py-2 z-50`}>
+    <header className="transition-all duration-300 min-h-[4.375rem] w-full py-2 z-50 fixed -top-20">
       <div className="max-w-[93.75rem] mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center lg:flex-row-reverse justify-between h-16">
           {!context.isOpen && <BurgerMenu />}
