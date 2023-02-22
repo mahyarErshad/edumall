@@ -1,6 +1,6 @@
 .proButton {
   background-image: linear-gradient(220deg, #abe54b, #5ea82c) !important;
-  border: none;
+  border: 2px solid #066cc9;
   padding: 1rem 1.5rem;
   border-radius: 8px;
   transition: all ease 300ms;
@@ -8,8 +8,5 @@
   white-space: nowrap;
 }
 .proButton:hover {
-  box-shadow: 0 10px 24px rgb(0 0 0 / 42%);
-}
-.proButton:active {
-  box-shadow: none;
+  opacity: 0.85;
 }
