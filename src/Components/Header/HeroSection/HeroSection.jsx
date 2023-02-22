@@ -3,11 +3,13 @@ import Header from "../Header/Header";
 import image from "../../../assets/images/hero-image.png";
 import { TypeAnimation } from "react-type-animation";
 import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
+import WhiteHeader from "../WhiteHeader/WhiteHeader";
 
 function HeroSection() {
   return (
     <section className="relative w-full bg-gradient-to-br from-primary to-[#055CAA] min-h-screen">
       <Header />
+      <WhiteHeader />
       <div className="relative max-lg:flex flex-col max-lg:pt-8">
         <div className="font-medium md:text-5xl max-md:text-3xl text-white lg:absolute lg:right-[50px] lg:top-[100px] z-20 lg:max-w-[50%] max-lg:mb-8 max-lg:text-center flex flex-col max-lg:items-center gap-6">
           <h1 className="leading-[1.3]">قالب وردپرسی آموزشی همه کاره برای</h1>
