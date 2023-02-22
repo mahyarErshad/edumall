@@ -5,8 +5,10 @@ import MyContext from "./Context/MyContext";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeSecondHeader, setActiveSecondHeader] = useState(false);
+
   return (
-    <MyContext.Provider value={{ isOpen, setIsOpen }}>
+    <MyContext.Provider value={{ isOpen, setIsOpen, activeSecondHeader, setActiveSecondHeader }}>
       <div className="grid">
         <aside>
           <SideBar />
