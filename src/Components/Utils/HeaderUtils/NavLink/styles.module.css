@@ -1,6 +1,9 @@
 .wrapper {
   position: relative;
 }
+.whiteWrapper {
+  position: relative;
+}
 .wrapper:before {
   content: " ";
   display: block;
@@ -11,8 +14,27 @@
   position: absolute;
   bottom: -8px;
 }
+.whiteWrapper {
+  color: #111;
+}
+.whiteWrapper:before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #0071dc;
+  transition: all ease 0.5s;
+  position: absolute;
+  bottom: -8px;
+}
 @media only screen and (min-width: 1023.5px) {
   .wrapper:hover:before {
     width: 100%;
+  }
+  .whiteWrapper:hover:before {
+    width: 100%;
+  }
+  .whiteWrapper:hover {
+    color: #0071dc;
   }
 }
