@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./styles.module.css";
+import image from "../../../../assets/images/why-edumall-cards/1.png"
 
 function WhyEdumallCards() {
   return (
     <figure className={`${styles.wrapper} p-8 bg-[#F8F7F3] rounded-[10px] hover:bg-[#FFFEFA] transition-all duration-300`}>
-      <img src="" alt="" className={`${styles.image}`} />
+      <img src={image} alt="" className={`${styles.image}`} />
     </figure>
   );
 }
