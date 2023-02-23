@@ -7,14 +7,14 @@
   box-shadow: 0 14px 40px rgb(51 51 51 / 10%);
 }
 .image {
-  grid-column: 2 / -1;
+  grid-column: 1;
   grid-row: 1 / -1;
 }
 .title {
-  grid-column: 2 / 1;
+  grid-column: 2;
   grid-row: 1 / 1;
 }
 .description{
-  grid-column: 2 / 1;
+  grid-column: 2;
   grid-row: 2 / -1;
 }
