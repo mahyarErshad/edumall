@@ -21,7 +21,7 @@ function WhiteHeader() {
       <div className="max-w-[93.75rem] mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center lg:flex-row-reverse justify-between h-16">
           {!context.isOpen && <BurgerMenu white />}
-          <BuyProButton className="flex-center max-sm:hidden text-black" />
+          <BuyProButton className={`flex-center max-sm:hidden text-black ${context.isOpen && "translate-x-[348px]"}`} />
           <HeaderNavigationSection />
           {!context.isOpen && <Logo dark />}
         </div>
