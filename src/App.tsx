@@ -11,7 +11,7 @@ function App() {
     <MyContext.Provider value={{ isOpen, setIsOpen, activeSecondHeader, setActiveSecondHeader }}>
       <div className="grid">
           <SideBar />
-        <main>
+        <main className="pb-8 bg-white">
           <MainBody />
         </main>
       </div>
