@@ -11,7 +11,7 @@ function SideBar() {
   const width = context.isOpen ? "max-md:w-[20.625rem] md:w-[22.5rem]" : "w-0";
 
   return (
-    <div className={`${width} h-full lg:hidden transition-all duration-500 ${styles.grid}`}>
+    <aside className={`${width} h-full lg:hidden transition-all duration-500 ${styles.grid}`}>
       <header className="min-h-[5rem] w-full flex justify-between items-center px-4">
         <BurgerMenu close />
         <Logo dark />
@@ -20,7 +20,7 @@ function SideBar() {
         <NavLinks className="w-full py-4" />
         <BuyProButton className="flex justify-center items-start w-full text-center sm:hidden mt-8" />
       </main>
-    </div>
+    </aside>
   );
 }
 

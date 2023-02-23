@@ -10,9 +10,7 @@ function App() {
   return (
     <MyContext.Provider value={{ isOpen, setIsOpen, activeSecondHeader, setActiveSecondHeader }}>
       <div className="grid">
-        <aside>
           <SideBar />
-        </aside>
         <main>
           <MainBody />
         </main>
