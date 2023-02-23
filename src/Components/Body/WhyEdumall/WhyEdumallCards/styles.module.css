@@ -1,8 +1,16 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: 40% 60%;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
 }
 .wrapper:hover {
   box-shadow: 0 14px 40px rgb(51 51 51 / 10%);
+}
+.image {
+  grid-column: 2 / -1;
+  grid-row: 1 / -1;
+}
+.title {
+  grid-column: 2 / 1;
+  grid-row: 1 / 1;
 }
