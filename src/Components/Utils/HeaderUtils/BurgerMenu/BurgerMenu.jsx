@@ -9,7 +9,7 @@ function BurgerMenu({ close , white }) {
   return (
     <div className="-mr-2 flex lg:hidden mt-[0.375rem] relative">
       <button onClick={() => Context.setIsOpen((prev) => !prev)} type="button" className={`${animation} ${white && "open-button-animation__white"} bg-transparent -mt-[0.375rem] flex-center p-2 rounded-md text-black transition-all duration-300`} aria-controls="mobile-menu" aria-expanded="false">
-        {close ? <FontAwesomeIcon size="2xl" color="#111" icon={faTimes} /> : <FontAwesomeIcon color="#fff" size="xl" icon={faBars} />}
+        {close ? <FontAwesomeIcon size="2xl" color="#111" icon={faTimes} /> : <FontAwesomeIcon color={white ? "#0564B6" : "#fff"} size="xl" icon={faBars} />}
       </button>
     </div>
   );
