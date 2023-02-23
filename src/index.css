@@ -76,6 +76,20 @@ li {
 .open-button-animation:hover:before {
   transform: translateX(2.5rem);
 }
+.open-button-animation__white::before {
+  content: "";
+  background-color: #fff;
+  z-index: 2;
+  height: 85%;
+  width: 0.5rem;
+  position: absolute;
+  left: -0.5rem;
+  opacity: 0.9;
+  transition: all ease 500ms;
+}
+.open-button-animation__white:hover:before {
+  transform: translateX(2.5rem);
+}
 .mirror {
   transform: scaleX(-1);
 }
