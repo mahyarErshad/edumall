@@ -2,10 +2,7 @@
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  min-width: 28.125rem;
-  min-height: 13.5625rem;
-  align-content: center;
-  align-items: center;
+  gap: 1rem;
 }
 .wrapper:hover {
   box-shadow: 0 14px 40px rgb(51 51 51 / 10%);
@@ -13,6 +10,7 @@
 .image {
   grid-column: 1;
   grid-row: 1 / -1;
+  justify-self: center;
 }
 .title {
   grid-column: 2;
