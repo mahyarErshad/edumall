@@ -1,4 +1,6 @@
+.wrapper {
+  display: grid;
+}
 .wrapper:hover {
   box-shadow: 0 14px 40px rgb(51 51 51 / 10%);
-  display: grid;
 }
