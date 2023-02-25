@@ -13,7 +13,7 @@ function WhyEdumall() {
         <WhyEdumallCards image={image2} title="سازنده دوره های مقدماتی گسترده" description="دوره‌های مدبرانه و آزمون ایجاد کنید. همه چیز را با کشیدن و رها کردن کنترل کنید" />
         <WhyEdumallCards image={image3} title="طرح های نوین و کاربردی" description="یک راه حل هوشمند، ساده و کامل LMS برای ساخت دوره ها و مدیریت مرکز آموزشی شما" />
       </div>
-      <h3 className="max-md:text-xl md:text-5xl font-medium">چرا اجومال را <span className={`${styles.choose} relative`}>انتخاب</span> کنیم</h3>
+      <h3 className="max-md:text-xl md:text-5xl font-medium">چرا اجومال را <span className={`${styles.choose} relative after:max-md:-bottom-[1.25rem] after:md:-bottom-10`}>انتخاب</span> کنیم</h3>
     </section>
   );
 }
