@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./styles.module.css";
-import image from "../../../../assets/images/why-edumall-cards/1.png";
 
 interface props {
   image: string;
