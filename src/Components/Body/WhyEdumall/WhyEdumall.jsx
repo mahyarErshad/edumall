@@ -3,7 +3,7 @@ import WhyEdumallCards from "./WhyEdumallCards/WhyEdumallCards";
 import image1 from "../../../assets/images/why-edumall-cards/1.jpg";
 import image2 from "../../../assets/images/why-edumall-cards/2.png";
 import image3 from "../../../assets/images/why-edumall-cards/3.png";
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
 function WhyEdumall() {
   return (
@@ -13,7 +13,10 @@ function WhyEdumall() {
         <WhyEdumallCards image={image2} title="سازنده دوره های مقدماتی گسترده" description="دوره‌های مدبرانه و آزمون ایجاد کنید. همه چیز را با کشیدن و رها کردن کنترل کنید" />
         <WhyEdumallCards image={image3} title="طرح های نوین و کاربردی" description="یک راه حل هوشمند، ساده و کامل LMS برای ساخت دوره ها و مدیریت مرکز آموزشی شما" />
       </div>
-      <h3 className="max-md:text-xl md:text-5xl font-medium">چرا اجومال را <span className={`${styles.choose} relative after:max-md:-bottom-[1.25rem] after:md:-bottom-10`}>انتخاب</span> کنیم</h3>
+      <h3 className="max-md:text-xl md:text-5xl font-medium">
+        چرا اجومال را <span className={`${styles.choose} relative after:max-md:-bottom-[1.25rem] after:md:-bottom-10`}>انتخاب</span> کنیم
+      </h3>
+      <p className="max-w-[40.625rem] text-[#111] text-center mt-12">اجومال امکانات کاملی را برای ایجاد یک پلتفرم آموزش الکترونیکی ارائه می دهد. کاربران با در نظر گرفتن کاربردها، می توانند وب سایت آموزشی خود را به راحتی با ویژگی های اصلی اجومال مدیریت کنند.</p>
     </section>
   );
 }
