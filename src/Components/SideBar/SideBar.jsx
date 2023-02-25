@@ -11,7 +11,7 @@ function SideBar() {
   const width = context.isOpen ? "max-md:w-[20.625rem] md:w-[22.5rem] sticky top-0 right-0" : "w-0";
 
   return (
-    <aside className={`${width} h-screen lg:hidden ${styles.grid}`}>
+    <aside className={`${width} h-screen lg:hidden transition-all duration-500 ${styles.grid}`}>
       <header className="min-h-[5rem] w-full flex justify-between items-center px-4">
         <BurgerMenu close />
         <Logo dark />
