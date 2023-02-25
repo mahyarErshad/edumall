@@ -1,3 +1,10 @@
 .choose:after{
-    
+    content: "";
+    background-image: url(../../../assets/images/choose-after.svg);
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    right: 0;
 }
