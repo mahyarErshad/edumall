@@ -1,10 +1,17 @@
-.choose:after{
-    content: "";
-    background-image: url(../../../assets/images/choose-after.svg);
-    width: 100%;
-    position: absolute;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    right: 0;
+.choose:after {
+  content: "";
+  background-image: url(../../../assets/images/choose-after.svg);
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  right: 0;
+}
+.wrapper {
+  padding: 3.4375rem 1.875rem 1.875rem 1.875rem;
+  box-shadow: 0rem 0.25rem 2.5rem 0rem rgb(0 0 0 / 10%);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8 , 1fr 1 auto);
 }
