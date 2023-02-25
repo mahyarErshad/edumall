@@ -16,6 +16,7 @@
 }
 .main li {
   border-bottom: 1px solid #ffffff26;
+  color: #fff;
 }
 .main li:nth-child(4) {
   border-bottom: none;
