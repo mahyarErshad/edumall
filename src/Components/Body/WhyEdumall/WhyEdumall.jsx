@@ -3,6 +3,7 @@ import WhyEdumallCards from "./WhyEdumallCards/WhyEdumallCards";
 import image1 from "../../../assets/images/why-edumall-cards/1.jpg";
 import image2 from "../../../assets/images/why-edumall-cards/2.png";
 import image3 from "../../../assets/images/why-edumall-cards/3.png";
+import styles from "./styles.module.css"
 
 function WhyEdumall() {
   return (
