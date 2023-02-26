@@ -6,3 +6,4 @@ const IconTextData = [
         text: "ادغام Tutor Pro"
 },
 ]
+export default IconTextData
