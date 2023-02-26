@@ -20,10 +20,7 @@ function WhyEdumall() {
       </h3>
       <p className="max-w-[40.625rem] text-[#111] text-center mt-12">اجومال امکانات کاملی را برای ایجاد یک پلتفرم آموزش الکترونیکی ارائه می دهد. کاربران با در نظر گرفتن کاربردها، می توانند وب سایت آموزشی خود را به راحتی با ویژگی های اصلی اجومال مدیریت کنند.</p>
       <div className="mt-12 bg-white flex-center flex-wrap max-w-[88.125rem] rounded-lg pt-12 p-9 shadow-lg">
-        <div className="flex-center gap-4 max-md:w-[30%] md:w-full min-w-[24.375rem] py-2 px-4 bg-transparent">
-          <FontAwesomeIcon color="#066cc9" icon={faGraduationCap} />
-          <p className="text-[#9B9B9B] text-base font-medium">ادغام Tutor Pro</p>
-        </div>
+
       </div>
     </section>
   );
