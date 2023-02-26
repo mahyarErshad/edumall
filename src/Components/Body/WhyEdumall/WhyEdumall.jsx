@@ -4,7 +4,6 @@ import image1 from "../../../assets/images/why-edumall-cards/1.jpg";
 import image2 from "../../../assets/images/why-edumall-cards/2.png";
 import image3 from "../../../assets/images/why-edumall-cards/3.png";
 import styles from "./styles.module.css";
-import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 function WhyEdumall() {
   return (
