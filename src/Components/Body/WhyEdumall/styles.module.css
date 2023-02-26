@@ -8,10 +8,3 @@
   height: 100%;
   right: 0;
 }
-.wrapper {
-  padding: 3.4375rem 1.875rem 1.875rem 1.875rem;
-  box-shadow: 0rem 0.25rem 2.5rem 0rem rgb(0 0 0 / 10%);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(8 , 1fr 1 auto);
-}
