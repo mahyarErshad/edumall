@@ -1,4 +1,4 @@
-import { faCameraRetro, faCertificate, faCheckCircle, faClipboard, faCloudUpload, faCog, faColumns, faCreditCard, faFlag, faGraduationCap, faLayerGroup, faLock, faPiggyBank, faPlayCircle, faQuestionCircle, faShoppingCart, faStar, faUpload, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faCameraRetro, faCertificate, faCheckCircle, faClipboard, faClock, faCloudUpload, faCog, faColumns, faCreditCard, faFlag, faGraduationCap, faLayerGroup, faLock, faPiggyBank, faPlayCircle, faQuestionCircle, faShoppingCart, faStar, faUpload, faUsers } from "@fortawesome/free-solid-svg-icons";
 
 const IconTextData = [
   {
@@ -84,6 +84,10 @@ const IconTextData = [
   {
     icon: faCreditCard,
     text: "حامی اعضای ویژه",
+  },
+  {
+    icon: faClock,
+    text: "تاریخ انقضا",
   },
 ];
 export default IconTextData;
