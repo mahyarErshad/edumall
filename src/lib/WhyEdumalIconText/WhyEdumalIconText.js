@@ -1,4 +1,4 @@
-import { faCameraRetro, faCheckCircle, faClipboard, faColumns, faGraduationCap, faLayerGroup, faPlayCircle, faQuestionCircle, faUpload } from "@fortawesome/free-solid-svg-icons";
+import { faCameraRetro, faCheckCircle, faClipboard, faColumns, faGraduationCap, faLayerGroup, faPlayCircle, faQuestionCircle, faUpload, faUsers } from "@fortawesome/free-solid-svg-icons";
 
 const IconTextData = [
   {
@@ -36,6 +36,10 @@ const IconTextData = [
   {
     icon: faLayerGroup,
     text: "سامانه ی درجه بندی",
+  },
+  {
+    icon: faUsers,
+    text: "مدرسان نامحدود",
   },
 ];
 export default IconTextData;
