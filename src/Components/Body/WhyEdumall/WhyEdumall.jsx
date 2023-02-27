@@ -23,6 +23,7 @@ function WhyEdumall() {
         {IconTextData.map((data, index) => {
           return <IconTextComponent icon={data.icon} text={data.text} key={index} />;
         })}
+        <img src="" alt="Landing features" />
       </div>
     </section>
   );
