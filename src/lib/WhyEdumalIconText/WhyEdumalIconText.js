@@ -65,5 +65,9 @@ const IconTextData = [
     icon: faStar,
     text: "بررسی دوره",
   },
+  {
+    icon: faGraduationCap,
+    text: "پیش نیازهای دوره",
+  },
 ];
 export default IconTextData;
