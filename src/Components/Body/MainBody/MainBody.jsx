@@ -1,6 +1,6 @@
-import React from 'react'
-import HeroSection from '../../Header/HeroSection/HeroSection'
-import WhyEdumall from '../WhyEdumall/WhyEdumall'
+import React from "react";
+import HeroSection from "../../Header/HeroSection/HeroSection";
+import WhyEdumall from "../WhyEdumall/WhyEdumall";
 
 function MainBody() {
   return (
@@ -8,7 +8,7 @@ function MainBody() {
       <HeroSection />
       <WhyEdumall />
     </>
-  )
+  );
 }
 
-export default MainBody
+export default MainBody;
