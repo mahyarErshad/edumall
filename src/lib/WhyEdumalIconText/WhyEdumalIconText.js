@@ -1,4 +1,4 @@
-import { faCameraRetro, faCertificate, faCheckCircle, faClipboard, faCog, faColumns, faFlag, faGraduationCap, faLayerGroup, faPiggyBank, faPlayCircle, faQuestionCircle, faUpload, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faCameraRetro, faCertificate, faCheckCircle, faClipboard, faCog, faColumns, faFlag, faGraduationCap, faLayerGroup, faPiggyBank, faPlayCircle, faQuestionCircle, faStar, faUpload, faUsers } from "@fortawesome/free-solid-svg-icons";
 
 const IconTextData = [
   {
@@ -60,6 +60,10 @@ const IconTextData = [
   {
     icon: faUsers,
     text: "ادغام بادی پرس",
+  },
+  {
+    icon: faStar,
+    text: "بررسی دوره",
   },
 ];
 export default IconTextData;
