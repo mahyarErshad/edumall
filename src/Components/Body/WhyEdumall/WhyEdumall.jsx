@@ -7,6 +7,7 @@ import styles from "./styles.module.css";
 import IconTextData from "../../../lib/WhyEdumalIconText/WhyEdumalIconText";
 import IconTextComponent from "./IconTextComponent/IconTextComponent";
 import arrow from "../../../assets/images/arrow-secondary.png";
+import BuyProButton from "../../Utils/Buttons/BuyProButton/BuyProButton";
 
 function WhyEdumall() {
   return (
@@ -28,9 +29,9 @@ function WhyEdumall() {
           <h3 className="text-2xl font-bold max-md:hidden">
             قالب وردپرس آموزشی <span className="text-primary">همه کاره</span>
           </h3>
-          <div className="flex-center">
-            <img className="w-2/4" src={arrow} alt="Arrow" />
-            
+          <div className="flex-center mt-4 gap-2 relative max-md:hidden">
+            <BuyProButton />
+            <img className="w-[30%] absolute -left-[4.0625rem]" src={arrow} alt="Arrow" />
           </div>
         </div>
       </div>
