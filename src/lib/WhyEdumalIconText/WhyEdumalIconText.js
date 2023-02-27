@@ -1,4 +1,4 @@
-import { faClipboard, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { faClipboard, faGraduationCap, faUpload } from "@fortawesome/free-solid-svg-icons";
 
 const IconTextData = [
   {
@@ -10,8 +10,8 @@ const IconTextData = [
     text: "محدود کردن تعداد دفعات آزمون",
   },
   {
-    icon: faClipboard,
-    text: "محدود کردن تعداد دفعات آزمون",
+    icon: faUpload,
+    text: "ارسال تکلیف",
   },
 ];
 export default IconTextData;
