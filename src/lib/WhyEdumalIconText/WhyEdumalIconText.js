@@ -1,4 +1,4 @@
-import { faClipboard, faGraduationCap, faUpload } from "@fortawesome/free-solid-svg-icons";
+import { faClipboard, faGraduationCap, faPlayCircle, faUpload } from "@fortawesome/free-solid-svg-icons";
 
 const IconTextData = [
   {
@@ -12,6 +12,10 @@ const IconTextData = [
   {
     icon: faUpload,
     text: "ارسال تکلیف",
+  },
+  {
+    icon: faPlayCircle,
+    text: "سازنده آزمون پیشرفته",
   },
 ];
 export default IconTextData;
