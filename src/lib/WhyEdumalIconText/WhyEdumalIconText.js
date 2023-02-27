@@ -1,4 +1,4 @@
-import { faCameraRetro, faCertificate, faCheckCircle, faClipboard, faCog, faColumns, faGraduationCap, faLayerGroup, faPiggyBank, faPlayCircle, faQuestionCircle, faUpload, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faCameraRetro, faCertificate, faCheckCircle, faClipboard, faCog, faColumns, faFlag, faGraduationCap, faLayerGroup, faPiggyBank, faPlayCircle, faQuestionCircle, faUpload, faUsers } from "@fortawesome/free-solid-svg-icons";
 
 const IconTextData = [
   {
@@ -52,6 +52,10 @@ const IconTextData = [
   {
     icon: faCog,
     text: "داشبورد دانش آموز و مربی",
+  },
+  {
+    icon: faFlag,
+    text: "گزارش های قدرتمند",
   },
 ];
 export default IconTextData;
