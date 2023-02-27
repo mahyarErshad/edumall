@@ -1,4 +1,4 @@
-import { faCameraRetro, faCertificate, faCheckCircle, faClipboard, faClock, faCloudUpload, faCog, faColumns, faCreditCard, faFlag, faGraduationCap, faLayerGroup, faLock, faMailBulk, faPiggyBank, faPlayCircle, faQuestionCircle, faShoppingCart, faStar, faUpload, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faBan, faCameraRetro, faCertificate, faCheckCircle, faClipboard, faClock, faCloudUpload, faCog, faColumns, faCreditCard, faFlag, faGraduationCap, faLayerGroup, faLock, faMailBulk, faPiggyBank, faPlayCircle, faQuestionCircle, faShoppingCart, faStar, faUpload, faUsers } from "@fortawesome/free-solid-svg-icons";
 
 const IconTextData = [
   {
@@ -92,6 +92,10 @@ const IconTextData = [
   {
     icon: faMailBulk,
     text: "اعلان های ایمیل",
+  },
+  {
+    icon: faBan,
+    text: "Restrict Content Pro افزونه",
   },
 ];
 export default IconTextData;
