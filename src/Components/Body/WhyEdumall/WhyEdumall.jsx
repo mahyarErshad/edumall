@@ -23,8 +23,10 @@ function WhyEdumall() {
         {IconTextData.map((data, index) => {
           return <IconTextComponent icon={data.icon} text={data.text} key={index} />;
         })}
-        <div className={`${styles.landingImage} w-full max-w-[84.375rem] h-[11.5625rem] rounded-lg relative mt-10`}>
-        <h3>قالب وردپرس آموزشی <span className="text-primary">همه کاره</span></h3>
+        <div className={`${styles.landingImage} w-full max-w-[84.375rem] h-[11.5625rem] rounded-lg flex items-center justify-start md:pr-4 lg:pr-8 mt-10`}>
+          <h3 className="text-2xl font-bold max-md:hidden">
+            قالب وردپرس آموزشی <span className="text-primary">همه کاره</span>
+          </h3>
         </div>
       </div>
     </section>
