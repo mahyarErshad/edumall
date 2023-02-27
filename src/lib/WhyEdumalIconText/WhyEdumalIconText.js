@@ -1,4 +1,4 @@
-import { faCameraRetro, faCertificate, faCheckCircle, faClipboard, faCog, faColumns, faFlag, faGraduationCap, faLayerGroup, faPiggyBank, faPlayCircle, faQuestionCircle, faStar, faUpload, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faCameraRetro, faCertificate, faCheckCircle, faClipboard, faCog, faColumns, faFlag, faGraduationCap, faLayerGroup, faPiggyBank, faPlayCircle, faQuestionCircle, faShoppingCart, faStar, faUpload, faUsers } from "@fortawesome/free-solid-svg-icons";
 
 const IconTextData = [
   {
@@ -68,6 +68,10 @@ const IconTextData = [
   {
     icon: faGraduationCap,
     text: "پیش نیازهای دوره",
+  },
+  {
+    icon: faShoppingCart,
+    text: "پشتیبانی ووکامرس",
   },
 ];
 export default IconTextData;
