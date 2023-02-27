@@ -57,5 +57,9 @@ const IconTextData = [
     icon: faFlag,
     text: "گزارش های قدرتمند",
   },
+  {
+    icon: faUsers,
+    text: "ادغام بادی پرس",
+  },
 ];
 export default IconTextData;
