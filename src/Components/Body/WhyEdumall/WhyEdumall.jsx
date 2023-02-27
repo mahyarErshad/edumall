@@ -29,7 +29,7 @@ function WhyEdumall() {
           <h3 className="text-2xl font-bold max-md:hidden">
             قالب وردپرس آموزشی <span className="text-primary">همه کاره</span>
           </h3>
-          <div className="flex-center">
+          <div className="flex-center max-md:hidden">
             <img className="w-2/4" src={arrow} alt="Arrow" />
             <BuyProButton />
           </div>

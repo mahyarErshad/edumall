@@ -9,7 +9,6 @@ function WhiteHeader() {
   const context = useContext(MyContext);
   window.addEventListener("scroll", () => {
     let secondHeader = window.scrollY;
-    console.log(secondHeader);
     if (secondHeader > 100) {
       context.setActiveSecondHeader(true);
     } else {
