@@ -6,6 +6,7 @@ import image3 from "../../../assets/images/why-edumall-cards/3.png";
 import styles from "./styles.module.css";
 import IconTextData from "../../../lib/WhyEdumalIconText/WhyEdumalIconText";
 import IconTextComponent from "./IconTextComponent/IconTextComponent";
+import arrow from "../../../assets/images/arrow-secondary.png"
 
 function WhyEdumall() {
   return (
