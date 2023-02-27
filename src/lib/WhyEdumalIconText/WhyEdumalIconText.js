@@ -95,7 +95,7 @@ const IconTextData = [
   },
   {
     icon: faBan,
-    text: "Restrict Content Pro افزونه",
+    text: "افزونه Restrict Content Pro",
   },
 ];
 export default IconTextData;
