@@ -1,4 +1,4 @@
-import { faCheckCircle, faClipboard, faGraduationCap, faPlayCircle, faUpload } from "@fortawesome/free-solid-svg-icons";
+import { faCheckCircle, faClipboard, faColumns, faGraduationCap, faPlayCircle, faUpload } from "@fortawesome/free-solid-svg-icons";
 
 const IconTextData = [
   {
@@ -20,6 +20,10 @@ const IconTextData = [
   {
     icon: faCheckCircle,
     text: "نتایج خودکار",
+  },
+  {
+    icon: faColumns,
+    text: "محتوای قطره ای",
   },
 ];
 export default IconTextData;
