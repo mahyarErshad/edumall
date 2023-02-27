@@ -6,7 +6,7 @@ import image3 from "../../../assets/images/why-edumall-cards/3.png";
 import styles from "./styles.module.css";
 import IconTextData from "../../../lib/WhyEdumalIconText/WhyEdumalIconText";
 import IconTextComponent from "./IconTextComponent/IconTextComponent";
-import arrow from "../../../assets/images/arrow-secondary.png"
+import arrow from "../../../assets/images/arrow-secondary.png";
 
 function WhyEdumall() {
   return (
@@ -24,12 +24,13 @@ function WhyEdumall() {
         {IconTextData.map((data, index) => {
           return <IconTextComponent icon={data.icon} text={data.text} key={index} />;
         })}
-        <div className={`${styles.landingImage} w-full max-w-[84.375rem] h-[11.5625rem] rounded-lg flex items-center justify-start md:pr-4 lg:pr-8 mt-10`}>
+        <div className={`${styles.landingImage} w-full max-w-[84.375rem] h-[11.5625rem] flex-col rounded-lg gap-4 flex items-start justify-center md:pr-4 lg:pr-8 mt-10`}>
           <h3 className="text-2xl font-bold max-md:hidden">
             قالب وردپرس آموزشی <span className="text-primary">همه کاره</span>
           </h3>
           <div className="flex-center">
-          
+            <img className="w-2/4" src={arrow} alt="Arrow" />
+            
           </div>
         </div>
       </div>
