@@ -7,6 +7,15 @@ import MyContext from "../../../Context/MyContext";
 
 function WhiteHeader() {
   const context = useContext(MyContext);
+  window.addEventListener("scroll", () => {
+    let secondHeader = window.scrollY;
+    console.log(secondHeader);
+    if (secondHeader > 100) {
+      context.setActiveSecondHeader(true);
+    } else {
+      context.setActiveSecondHeader(false);
+    }
+  });
 
   return (
     <header className={`transition-all duration-700 min-h-[4.375rem] w-full py-2 z-50 fixed ${context.activeSecondHeader ? "top-0" : "-top-20"} bg-[#FFFEFA] shadow-md text-[#111]`}>
