@@ -15,7 +15,7 @@ const IconTextData = [
   },
   {
     icon: faPlayCircle,
-    text: "سازنده آزمون پیشرفته",
+    text: "سازنده دوره بصری",
   },
   {
     icon: faCheckCircle,
