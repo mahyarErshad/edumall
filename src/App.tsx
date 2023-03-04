@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import MainBody from "./Components/Body/MainBody/MainBody";
 import SideBar from "./Components/SideBar/SideBar";
 import MyContext from "./Context/MyContext";
@@ -6,6 +6,16 @@ import MyContext from "./Context/MyContext";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSecondHeader, setActiveSecondHeader] = useState(false);
+  useEffect(() => {
+    let container = document.getElementById("container");
+    container!.addEventListener("scroll", () => {
+      if (container!.scrollTop > 100) {
+        setActiveSecondHeader(true);
+      } else {
+        setActiveSecondHeader(false);
+      }
+    });
+  }, []);
 
   return (
     <MyContext.Provider value={{ isOpen, setIsOpen, activeSecondHeader, setActiveSecondHeader }}>
