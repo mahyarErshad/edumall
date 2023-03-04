@@ -1,5 +1,6 @@
 import React from "react";
 import HeroSection from "../../Header/HeroSection/HeroSection";
+import DemoPages from "../DemoPages/DemoPages";
 import WhyEdumall from "../WhyEdumall/WhyEdumall";
 
 function MainBody() {
@@ -7,6 +8,7 @@ function MainBody() {
     <>
       <HeroSection />
       <WhyEdumall />
+      <DemoPages />
     </>
   );
 }
