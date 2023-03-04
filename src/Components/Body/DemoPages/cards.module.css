@@ -1,0 +1,6 @@
+.wrapper {
+  background: #dfe3eb;
+  box-shadow: 0 2px 14px rgb(0 0 0 / 14%);
+  border-radius: 10px;
+  overflow: hidden;
+}
