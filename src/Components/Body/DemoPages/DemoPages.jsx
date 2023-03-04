@@ -10,7 +10,7 @@ function DemoPages() {
           <h3 className="max-md:text-2xl md:text-5xl font-medium">خانگی</h3>
         </div>
       </div>
-      <p className="mt-6 text-base text-center">
+      <p className="my-8 text-base text-center">
         اجومال بیش از <strong>۱۱ دمو منحصر به فرد و تخصصی</strong> با تمرکز بر مراکز آموزشی و دوره های آنلاین در اختیار کاربران قرار می دهد.
       </p>
     </div>
