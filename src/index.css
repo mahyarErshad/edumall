@@ -64,7 +64,7 @@ li {
 }
 .open-button-animation::before {
   content: "";
-  background-color: #0564B6;
+  background-color: #0564b6;
   z-index: 2;
   height: 85%;
   width: 0.5rem;
@@ -93,7 +93,7 @@ li {
 .mirror {
   transform: scaleX(-1);
 }
-.line_after{
+.line_after {
   position: relative;
 }
 .line_after:after {
@@ -105,4 +105,14 @@ li {
   background-repeat: no-repeat;
   height: 100%;
   right: 0;
+}
+@media screen and (min-width: 768px) {
+  .line_after::after {
+    bottom: -2.5rem;
+  }
+}
+@media not all and (min-width: 768px) {
+  .line_after::after {
+    bottom: -1.5rem;
+  }
 }
