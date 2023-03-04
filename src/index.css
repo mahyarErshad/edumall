@@ -116,3 +116,6 @@ li {
     bottom: -1.5rem;
   }
 }
+.circle {
+  border-radius: 50%;
+}
