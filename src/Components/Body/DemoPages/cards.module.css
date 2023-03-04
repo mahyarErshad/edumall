@@ -3,4 +3,6 @@
   box-shadow: 0 2px 14px rgb(0 0 0 / 14%);
   border-radius: 10px;
   overflow: hidden;
+  display: grid;
+  grid-template-rows: 18.75rem 5.3125rem;
 }
