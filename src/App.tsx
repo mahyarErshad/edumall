@@ -9,7 +9,7 @@ function App() {
 
   return (
     <MyContext.Provider value={{ isOpen, setIsOpen, activeSecondHeader, setActiveSecondHeader }}>
-      <div className="grid overflow-x-hidden">
+      <div id="container" className="grid overflow-x-hidden h-full">
         <SideBar />
         <main className="pb-8 bg-white z-10">
           <MainBody />
