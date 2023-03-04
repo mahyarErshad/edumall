@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from "./cards.module.css"
 
 function DemoPagesCard() {
   return (
