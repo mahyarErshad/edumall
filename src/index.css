@@ -93,6 +93,9 @@ li {
 .mirror {
   transform: scaleX(-1);
 }
+.choose{
+  position: relative;
+}
 .choose:after {
   content: "";
   background-image: url(./assets/images/choose-after.svg);
