@@ -1,4 +1,5 @@
 import React from "react";
+import DemoPagesCard from "./DemoPagesCard";
 
 function DemoPages() {
   return (
@@ -14,7 +15,7 @@ function DemoPages() {
         اجومال بیش از <strong>۱۱ دمو منحصر به فرد و تخصصی</strong> با تمرکز بر مراکز آموزشی و دوره های آنلاین در اختیار کاربران قرار می دهد.
       </p>
       <section className="flex-center flex-wrap gap-4">
-
+      <DemoPagesCard />
       </section>
     </div>
   );
