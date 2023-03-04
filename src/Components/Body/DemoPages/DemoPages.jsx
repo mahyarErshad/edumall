@@ -14,7 +14,7 @@ function DemoPages() {
       <p className="my-8 text-base text-center">
         اجومال بیش از <strong>۱۱ دمو منحصر به فرد و تخصصی</strong> با تمرکز بر مراکز آموزشی و دوره های آنلاین در اختیار کاربران قرار می دهد.
       </p>
-      <section className="flex-center flex-wrap gap-4">
+      <section className="flex-center flex-wrap gap-4 w-full">
       <DemoPagesCard />
       </section>
     </div>
