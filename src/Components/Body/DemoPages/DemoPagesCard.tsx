@@ -1,7 +1,12 @@
 import React from "react";
 import styles from "./cards.module.css";
 
-function DemoPagesCard() {
+interface IProps {
+  image: string;
+  title: string;
+}
+
+function DemoPagesCard(props: IProps) {
   return (
     <figure className={`${styles.wrapper} max-md:w-full md:w-[47%] lg:w-[30%] max-w-[28.125rem] hover:bg-primary transition-all duration-300 cursor-pointer relative`}>
       <div className={styles.imageSection}>
@@ -13,10 +18,10 @@ function DemoPagesCard() {
           <div className="w-[2.3125rem] h-[2.3125rem] top-[55%] right-0 circle translate-x-[40%] absolute bg-gradient-to-b from-[#b4ec51] to-[#429321]"></div>
           <div className="w-[0.875rem] h-[0.875rem] top-[45%] right-[10%] circle translate-x-[40%] absolute bg-gradient-to-b from-[#fff4ce] to-[#ffc221]"></div>
         </div>
-        <img className={styles.image} src="https://edumall.thememove.com/wp-content/uploads/2020/11/home-main-preview.jpg" alt="" />
+        <img className={styles.image} src={props.image} alt={props.title} />
       </div>
       <div className={`${styles.titleSection} flex-center`}>
-        <h3 className="text-2xl font-bold">Course</h3>
+        <h3 className="text-2xl font-bold">{props.title}</h3>
       </div>
     </figure>
   );
