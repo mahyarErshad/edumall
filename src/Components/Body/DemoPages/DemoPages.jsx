@@ -1,6 +1,8 @@
 import React from "react";
 import DemoPagesCard from "./DemoPagesCard";
 import cardImage1 from "../../../assets/images/demo-cards/1.jpg";
+import cardImage2 from "../../../assets/images/demo-cards/2.jpg";
+import cardImage3 from "../../../assets/images/demo-cards/3.jpg";
 
 function DemoPages() {
   return (
@@ -17,6 +19,8 @@ function DemoPages() {
       </p>
       <section className="flex-center flex-wrap max-lg:gap-4 lg:gap-8 w-full">
         <DemoPagesCard image={cardImage1} title="دموی اصلی" href="https://edumall.thememove.com/main/" />
+        <DemoPagesCard image={cardImage2} title="مرکز آموزش" href="https://edumall.thememove.com/main/course-hub/" />
+        <DemoPagesCard image={cardImage3} title="آکادمی آنلاین" href="https://edumall.thememove.com/main/online-academy/" />
       </section>
     </div>
   );
