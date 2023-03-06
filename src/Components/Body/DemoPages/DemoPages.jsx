@@ -5,6 +5,7 @@ import cardImage2 from "../../../assets/images/demo-cards/2.jpg";
 import cardImage3 from "../../../assets/images/demo-cards/3.jpg";
 import cardImage4 from "../../../assets/images/demo-cards/4.jpg";
 import cardImage5 from "../../../assets/images/demo-cards/5.jpg";
+import cardImage6 from "../../../assets/images/demo-cards/6.jpg";
 
 function DemoPages() {
   return (
@@ -25,6 +26,7 @@ function DemoPages() {
         <DemoPagesCard image={cardImage3} title="آکادمی آنلاین" href="https://edumall.thememove.com/main/online-academy/" />
         <DemoPagesCard image={cardImage4} title="مرکز آموزش" href="https://edumall.thememove.com/main/education-center/" />
         <DemoPagesCard image={cardImage5} title="دانشگاه" href="https://edumall.thememove.com/main/university/" />
+        <DemoPagesCard image={cardImage6} title="زبان آکادمیک" href="https://edumall.thememove.com/main/language-academic/" />
       </section>
     </div>
   );
