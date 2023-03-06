@@ -1,5 +1,6 @@
 import React from "react";
 import DemoPagesCard from "./DemoPagesCard";
+import cardImage1 from "../../../assets/images/demo-cards/1.jpg";
 
 function DemoPages() {
   return (
@@ -15,9 +16,7 @@ function DemoPages() {
         اجومال بیش از <strong>۱۱ دمو منحصر به فرد و تخصصی</strong> با تمرکز بر مراکز آموزشی و دوره های آنلاین در اختیار کاربران قرار می دهد.
       </p>
       <section className="flex-center flex-wrap max-lg:gap-4 lg:gap-8 w-full">
-      <DemoPagesCard  />
-      <DemoPagesCard />
-      <DemoPagesCard />
+        <DemoPagesCard image={cardImage1} title="دموی اصلی" href="https://edumall.thememove.com/main/" />
       </section>
     </div>
   );
