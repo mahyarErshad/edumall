@@ -4,5 +4,19 @@
   border-radius: 10px;
   overflow: hidden;
   display: grid;
-  grid-template-rows: 18.75rem 5.3125rem;
+  height: 28.125rem;
+  grid-template-rows: 75% 25%;
+}
+.shapes {
+  visibility: hidden;
+}
+figure:hover .shapes {
+  visibility: visible;
+}
+.imageSection {
+  grid-row: 1 / 2;
+}
+.titleSection {
+  grid-row: 2 / -1;
+  background-color: #fff;
 }
