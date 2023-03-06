@@ -13,6 +13,9 @@
 figure:hover .shapes {
   visibility: visible;
 }
+figure:hover .titleSection {
+  color: #066cc9;
+}
 .imageSection {
   grid-row: 1 / 2;
 }
