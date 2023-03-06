@@ -9,6 +9,7 @@ import cardImage6 from "../../../assets/images/demo-cards/6.jpg";
 import cardImage7 from "../../../assets/images/demo-cards/7.jpg";
 import cardImage8 from "../../../assets/images/demo-cards/8.jpg";
 import cardImage9 from "../../../assets/images/demo-cards/9.jpg";
+import cardImage10 from "../../../assets/images/demo-cards/10.jpg";
 
 function DemoPages() {
   return (
@@ -33,6 +34,7 @@ function DemoPages() {
         <DemoPagesCard image={cardImage7} title="معلم خصوصی" href="https://edumall.thememove.com/main/single-instructor/" />
         <DemoPagesCard image={cardImage8} title="توسعه دهنده" href="https://edumall.thememove.com/main/dev" />
         <DemoPagesCard image={cardImage9} title="هنر آنلاین" href="https://edumall.thememove.com/main/online-art/" />
+        <DemoPagesCard image={cardImage10} title="تم دارک" href="https://edumall.thememove.com/dark/" />
       </section>
     </div>
   );
