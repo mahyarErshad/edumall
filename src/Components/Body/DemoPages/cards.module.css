@@ -5,7 +5,7 @@
   overflow: hidden;
   display: grid;
   height: 28.125rem;
-  grid-template-rows: 75% 25%;
+  grid-template-rows: 80% 20%;
 }
 .shapes {
   visibility: hidden;
@@ -19,4 +19,11 @@ figure:hover .shapes {
 .titleSection {
   grid-row: 2 / -1;
   background-color: #fff;
+}
+.image {
+  border: 5px solid #fff;
+  box-shadow: 0 15px 41px rgb(51 51 51 / 20%);
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  margin: 10% auto 0 auto;
 }
