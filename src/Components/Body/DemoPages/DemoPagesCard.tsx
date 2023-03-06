@@ -15,7 +15,9 @@ function DemoPagesCard() {
         </div>
         <img className={styles.image} src="https://edumall.thememove.com/wp-content/uploads/2020/11/home-main-preview.jpg" alt="" />
       </div>
-      <div className={styles.titleSection}></div>
+      <div className={`${styles.titleSection} flex-center`}>
+        <h3 className="text-2xl font-bold">Course</h3>
+      </div>
     </figure>
   );
 }
