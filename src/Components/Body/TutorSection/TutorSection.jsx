@@ -1,5 +1,6 @@
 import React from "react";
 import TutorCardsWrapper from "./TutorCardsWrapper";
+import TutorMouseHoverAnimation from "./TutorMouseHoverAnimation";
 
 function TutorSection() {
   return (
@@ -12,7 +13,7 @@ function TutorSection() {
       </div>
       <div className="flex justify-between items-center flex-wrap mt-9">
         <TutorCardsWrapper />
-        
+        <TutorMouseHoverAnimation />
       </div>
     </section>
   );
