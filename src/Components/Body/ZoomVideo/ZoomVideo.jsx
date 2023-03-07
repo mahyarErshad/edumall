@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function ZoomVideo() {
-  return (
-    <div>ZoomVideo</div>
-  )
+  return <section className="px-4 w-full pt-40 pb-24 bg-white"></section>;
 }
 
-export default ZoomVideo
+export default ZoomVideo;
