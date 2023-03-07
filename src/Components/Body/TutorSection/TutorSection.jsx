@@ -11,7 +11,8 @@ function TutorSection() {
         <p>اجومال با قدرتمندترین پلاگین LMS - تیوتر LMS ارائه می شود که برای مربیان فردی، سازمان های آموزشی و پلت فرم آموزش الکترونیکی تخصص دارد.</p>
       </div>
       <div className="flex justify-between items-center flex-wrap mt-9">
-        <div className="max-md:w-full md:w-2/4">
+        <div className="max-md:w-full md:w-2/4 flex gap-4 flex-wrap">
+          <TutorSectionCards />
           <TutorSectionCards />
         </div>
         <div className="max-md:w-full md:w-2/4"></div>
