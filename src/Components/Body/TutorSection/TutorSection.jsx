@@ -5,6 +5,7 @@ import eLearning from "../../../assets/images/tutorSectionSvg/tutor-eLearning.sv
 import reports from "../../../assets/images/tutorSectionSvg/tutor-reports.svg";
 import withdrawal from "../../../assets/images/tutorSectionSvg/tutor-withdrawal.svg";
 import money from "../../../assets/images/tutorSectionSvg/tutor-money.svg";
+import awards from "../../../assets/images/tutorSectionSvg/tutor-awards.svg";
 
 function TutorSection() {
   return (
