@@ -20,13 +20,13 @@ function TutorMouseHoverAnimation() {
         <MouseParallaxChild className="absolute top-[5%] left-0">
           <img src={dots} alt="dots" />
         </MouseParallaxChild>
-        <MouseParallaxChild className="absolute top-[50%] right-[5%] z-20">
+        <MouseParallaxChild inverted={true} className="absolute top-[50%] right-[5%] z-20">
           <img src={menu} alt="menu" />
         </MouseParallaxChild>
         <MouseParallaxChild className="absolute bottom-[10%] left-0 z-20">
           <img src={activeCourses} alt="active courses" />
         </MouseParallaxChild>
-        <MouseParallaxChild className="absolute bottom-[10%] left-[5%] z-20">
+        <MouseParallaxChild inverted={true} className="absolute bottom-0 left-[10%] z-20">
           <img src={totalEarnings} alt="total earnings" />
         </MouseParallaxChild>
       </MouseParallaxContainer>
