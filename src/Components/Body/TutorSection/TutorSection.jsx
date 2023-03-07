@@ -9,6 +9,10 @@ function TutorSection() {
         </h2>
         <p>اجومال با قدرتمندترین پلاگین LMS - تیوتر LMS ارائه می شود که برای مربیان فردی، سازمان های آموزشی و پلت فرم آموزش الکترونیکی تخصص دارد.</p>
       </div>
+      <div className="flex justify-between items-center flex-wrap">
+        <div className="max-md:w-full md:w-2/4"></div>
+        <div className="max-md:w-full md:w-2/4"></div>
+      </div>
     </section>
   );
 }
