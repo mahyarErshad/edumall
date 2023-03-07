@@ -23,6 +23,7 @@ function TutorSection() {
           <TutorSectionCards image={reports} title="گزارش ها و تحلیل ها" description="همه کاربران آمار خود را به طور خودکار تولید می کنند تا پیشرفت و گزارش ها را پیگیری کنند" />
           <TutorSectionCards image={withdrawal} title="گزینه های برداشت" description="تیوتر LMS چندین روش برداشت را ارائه می دهد و به کاربر امکان می دهد برداشت تمام درآمدها را مدیریت کند." />
           <TutorSectionCards image={money} title="درآمد و کمیسیون" description="با تیوتر LMS، می توانید درصد کمیسیون را تعیین کنید، کمیسیون را توزیع کنید و تمام فرآیندها را مدیریت کنید." />
+          <TutorSectionCards image={awards} title="اعطای گواهینامه" description="تیوتر LMS گواهینامه های حرفه ای از پیش طراحی شده را به دانش آموزان ارائه می دهد یا می توانید گواهی سفارشی خود را ایجاد کنید." />
         </div>
         <div className="max-md:w-full md:w-2/4"></div>
       </div>
