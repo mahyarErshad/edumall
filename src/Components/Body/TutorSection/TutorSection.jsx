@@ -5,7 +5,7 @@ import eLearning from "../../../assets/images/tutorSectionSvg/tutor-eLearning.sv
 
 function TutorSection() {
   return (
-    <section className="pt-32 bg-white flex flex-col max-lg:px-4 px-[15%]">
+    <section className="pt-32 bg-white flex flex-col max-lg:px-4 px-[10%]">
       <div className="max-md:w-full md:w-2/4 bg-transparent flex flex-col gap-8 max-md:text-center">
         <h2 className="font-medium max-md:text-3xl md:text-5xl leading-5">
           ادغام با افزونه <span className="line_after">تیوتر</span> LMS
