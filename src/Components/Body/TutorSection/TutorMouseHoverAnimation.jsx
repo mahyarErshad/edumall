@@ -10,7 +10,7 @@ import totalEarnings from "../../../assets/images/tutor-hover-animations/total-e
 function TutorMouseHoverAnimation() {
   return (
     <div className="max-lg:hidden lg:w-2/4">
-      <MouseParallaxContainer containerStyle={{ overflow: "visible" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} className="absolute flex-center bg-transparent w-full min-h-[38rem]">
+      <MouseParallaxContainer containerStyle={{ overflow: "visible" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.02} globalFactorY={0.02} className="absolute flex-center bg-transparent w-full min-h-[38rem]">
         <MouseParallaxChild factorX={0} factorY={0}>
           <img src={main} alt="tutor demo" className="absolute z-10 top-[50%] right-[50%] translate-x-[40%] -translate-y-[50%]" />
         </MouseParallaxChild>
@@ -30,6 +30,7 @@ function TutorMouseHoverAnimation() {
           <img src={totalEarnings} alt="total earnings" />
         </MouseParallaxChild>
         <MouseParallaxChild className="absolute h-20 w-20 border border-[#CFD5FF] circle bg-transparent right-[20%] top-[30%]" />
+        <MouseParallaxChild className="absolute h-56 w-56 border border-[#CFD5FF] circle bg-transparent right-[5%] top-[35%]" />
       </MouseParallaxContainer>
     </div>
   );
