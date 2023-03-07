@@ -3,6 +3,7 @@ import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse
 import main from "../../../assets/images/tutor-hover-animations/main.jpg";
 import tutorLogo from "../../../assets/images/tutor-hover-animations/tutor-logo.jpg";
 import dots from "../../../assets/images/tutor-hover-animations/dots.jpg";
+import menu from "../../../assets/images/tutor-hover-animations/menu.jpg";
 
 function TutorMouseHoverAnimation() {
   return (
