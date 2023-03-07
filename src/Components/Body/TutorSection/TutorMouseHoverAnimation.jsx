@@ -5,6 +5,7 @@ import tutorLogo from "../../../assets/images/tutor-hover-animations/tutor-logo.
 import dots from "../../../assets/images/tutor-hover-animations/dots.jpg";
 import menu from "../../../assets/images/tutor-hover-animations/menu.jpg";
 import activeCourses from "../../../assets/images/tutor-hover-animations/active-courses.png";
+import totalEarnings from "../../../assets/images/tutor-hover-animations/total-earnings.jpg";
 
 function TutorMouseHoverAnimation() {
   return (
@@ -24,6 +25,9 @@ function TutorMouseHoverAnimation() {
         </MouseParallaxChild>
         <MouseParallaxChild className="absolute bottom-[10%] left-0 z-20">
           <img src={activeCourses} alt="active courses" />
+        </MouseParallaxChild>
+        <MouseParallaxChild className="absolute bottom-[10%] left-[5%] z-20">
+          <img src={totalEarnings} alt="total earnings" />
         </MouseParallaxChild>
       </MouseParallaxContainer>
     </div>
