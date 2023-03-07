@@ -19,6 +19,7 @@ function TutorSection() {
           <TutorSectionCards image={arrow} title="سازنده دوره بصری" description="کاربران به راحتی می توانند دوره ها را با کشیدن و رها کردن سیستم و رابط کاربر پسند ایجاد و مدیریت کنند." />
           <TutorSectionCards image={eLearning} title="مدیریت آموزش الکترونیکی ساده" description="شما کنترل کامل دوره، مدرسان، سیستم جوایز و هر چیزی که به پلتفرم آموزش الکترونیکی شما مربوط می شود، دارید." />
           <TutorSectionCards image={reports} title="گزارش ها و تحلیل ها" description="همه کاربران آمار خود را به طور خودکار تولید می کنند تا پیشرفت و گزارش ها را پیگیری کنند" />
+          <TutorSectionCards image={withdrawal} title="گزینه های برداشت" description="تیوتر LMS چندین روش برداشت را ارائه می دهد و به کاربر امکان می دهد برداشت تمام درآمدها را مدیریت کند." />
         </div>
         <div className="max-md:w-full md:w-2/4"></div>
       </div>
