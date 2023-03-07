@@ -1,6 +1,7 @@
 import React from "react";
 import TutorSectionCards from "./TutorSectionCards";
 import arrow from "../../../assets/images/tutorSectionSvg/tutor-arrow.svg";
+import eLearning from "../../../assets/images/tutorSectionSvg/tutor-eLearning.svg";
 
 function TutorSection() {
   return (
