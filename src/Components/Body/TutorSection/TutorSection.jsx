@@ -4,6 +4,7 @@ import arrow from "../../../assets/images/tutorSectionSvg/tutor-arrow.svg";
 import eLearning from "../../../assets/images/tutorSectionSvg/tutor-eLearning.svg";
 import reports from "../../../assets/images/tutorSectionSvg/tutor-reports.svg";
 import withdrawal from "../../../assets/images/tutorSectionSvg/tutor-withdrawal.svg";
+import money from "../../../assets/images/tutorSectionSvg/tutor-money.svg";
 
 function TutorSection() {
   return (
