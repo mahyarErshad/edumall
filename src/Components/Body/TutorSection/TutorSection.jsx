@@ -3,6 +3,7 @@ import TutorSectionCards from "./TutorSectionCards";
 import arrow from "../../../assets/images/tutorSectionSvg/tutor-arrow.svg";
 import eLearning from "../../../assets/images/tutorSectionSvg/tutor-eLearning.svg";
 import reports from "../../../assets/images/tutorSectionSvg/tutor-reports.svg";
+import withdrawal from "../../../assets/images/tutorSectionSvg/tutor-withdrawal.svg";
 
 function TutorSection() {
   return (
