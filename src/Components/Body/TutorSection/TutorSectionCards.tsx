@@ -1,6 +1,12 @@
 import React from "react";
 import arrow from "../../../assets/images/tutorSectionSvg/tutor-arrow.svg";
 
+interface IProps{
+  image: string;
+  title: string;
+  description: string;
+}
+
 function TutorSectionCards() {
   return (
     <figure className="bg-transparent flex flex-col gap-4 justify-start lg:w-[47%] max-lg:w-full">
