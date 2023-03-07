@@ -1,5 +1,6 @@
 import React from "react";
 import TutorSectionCards from "./TutorSectionCards";
+import arrow from "../../../assets/images/tutorSectionSvg/tutor-arrow.svg";
 
 function TutorSection() {
   return (
@@ -12,7 +13,7 @@ function TutorSection() {
       </div>
       <div className="flex justify-between items-center flex-wrap mt-9">
         <div className="max-md:w-full md:w-2/4 flex gap-4 flex-wrap">
-          <TutorSectionCards />
+          <TutorSectionCards image={arrow} title="سازنده دوره بصری" description="کاربران به راحتی می توانند دوره ها را با کشیدن و رها کردن سیستم و رابط کاربر پسند ایجاد و مدیریت کنند." />
           <TutorSectionCards />
         </div>
         <div className="max-md:w-full md:w-2/4"></div>
