@@ -18,6 +18,9 @@ function TutorMouseHoverAnimation() {
         <MouseParallaxChild className="absolute top-[5%] left-0">
           <img src={dots} alt="dots" />
         </MouseParallaxChild>
+        <MouseParallaxChild className="absolute top-[50%] right-[5%] z-20">
+          <img src={menu} alt="menu" />
+        </MouseParallaxChild>
       </MouseParallaxContainer>
     </div>
   );
