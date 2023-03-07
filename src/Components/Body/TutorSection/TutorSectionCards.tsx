@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./TutorSectionCards.module.css"
 
 interface IProps {
   image: string;
