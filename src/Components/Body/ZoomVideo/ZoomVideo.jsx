@@ -12,7 +12,7 @@ function ZoomVideo() {
             <MouseParallaxChild className="absolute h-28 w-28 border border-[#EFF1FF] circle bg-transparent top-[-3.625rem]" />
             <MouseParallaxChild inverted={true} className="absolute h-56 w-56 border border-[#EFF1FF] circle bg-transparent top-[-7.1875rem] left-[-10.9375rem]" />
           </MouseParallaxContainer>
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" className="z-10" />
         </div>
         <img src={image} alt="Zoom meet video" className="z-10" />
       </div>
