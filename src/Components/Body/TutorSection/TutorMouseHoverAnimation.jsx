@@ -2,7 +2,7 @@ import React from 'react'
 
 function TutorMouseHoverAnimation() {
   return (
-    <div>TutorMouseHoverAnimation</div>
+    <div className="max-lg:hidden lg:w-2/4"></div>
   )
 }
 

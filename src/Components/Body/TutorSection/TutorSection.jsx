@@ -12,7 +12,7 @@ function TutorSection() {
       </div>
       <div className="flex justify-between items-center flex-wrap mt-9">
         <TutorCardsWrapper />
-        <div className="max-lg:hidden lg:w-2/4"></div>
+        
       </div>
     </section>
   );
