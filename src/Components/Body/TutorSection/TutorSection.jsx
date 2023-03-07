@@ -1,4 +1,5 @@
 import React from "react";
+import arrow from "../../../assets/images/tutorSectionSvg/tutor-arrow.svg";
 
 function TutorSection() {
   return (
@@ -10,7 +11,13 @@ function TutorSection() {
         <p>اجومال با قدرتمندترین پلاگین LMS - تیوتر LMS ارائه می شود که برای مربیان فردی، سازمان های آموزشی و پلت فرم آموزش الکترونیکی تخصص دارد.</p>
       </div>
       <div className="flex justify-between items-center flex-wrap">
-        <div className="max-md:w-full md:w-2/4"></div>
+        <div className="max-md:w-full md:w-2/4">
+          <figure className="bg-transparent flex flex-col gap-4 justify-start max-md:w-2/4 md:w-full">
+            <img src={arrow} alt="arrow" />
+            <h3>سازنده دوره بصری</h3>
+            <p>کاربران به راحتی می توانند دوره ها را با کشیدن و رها کردن سیستم و رابط کاربر پسند ایجاد و مدیریت کنند.</p>
+          </figure>
+        </div>
         <div className="max-md:w-full md:w-2/4"></div>
       </div>
     </section>
