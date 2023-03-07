@@ -10,7 +10,7 @@ function ZoomVideo() {
         <div className="absolute top-0 left-0 flex-center -translate-y-[75%]">
           <MouseParallaxContainer containerStyle={{ overflow: "visible" }} className="relative" resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.02} globalFactorY={0.02}>
             <MouseParallaxChild className="absolute h-28 w-28 border border-[#EFF1FF] circle bg-transparent top-[-3.625rem]" />
-            <MouseParallaxChild className="absolute h-56 w-56 border border-[#EFF1FF] circle bg-transparent top-[-7.1875rem] left-[-10.9375rem]" />
+            <MouseParallaxChild inverted={true} className="absolute h-56 w-56 border border-[#EFF1FF] circle bg-transparent top-[-7.1875rem] left-[-10.9375rem]" />
           </MouseParallaxContainer>
           <img src={logo} alt="Logo" />
         </div>
