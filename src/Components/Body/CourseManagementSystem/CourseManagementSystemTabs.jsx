@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from "./tabs.module.css"
 
 function CourseManagementSystemTabs() {
   return (
@@ -7,7 +8,7 @@ function CourseManagementSystemTabs() {
 
     </div>
     <div className='w-[45%]'>
-        
+
     </div>
       
     </section>
