@@ -18,8 +18,8 @@ function ZoomVideo() {
       </div>
       <div className="max-md:w-full md:w-2/4">
         <div className="flex flex-col justify-center md:items-start md:pr-[15%] max-md:items-center">
-          <h2>ویدئو کنفرانس</h2>
-          <h3>ZOOM</h3>
+          <h2 className="max-md:text-3xl md:text-5xl font-medium">ویدئو کنفرانس</h2>
+          <h3 className="max-md:text-3xl md:text-5xl font-medium text-primary line_after">ZOOM</h3>
         </div>
       </div>
     </section>
