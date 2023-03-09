@@ -16,7 +16,7 @@ function ZoomVideo() {
         </div>
         <img src={image} alt="Zoom meet video" className="z-10" />
       </div>
-      <div className="max-md:w-full md:w-2/4 flex flex-col gap-8 md:pr-[15%]">
+      <div className="max-md:w-full md:w-2/4 flex flex-col gap-8 md:pr-[10%]">
         <div className="flex flex-col justify-center md:items-start max-md:items-center">
           <h2 className="max-md:text-3xl md:text-5xl font-medium mb-4">ویدئو کنفرانس</h2>
           <h3 className="max-md:text-3xl md:text-5xl font-medium text-primary line_after">ZOOM</h3>
