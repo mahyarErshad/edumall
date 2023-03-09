@@ -4,7 +4,7 @@ import styles from "./tabs.module.css"
 function CourseManagementSystemTabs() {
   return (
     <section className="w-full flex-center flex-wrap">
-    <div className='w-[55%]'>
+    <div className={`w-[55%] ${styles.imageTab}`}>
 
     </div>
     <div className='w-[45%]'>
