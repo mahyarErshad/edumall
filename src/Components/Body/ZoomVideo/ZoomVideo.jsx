@@ -5,7 +5,7 @@ import logo from "../../../assets/images/zoom-meeting-logo.png";
 
 function ZoomVideo() {
   return (
-    <section className="px-4 w-full pt-40 pb-24 bg-white flex flex-wrap">
+    <section className="px-4 w-full pt-40 pb-24 bg-white flex flex-wrap max-md:gap-4">
       <div className="max-md:w-full md:w-2/4 relative flex-center">
         <div className="absolute top-0 left-0 flex-center -translate-y-[75%]">
           <MouseParallaxContainer containerStyle={{ overflow: "visible" }} className="relative" resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.02} globalFactorY={0.02}>
@@ -17,7 +17,7 @@ function ZoomVideo() {
         <img src={image} alt="Zoom meet video" className="z-10" />
       </div>
       <div className="max-md:w-full md:w-2/4">
-        <div className="flex flex-col justify-center items-start md:pr-[15%]">
+        <div className="flex flex-col justify-center md:items-start md:pr-[15%] max-md:items-center">
           <h2>ویدئو کنفرانس</h2>
           <h3>ZOOM</h3>
         </div>
