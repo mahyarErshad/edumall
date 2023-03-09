@@ -2,7 +2,9 @@ import React from 'react'
 
 function CourseManagementSystemTabs() {
   return (
-    <div>CourseManagementSystemTabs</div>
+    <section className="w-full flex-center flex-wrap">
+      
+    </section>
   )
 }
 
