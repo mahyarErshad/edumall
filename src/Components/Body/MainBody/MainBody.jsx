@@ -4,6 +4,7 @@ import DemoPages from "../DemoPages/DemoPages";
 import WhyEdumall from "../WhyEdumall/WhyEdumall";
 import ToturSection from "../TutorSection/TutorSection"
 import ZoomVideo from "../ZoomVideo/ZoomVideo";
+import CourseManagementSystem from "../CourseManagementSystem/CourseManagementSystem";
 
 function MainBody() {
   return (
@@ -13,6 +14,7 @@ function MainBody() {
       <DemoPages />
       <ToturSection />
       <ZoomVideo />
+      <CourseManagementSystem />
     </>
   );
 }
