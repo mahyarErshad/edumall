@@ -8,7 +8,7 @@ import multiInstructorsImage from "../../../assets/images/CourseManagementSystem
 import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
-import { ReactComponent as coursePrerequisites } from "../../../assets/images/CourseManagementSystem/svg/coursePrerequisites.svg";
+import { ReactComponent as CoursePrerequisites } from "../../../assets/images/CourseManagementSystem/svg/coursePrerequisites.svg";
 
 function CourseManagementSystemTabs() {
   return (
@@ -31,7 +31,7 @@ function CourseManagementSystemTabs() {
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>یک دوره می تواند بیش از یک مدرس داشته باشد. شما می توانید هر تعداد مربی که می خواهید داشته باشید.</p>
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
-            <MultipleInstructors className="w-8 h-8 transition-all duration-300" />
+            <CoursePrerequisites className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">پیش نیازهای دوره</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>دوره هایی را که دانشجویان باید قبل از ثبت نام در دوره جدید تکمیل کنند، تنظیم کنید.</p>
           </Tab>
