@@ -29,6 +29,11 @@ function CourseManagementSystemTabs() {
             <h3 className="text-black text-xl font-medium">چندین مربی</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>یک دوره می تواند بیش از یک مدرس داشته باشد. شما می توانید هر تعداد مربی که می خواهید داشته باشید.</p>
           </Tab>
+          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
+            <MultipleInstructors className="w-8 h-8 transition-all duration-300" />
+            <h3 className="text-black text-xl font-medium">پیش نیازهای دوره</h3>
+            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>دوره هایی را که دانشجویان باید قبل از ثبت نام در دوره جدید تکمیل کنند، تنظیم کنید.</p>
+          </Tab>
         </TabList>
       </div>
       <div className="w-[65%] flex-center">
