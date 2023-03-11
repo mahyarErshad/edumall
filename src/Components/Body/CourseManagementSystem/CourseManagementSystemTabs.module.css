@@ -1,0 +1,5 @@
+.tab{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 2fr;
+}
