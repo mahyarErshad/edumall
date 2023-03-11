@@ -7,7 +7,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSecondHeader, setActiveSecondHeader] = useState(false);
   useEffect(() => {
-    let container = document.getElementById("container");
+    const container = document.getElementById("container");
     container!.addEventListener("scroll", () => {
       if (container!.scrollTop > 100) {
         setActiveSecondHeader(true);
