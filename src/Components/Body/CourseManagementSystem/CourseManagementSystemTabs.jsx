@@ -38,7 +38,7 @@ function CourseManagementSystemTabs() {
           </Tab>
         </TabList>
       </div>
-      <div className={`${styles.tabPanel} max-md:w-full md:w-[65%] flex-center`}>
+      <div className="max-md:w-full md:w-[65%] flex-center">
         <TabPanel>
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="course-addons" />
         </TabPanel>
