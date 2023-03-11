@@ -11,6 +11,7 @@ import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseMana
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
 import { ReactComponent as CoursePrerequisites } from "../../../assets/images/CourseManagementSystem/svg/coursePrerequisites.svg";
+import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 
 function CourseManagementSystemTabs() {
   return (
@@ -40,9 +41,11 @@ function CourseManagementSystemTabs() {
         </TabList>
       </div>
       <div className="max-md:w-full md:w-[65%] flex-center relative">
-        <div className="absolute h-full min-h-[27.1875rem] w-full max-lg:hidden">
-          <img className="absolute top-[-10%] left-[10%]" src={wavyShape} alt="wavy shape" />
-        </div>
+        <MouseParallaxContainer containerStyle={{ overflow: "visible" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} className="absolute h-full min-h-[27.1875rem] w-full max-lg:hidden">
+          <MouseParallaxChild>
+            <img className="absolute top-[-20%] left-[10%]" src={wavyShape} alt="wavy shape" />
+          </MouseParallaxChild>
+        </MouseParallaxContainer>
         <TabPanel className="absolute">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="course-addons" />
         </TabPanel>
