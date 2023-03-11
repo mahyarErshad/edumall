@@ -40,17 +40,17 @@ function CourseManagementSystemTabs() {
       </div>
       <div className="max-md:w-full md:w-[65%] flex-center relative">
         <div className="absolute"></div>
-        <TabPanel>
+        <TabPanel className="absolute">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="course-addons" />
         </TabPanel>
-        <TabPanel className="relative">
+        <TabPanel className="absolute">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeatureQuiz} alt="course-feature-quiz" />
           <img src={courseFeatureQuiz2} className="absolute -bottom-[20%] -right-[30%]" alt="course-feature-quiz" />
         </TabPanel>
-        <TabPanel>
+        <TabPanel className="absolute">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={multiInstructorsImage} alt="course-addons" />
         </TabPanel>
-        <TabPanel>
+        <TabPanel className="absolute">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeaturePrerequisites} alt="course-addons" />
         </TabPanel>
       </div>
