@@ -13,8 +13,8 @@ import { ReactComponent as CoursePrerequisites } from "../../../assets/images/Co
 
 function CourseManagementSystemTabs() {
   return (
-    <Tabs className="w-full flex-center flex-wrap gap-4 mt-10">
-      <div className="w-[34%]">
+    <Tabs className="w-full flex-center max-md:flex-col gap-4 mt-10">
+      <div className="max-md:w-full md:w-[34%]">
         <TabList className="flex flex-col justify-start h-full gap-3 flex-center lg:pr-[10%]">
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
             <FrontendSvg className="w-8 h-8 transition-all duration-300" />
@@ -38,7 +38,7 @@ function CourseManagementSystemTabs() {
           </Tab>
         </TabList>
       </div>
-      <div className="w-[65%] flex-center">
+      <div className="max-md:w-full md:w-[65%] flex-center">
         <TabPanel>
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="course-addons" />
         </TabPanel>
