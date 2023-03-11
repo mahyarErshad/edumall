@@ -7,7 +7,7 @@
 .tab:focus-visible {
   outline: none;
 }
-.tab:hover svg {
+.tab:hover img {
   color: var(--primary-color);
 }
 .description {
