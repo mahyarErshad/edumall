@@ -24,7 +24,7 @@ function CourseManagementSystemTabs() {
       </div>
       <div className="w-[65%] flex-center">
         <TabPanel>
-          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src="https://edumall.thememove.com/wp-content/uploads/2020/11/course-addons-01.jpg" alt="" />
+          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="" />
         </TabPanel>
         <TabPanel>
           <h2>Any content 2</h2>
