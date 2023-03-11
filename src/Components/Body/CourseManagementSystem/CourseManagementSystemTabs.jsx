@@ -45,6 +45,8 @@ function CourseManagementSystemTabs() {
           <MouseParallaxChild>
             <img className="absolute top-[-20%] left-[10%]" src={wavyShape} alt="wavy shape" />
           </MouseParallaxChild>
+          <MouseParallaxChild className="absolute bottom-12 right-[10%] bg-gradient-to-b from-[#FDE190] to-[#FEC93D] w-[1.125rem] h-[1.125rem] circle" />
+          <MouseParallaxChild className="absolute bg-gradient-to-b right-[8%] bottom-0 from-[#ABE54B] to-[#5EA82C] w-[1.125rem] h-[1.125rem] circle" inverted={true} />
         </MouseParallaxContainer>
         <TabPanel className="absolute">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="course-addons" />
