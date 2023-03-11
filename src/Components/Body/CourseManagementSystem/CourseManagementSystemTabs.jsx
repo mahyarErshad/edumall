@@ -42,8 +42,8 @@ function CourseManagementSystemTabs() {
         </TabList>
       </div>
       <div className="max-md:w-full md:w-[65%] flex-center relative">
-        <div className="absolute h-full w-full">
-          <img src={backgroundImage} alt="background image shape" />
+        <div className="absolute max-lg:hidden h-full w-full -left-[10%]">
+          <img src={backgroundImage} alt="background shape" />
         </div>
         <MouseParallaxContainer containerStyle={{ overflow: "visible" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} className="absolute h-full min-h-[27.1875rem] w-full max-lg:hidden">
           <MouseParallaxChild>
@@ -53,17 +53,17 @@ function CourseManagementSystemTabs() {
           <MouseParallaxChild className="absolute bottom-12 right-[13%] z-20 bg-gradient-to-b from-[#4E97FD] to-[#77CCFD] w-[1.625rem] h-[1.625rem] circle" inverted={true} />
           <MouseParallaxChild className="absolute bg-gradient-to-b z-20 left-[25%] bottom-0 from-[#ABE54B] to-[#5EA82C] w-[1.125rem] h-[1.125rem] circle" inverted={true} />
         </MouseParallaxContainer>
-        <TabPanel className="absolute">
+        <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="course-addons" />
         </TabPanel>
-        <TabPanel className="absolute">
+        <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeatureQuiz} alt="course-feature-quiz" />
           <img src={courseFeatureQuiz2} className="absolute -bottom-[20%] -right-[30%]" alt="course-feature-quiz" />
         </TabPanel>
-        <TabPanel className="absolute">
+        <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={multiInstructorsImage} alt="course-addons" />
         </TabPanel>
-        <TabPanel className="absolute">
+        <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeaturePrerequisites} alt="course-addons" />
         </TabPanel>
       </div>
