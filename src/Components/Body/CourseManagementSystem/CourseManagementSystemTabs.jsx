@@ -15,7 +15,7 @@ function CourseManagementSystemTabs() {
       </div>
       <div className="w-[35%]">
         <TabList className="flex flex-col gap-3">
-          <Tab className="flex justify-start gap-8 w-full py-6 px-8 rounded-lg"></Tab>
+          <Tab className={`flex justify-start gap-8 w-full py-6 px-8 rounded-lg ${styles.tab}`}></Tab>
           <Tab>Title 2</Tab>
         </TabList>
       </div>
