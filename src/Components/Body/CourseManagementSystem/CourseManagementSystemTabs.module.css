@@ -2,12 +2,13 @@
   display: grid;
   grid-template-columns: 2rem 1fr;
   grid-template-rows: 1fr 2fr;
+  transition: all ease 0.3s;
 }
-.tab:focus-visible{
-    outline: none;
+.tab:focus-visible {
+  outline: none;
 }
-.tab:hover svg{
-    color: var(--primary-color);
+.tab:hover svg {
+  color: var(--primary-color);
 }
 .description {
   grid-row: 2;
