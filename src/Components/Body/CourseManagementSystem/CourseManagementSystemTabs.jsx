@@ -1,7 +1,8 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import styles from "./CourseManagementSystemTabs.module.css";
-import courseAddons from "../../../assets/images/CourseManagementSystem/images/course-addons.jpg"
+import courseAddons from "../../../assets/images/CourseManagementSystem/images/course-addons.jpg";
+import courseFeatureQuiz from "../../../assets/images/CourseManagementSystem/images/course-feature-quiz.jpg";
 import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 
@@ -27,7 +28,7 @@ function CourseManagementSystemTabs() {
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="" />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 2</h2>
+          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeatureQuiz} alt="" />
         </TabPanel>
       </div>
     </Tabs>
