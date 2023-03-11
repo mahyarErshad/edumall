@@ -7,8 +7,8 @@
 .tab:focus-visible {
   outline: none;
 }
-.tab:hover img {
-  color: var(--primary-color);
+.tab:hover svg {
+  fill: var(--primary-color);
 }
 .description {
   grid-row: 2;
