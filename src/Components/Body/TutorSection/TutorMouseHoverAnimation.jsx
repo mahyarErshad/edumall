@@ -29,7 +29,7 @@ function TutorMouseHoverAnimation() {
         <MouseParallaxChild inverted={true} className="absolute bottom-0 left-[10%] z-20">
           <img src={totalEarnings} alt="total earnings" />
         </MouseParallaxChild>
-        <MouseParallaxChild className="absolute h-20 w-20 border border-[#CFD5FF] circle bg-transparent right-[20%] top-[30%]" />
+        <MouseParallaxChild inverted={true} className="absolute h-20 w-20 border border-[#CFD5FF] circle bg-transparent right-[20%] top-[30%]" />
         <MouseParallaxChild className="absolute h-56 w-56 border border-[#CFD5FF] circle bg-transparent right-[5%] top-[35%]" />
       </MouseParallaxContainer>
     </div>
