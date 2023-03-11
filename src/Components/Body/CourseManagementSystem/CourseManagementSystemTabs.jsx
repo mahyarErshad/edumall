@@ -1,5 +1,6 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import styles from "./CourseManagementSystemTabs.module.css";
 
 function CourseManagementSystemTabs() {
   return (
