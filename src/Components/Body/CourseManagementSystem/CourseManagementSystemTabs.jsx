@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import styles from "./CourseManagementSystemTabs.module.css";
 import courseAddons from "../../../assets/images/CourseManagementSystem/images/course-addons.jpg";
 import courseFeatureQuiz from "../../../assets/images/CourseManagementSystem/images/course-feature-quiz.jpg";
-import courseFeatureQuiz2 from "../../../assets/images/CourseManagementSystem/images/course-feature-quiz-2.jpg";
+import courseFeatureQuiz2 from "../../../assets/images/CourseManagementSystem/images/course-feature-quiz-2.png";
 import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 
@@ -30,6 +30,7 @@ function CourseManagementSystemTabs() {
         </TabPanel>
         <TabPanel>
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeatureQuiz} alt="course-feature-quiz" />
+          <img src={courseFeatureQuiz2} alt="course-feature-quiz" />
         </TabPanel>
       </div>
     </Tabs>
