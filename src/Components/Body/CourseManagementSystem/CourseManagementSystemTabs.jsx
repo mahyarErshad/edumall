@@ -28,9 +28,9 @@ function CourseManagementSystemTabs() {
         <TabPanel>
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="course-addons" />
         </TabPanel>
-        <TabPanel>
+        <TabPanel className="relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeatureQuiz} alt="course-feature-quiz" />
-          <img src={courseFeatureQuiz2} alt="course-feature-quiz" />
+          <img src={courseFeatureQuiz2} className="absolute -bottom-[20%] -right-[30%]" alt="course-feature-quiz" />
         </TabPanel>
       </div>
     </Tabs>
