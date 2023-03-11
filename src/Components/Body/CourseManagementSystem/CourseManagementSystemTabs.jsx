@@ -7,6 +7,7 @@ import courseFeatureQuiz2 from "../../../assets/images/CourseManagementSystem/im
 import multiInstructorsImage from "../../../assets/images/CourseManagementSystem/images/course-feature-multi-instructors.jpg";
 import courseFeaturePrerequisites from "../../../assets/images/CourseManagementSystem/images/course-feature-prerequisites.jpg";
 import wavyShape from "../../../assets/images/wavy-shape.png";
+import backgroundImage from "../../../assets/images/tabs-background-shape.svg";
 import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
@@ -41,6 +42,9 @@ function CourseManagementSystemTabs() {
         </TabList>
       </div>
       <div className="max-md:w-full md:w-[65%] flex-center relative">
+        <div className="absolute h-full w-full">
+          <img src={backgroundImage} alt="background image shape" />
+        </div>
         <MouseParallaxContainer containerStyle={{ overflow: "visible" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} className="absolute h-full min-h-[27.1875rem] w-full max-lg:hidden">
           <MouseParallaxChild>
             <img className="absolute top-[-20%] left-[10%]" src={wavyShape} alt="wavy shape" />
