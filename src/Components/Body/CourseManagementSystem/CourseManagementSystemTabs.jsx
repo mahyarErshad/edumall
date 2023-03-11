@@ -8,6 +8,7 @@ import multiInstructorsImage from "../../../assets/images/CourseManagementSystem
 import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
+import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/coursePrerequisites.svg";
 
 function CourseManagementSystemTabs() {
   return (
