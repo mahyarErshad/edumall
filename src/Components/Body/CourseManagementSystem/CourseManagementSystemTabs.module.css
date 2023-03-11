@@ -15,6 +15,10 @@
   grid-column: 2 / -1;
   display: none;
 }
-.tabPanel{
-    /* background: url(../../../assets/images/); */
+.tabPanel {
+  background: url(../../../assets/images/tabs-background-image-shape.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: visible;
 }
