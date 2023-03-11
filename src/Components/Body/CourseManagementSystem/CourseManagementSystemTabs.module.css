@@ -6,6 +6,9 @@
 .tab:focus-visible{
     outline: none;
 }
+.tab:hover svg{
+    color: var(--primary-color);
+}
 .description {
   grid-row: 2;
   grid-column: 1 / -1;
