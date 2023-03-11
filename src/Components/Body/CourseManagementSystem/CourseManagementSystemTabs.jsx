@@ -12,7 +12,7 @@ function CourseManagementSystemTabs() {
           <Tab className={`flex justify-start gap-8 w-full py-6 px-8 rounded-lg ${styles.tab}`}>
             <FontAwesomeIcon className="w-8 h-8" icon={faBacon} />
             <h3 className="text-black text-xl font-medium">سازنده دوره مقدماتی</h3>
-            <p className="text-sm font-normal text-[#696969]">کاربران می‌توانند محتوای دوره و آزمون‌ها را ایجاد کنند یا مدرس را به راحتی اضافه کنند.</p>
+            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>کاربران می‌توانند محتوای دوره و آزمون‌ها را ایجاد کنند یا مدرس را به راحتی اضافه کنند.</p>
           </Tab>
           <Tab>Title 2</Tab>
         </TabList>
