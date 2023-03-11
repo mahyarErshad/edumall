@@ -5,15 +5,19 @@ import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseMana
 
 function CourseManagementSystemTabs() {
   return (
-    <Tabs className="w-full flex-center flex-wrap gap-[5%] mt-10">
-      <div className="w-[30%]">
+    <Tabs className="w-full flex-center flex-wrap gap-4 mt-10">
+      <div className="w-[34%]">
         <TabList className="flex flex-col justify-start h-full gap-3 flex-center lg:pr-[10%]">
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
             <FrontendSvg className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">سازنده دوره مقدماتی</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>کاربران می‌توانند محتوای دوره و آزمون‌ها را ایجاد کنند یا مدرس را به راحتی اضافه کنند.</p>
           </Tab>
-          <Tab>Title 2</Tab>
+          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
+            <FrontendSvg className="w-8 h-8 transition-all duration-300" />
+            <h3 className="text-black text-xl font-medium">تنظیمات آزمون پیشرفته</h3>
+            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>تنظیمات مسابقه به شما امکان می‌دهد انواع سؤالات را انتخاب کنید، محدودیت‌های زمانی تعیین کنید و بسیاری موارد دیگر.</p>
+          </Tab>
         </TabList>
       </div>
       <div className="w-[65%] flex-center">
