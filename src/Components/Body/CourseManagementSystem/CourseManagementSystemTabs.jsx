@@ -39,6 +39,9 @@ function CourseManagementSystemTabs() {
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeatureQuiz} alt="course-feature-quiz" />
           <img src={courseFeatureQuiz2} className="absolute -bottom-[20%] -right-[30%]" alt="course-feature-quiz" />
         </TabPanel>
+        <TabPanel>
+          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={multiInstructorsImage} alt="course-addons" />
+        </TabPanel>
       </div>
     </Tabs>
   );
