@@ -27,7 +27,7 @@ function AdministrationsOptionTabs() {
           </MouseParallaxChild>
           <MouseParallaxChild className="absolute bottom-0 right-[18%] z-20 bg-gradient-to-b from-[#FDE190] to-[#FEC93D] w-[1.125rem] h-[1.125rem] circle" />
           <MouseParallaxChild className="absolute bottom-12 right-[13%] z-20 bg-gradient-to-b from-[#4E97FD] to-[#77CCFD] w-[1.625rem] h-[1.625rem] circle" inverted={true} />
-          <MouseParallaxChild className="absolute bg-gradient-to-b z-20 left-[25%] bottom-0 from-[#ABE54B] to-[#5EA82C] w-[1.125rem] h-[1.125rem] circle" inverted={true} />
+          <MouseParallaxChild className="absolute bg-gradient-to-b z-20 left-[25%] top-8 from-[#ABE54B] to-[#5EA82C] w-[1.125rem] h-[1.125rem] circle" inverted={true} />
         </MouseParallaxContainer>
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={featureReportsAnalytics} alt="course-addons" />
