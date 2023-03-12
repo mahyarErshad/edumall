@@ -1,7 +1,8 @@
 import React from "react";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 import wavyImage from "../../../assets/images/wavy-shape.png";
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
+import test from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 
 function ELearningManagement() {
   return (
@@ -15,9 +16,10 @@ function ELearningManagement() {
           <img src={wavyImage} alt="wavy circle shape" />
         </MouseParallaxChild>
       </MouseParallaxContainer>
-      <div className={`${styles.grid} max-md:w-full md:flex-grow`}>
-        <div className="py-10 px-8 bg-white rounded-lg shadow-md flex-center">
-        
+      <div className={`${styles.grid} max-md:w-full md:flex-grow md:pr-[10%]`}>
+        <div className="py-10 px-8 bg-white rounded-lg shadow-md flex-center gap-4 z-10">
+          <img src={test} alt="" />
+          <h3 className="font-medium text-xl">ثبت نام دانشجویان را کنترل کنید</h3>
         </div>
       </div>
     </section>
