@@ -6,6 +6,7 @@ import ToturSection from "../TutorSection/TutorSection"
 import ZoomVideo from "../ZoomVideo/ZoomVideo";
 import CourseManagementSystem from "../CourseManagementSystem/CourseManagementSystem";
 import AdministrationsOption from "../AdministrationsOption/AdministrationsOption";
+import ELearningManagement from "../ELearningManagement/ELearningManagement";
 
 function MainBody() {
   return (
@@ -17,6 +18,7 @@ function MainBody() {
       <ZoomVideo />
       <CourseManagementSystem />
       <AdministrationsOption />
+      <ELearningManagement />
     </>
   );
 }
