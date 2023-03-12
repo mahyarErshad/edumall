@@ -62,8 +62,8 @@ function AdministrationsOptionTabs() {
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
             <QASvg className="w-8 h-8 transition-all duration-300" />
-            <h3 className="text-black text-xl font-medium">پیش نیازهای دوره</h3>
-            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>دوره هایی را که دانشجویان باید قبل از ثبت نام در دوره جدید تکمیل کنند، تنظیم کنید.</p>
+            <h3 className="text-black text-xl font-medium">عملیات پرسش و پاسخ</h3>
+            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>بستری که دانش آموزان می توانند نظر بدهند، در مورد دوره ها یا مشکلات مربوطه سوال بپرسند</p>
           </Tab>
         </TabList>
       </div>
