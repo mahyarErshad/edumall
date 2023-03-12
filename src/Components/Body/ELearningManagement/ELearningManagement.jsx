@@ -18,7 +18,7 @@ function ELearningManagement() {
         </MouseParallaxChild>
       </MouseParallaxContainer>
       <div className={`${styles.grid} max-md:w-full md:flex-grow md:pr-[10%]`}>
-        <ELearningManagementCards image={controlIcon} />
+        <ELearningManagementCards image={controlIcon} title="ثبت نام دانشجویان را کنترل کنید" />
       </div>
     </section>
   );
