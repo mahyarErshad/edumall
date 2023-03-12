@@ -9,7 +9,7 @@ import courseFeaturePrerequisites from "../../../assets/images/CourseManagementS
 import wavyShape from "../../../assets/images/wavy-shape.png";
 import backgroundImage from "../../../assets/images/tabs-background-shape.svg";
 import { ReactComponent as ReportsSvg } from "../../../assets/images/AdministrationsOptionTabs/svg/reports.svg";
-import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
+import { ReactComponent as ReviewsSvg } from "../../../assets/images/AdministrationsOptionTabs/svg/reviews.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
 import { ReactComponent as CoursePrerequisites } from "../../../assets/images/CourseManagementSystem/svg/coursePrerequisites.svg";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
@@ -51,7 +51,7 @@ function AdministrationsOptionTabs() {
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>مدیر می تواند آمار را پیگیری کند، تمام مدرسان و دانش آموزان را از داشبورد مدیریت کند</p>
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
-            <QuestionMark className="w-8 h-8 transition-all duration-300" />
+            <ReviewsSvg className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">تنظیمات آزمون پیشرفته</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>تنظیمات مسابقه به شما امکان می‌دهد انواع سؤالات را انتخاب کنید، محدودیت‌های زمانی تعیین کنید و بسیاری موارد دیگر.</p>
           </Tab>
