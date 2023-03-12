@@ -4,7 +4,8 @@ import styles from "./AdministrationsOptionTabs.module.css";
 import featureReportsAnalytics from "../../../assets/images/AdministrationsOptionTabs/images/feature-reports-analytics.jpg";
 import featureManageReviews from "../../../assets/images/AdministrationsOptionTabs/images/feature-manage-reviews.jpg";
 import featureEmailNotifications from "../../../assets/images/AdministrationsOptionTabs/images/feature-email-notifications.jpg";
-import courseFeaturePrerequisites from "../../../assets/images/CourseManagementSystem/images/course-feature-prerequisites.jpg";
+import qa1 from "../../../assets/images/AdministrationsOptionTabs/images/qa1.jpg";
+import qa2 from "../../../assets/images/AdministrationsOptionTabs/images/qa2.jpg";
 import wavyShape from "../../../assets/images/wavy-shape.png";
 import backgroundImage from "../../../assets/images/tabs-background-shape.svg";
 import { ReactComponent as ReportsSvg } from "../../../assets/images/AdministrationsOptionTabs/svg/reports.svg";
@@ -37,8 +38,9 @@ function AdministrationsOptionTabs() {
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={featureEmailNotifications} alt="course-addons" />
         </TabPanel>
-        <TabPanel className="md:absolute max-md:relative">
-          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeaturePrerequisites} alt="course-addons" />
+        <TabPanel className="md:absolute max-md:relative flex-center gap-8">
+          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] w-[40%] z-10" src={qa1} alt="course-addons" />
+          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] w-[40%] z-10" src={qa2} alt="course-addons" />
         </TabPanel>
       </div>
       <div className="max-md:w-full md:w-[34%]">
