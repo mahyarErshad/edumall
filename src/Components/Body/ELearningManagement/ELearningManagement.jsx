@@ -3,6 +3,7 @@ import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse
 import wavyImage from "../../../assets/images/wavy-shape.png";
 import styles from "./styles.module.css";
 import ELearningManagementCards from "./ELearningManagementCards";
+import controlIcon from "../../../assets/images/ELearningManagement/control.svg"
 
 function ELearningManagement() {
   return (
@@ -17,7 +18,7 @@ function ELearningManagement() {
         </MouseParallaxChild>
       </MouseParallaxContainer>
       <div className={`${styles.grid} max-md:w-full md:flex-grow md:pr-[10%]`}>
-        <ELearningManagementCards />
+        <ELearningManagementCards image={controlIcon} />
       </div>
     </section>
   );
