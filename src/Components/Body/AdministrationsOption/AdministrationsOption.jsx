@@ -3,7 +3,7 @@ import CourseManagementSystemTabs from "../CourseManagementSystem/CourseManageme
 
 function AdministrationsOption() {
   return (
-    <section className="w-full px-4 bg-[#F5F7FD] py-24 flex justify-start items-center flex-col gap-8 overflow-hidden">
+    <section className="w-full px-4 bg-white py-24 flex justify-start items-center flex-col gap-8 overflow-hidden">
       <h3 className="max-md:text-3xl md:text-5xl font-medium">
         سیستم <span className="line_after">مدیریت</span> دوره
       </h3>
