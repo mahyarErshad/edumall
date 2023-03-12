@@ -18,7 +18,7 @@ function AdministrationsOptionTabs() {
   return (
     <Tabs className="w-full flex-center max-md:flex-col-reverse gap-4 mt-10">
       <div className="max-md:w-full md:w-[65%] flex-center relative">
-        <div className="absolute max-lg:hidden h-full w-full -left-[10%]">
+        <div className="absolute max-lg:hidden h-full w-full top-[80%] -rotate-45">
           <img src={backgroundImage} alt="background shape" />
         </div>
         <MouseParallaxContainer containerStyle={{ overflow: "visible" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} className="absolute h-full min-h-[27.1875rem] w-full max-lg:hidden">
