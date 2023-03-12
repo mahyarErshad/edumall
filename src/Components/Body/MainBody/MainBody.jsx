@@ -5,6 +5,7 @@ import WhyEdumall from "../WhyEdumall/WhyEdumall";
 import ToturSection from "../TutorSection/TutorSection"
 import ZoomVideo from "../ZoomVideo/ZoomVideo";
 import CourseManagementSystem from "../CourseManagementSystem/CourseManagementSystem";
+import AdministrationsOption from "../AdministrationsOption/AdministrationsOption";
 
 function MainBody() {
   return (
@@ -15,6 +16,7 @@ function MainBody() {
       <ToturSection />
       <ZoomVideo />
       <CourseManagementSystem />
+      <AdministrationsOption />
     </>
   );
 }
