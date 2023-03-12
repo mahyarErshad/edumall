@@ -52,8 +52,8 @@ function AdministrationsOptionTabs() {
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
             <ReviewsSvg className="w-8 h-8 transition-all duration-300" />
-            <h3 className="text-black text-xl font-medium">تنظیمات آزمون پیشرفته</h3>
-            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>تنظیمات مسابقه به شما امکان می‌دهد انواع سؤالات را انتخاب کنید، محدودیت‌های زمانی تعیین کنید و بسیاری موارد دیگر.</p>
+            <h3 className="text-black text-xl font-medium">مدیریت نظرات</h3>
+            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>کلیه بررسی دوره های دانشجویان توسط مدیر نظارت (تأیید، حذف) خواهد شد</p>
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
             <MultipleInstructors className="w-8 h-8 transition-all duration-300" />
