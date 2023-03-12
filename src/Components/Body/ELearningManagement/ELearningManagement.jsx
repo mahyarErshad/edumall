@@ -3,6 +3,7 @@ import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse
 import wavyImage from "../../../assets/images/wavy-shape.png";
 import ELearningManagementCards from "./ELearningManagementCards";
 import controlIcon from "../../../assets/images/ELearningManagement/control.svg";
+import settingsIcon from "../../../assets/images/ELearningManagement/settings.svg";
 
 function ELearningManagement() {
   return (
