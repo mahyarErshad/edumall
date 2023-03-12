@@ -3,8 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import styles from "./AdministrationsOptionTabs.module.css";
 import featureReportsAnalytics from "../../../assets/images/AdministrationsOptionTabs/images/feature-reports-analytics.jpg";
 import featureManageReviews from "../../../assets/images/AdministrationsOptionTabs/images/feature-manage-reviews.jpg";
-import courseFeatureQuiz2 from "../../../assets/images/CourseManagementSystem/images/course-feature-quiz-2.png";
-import multiInstructorsImage from "../../../assets/images/CourseManagementSystem/images/course-feature-multi-instructors.jpg";
+import featureEmailNotifications from "../../../assets/images/AdministrationsOptionTabs/images/feature-email-notifications.jpg";
 import courseFeaturePrerequisites from "../../../assets/images/CourseManagementSystem/images/course-feature-prerequisites.jpg";
 import wavyShape from "../../../assets/images/wavy-shape.png";
 import backgroundImage from "../../../assets/images/tabs-background-shape.svg";
@@ -34,10 +33,9 @@ function AdministrationsOptionTabs() {
         </TabPanel>
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={featureManageReviews} alt="course-feature-quiz" />
-          <img src={courseFeatureQuiz2} className="absolute -bottom-[20%] -right-[30%]" alt="course-feature-quiz" />
         </TabPanel>
         <TabPanel className="md:absolute max-md:relative">
-          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={multiInstructorsImage} alt="course-addons" />
+          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={featureEmailNotifications} alt="course-addons" />
         </TabPanel>
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeaturePrerequisites} alt="course-addons" />
