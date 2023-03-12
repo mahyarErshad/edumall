@@ -16,7 +16,9 @@ function ELearningManagement() {
         </MouseParallaxChild>
       </MouseParallaxContainer>
       <div className={`${styles.grid} max-md:w-full md:flex-grow`}>
+        <div className="py-10 px-8 bg-white rounded-lg shadow-md flex-center">
         
+        </div>
       </div>
     </section>
   );
