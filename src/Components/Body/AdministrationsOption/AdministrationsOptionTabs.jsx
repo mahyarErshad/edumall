@@ -11,7 +11,7 @@ import backgroundImage from "../../../assets/images/tabs-background-shape.svg";
 import { ReactComponent as ReportsSvg } from "../../../assets/images/AdministrationsOptionTabs/svg/reports.svg";
 import { ReactComponent as ReviewsSvg } from "../../../assets/images/AdministrationsOptionTabs/svg/reviews.svg";
 import { ReactComponent as EmailSvg } from "../../../assets/images/AdministrationsOptionTabs/svg/email.svg";
-import { ReactComponent as CoursePrerequisites } from "../../../assets/images/CourseManagementSystem/svg/coursePrerequisites.svg";
+import { ReactComponent as QASvg } from "../../../assets/images/AdministrationsOptionTabs/svg/qa.svg";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 
 function AdministrationsOptionTabs() {
@@ -61,7 +61,7 @@ function AdministrationsOptionTabs() {
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>گزینه هایی برای اطلاع رسانی پیشرفت یا اطلاع رسانی به دانش آموزان و معلمان از طریق ایمیل وجود دارد</p>
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
-            <CoursePrerequisites className="w-8 h-8 transition-all duration-300" />
+            <QASvg className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">پیش نیازهای دوره</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>دوره هایی را که دانشجویان باید قبل از ثبت نام در دوره جدید تکمیل کنند، تنظیم کنید.</p>
           </Tab>
