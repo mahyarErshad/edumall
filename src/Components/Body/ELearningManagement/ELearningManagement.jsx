@@ -20,7 +20,7 @@ function ELearningManagement() {
       <div className="max-lg:w-full lg:flex-grow flex-center flex-col gap-5">
         <div className="flex-center gap-5 lg:pl-[5.625rem] flex-wrap">
           <ELearningManagementCards image={controlIcon} title="ثبت نام دانشجویان را کنترل کنید" />
-          <ELearningManagementCards image={controlIcon} title="ثبت نام دانشجویان را کنترل کنید" />
+          <ELearningManagementCards image={settingsIcon} title="تنظیمات دوره را سفارشی کنید" />
         </div>
         <div className="flex-center gap-5 lg:pr-[5.625rem] flex-wrap">
           <ELearningManagementCards image={controlIcon} title="ثبت نام دانشجویان را کنترل کنید" />
