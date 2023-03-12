@@ -1,5 +1,5 @@
 import React from "react";
-import CourseManagementSystemTabs from "../CourseManagementSystem/CourseManagementSystemTabs";
+import AdministrationsOptionTabs from "./AdministrationsOptionTabs";
 
 function AdministrationsOption() {
   return (
@@ -8,7 +8,7 @@ function AdministrationsOption() {
         گزینه های <span className="line_after">مدیریت</span>
       </h3>
       <p className="text-center text-[#7E7E7E]">اجومال به لطف ادغام افزونه تیوتر LMS کنترل کامل وب سایت آموزشی شما را در اختیار کاربران قرار می دهد.</p>
-      <CourseManagementSystemTabs />
+      <AdministrationsOptionTabs />
     </section>
   );
 }
