@@ -16,7 +16,7 @@ import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse
 
 function AdministrationsOptionTabs() {
   return (
-    <Tabs className="w-full flex-center max-md:flex-col gap-4 mt-10">
+    <Tabs className="w-full flex-center max-md:flex-col-reverse gap-4 mt-10">
       <div className="max-md:w-full md:w-[65%] flex-center relative">
         <div className="absolute max-lg:hidden h-full w-full -left-[10%]">
           <img src={backgroundImage} alt="background shape" />
