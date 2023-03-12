@@ -2,7 +2,6 @@ import React from "react";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 import wavyImage from "../../../assets/images/wavy-shape.png";
 import styles from "./styles.module.css";
-import test from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 import ELearningManagementCards from "./ELearningManagementCards";
 
 function ELearningManagement() {
