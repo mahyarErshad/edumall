@@ -1,6 +1,7 @@
 import React from "react";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 import wavyImage from "../../../assets/images/wavy-shape.png";
+import styles from "./styles.module.css"
 
 function ELearningManagement() {
   return (
@@ -14,7 +15,9 @@ function ELearningManagement() {
           <img src={wavyImage} alt="wavy circle shape" />
         </MouseParallaxChild>
       </MouseParallaxContainer>
-      <div className="max-md:w-full md:flex-grow"></div>
+      <div className={`${styles.grid} max-md:w-full md:flex-grow`}>
+        
+      </div>
     </section>
   );
 }
