@@ -4,6 +4,7 @@ import wavyImage from "../../../assets/images/wavy-shape.png";
 import ELearningManagementCards from "./ELearningManagementCards";
 import controlIcon from "../../../assets/images/ELearningManagement/control.svg";
 import settingsIcon from "../../../assets/images/ELearningManagement/settings.svg";
+import certificateIcon from "../../../assets/images/ELearningManagement/certificate.svg";
 
 function ELearningManagement() {
   return (
@@ -23,7 +24,7 @@ function ELearningManagement() {
           <ELearningManagementCards image={settingsIcon} title="تنظیمات دوره را سفارشی کنید" />
         </div>
         <div className="flex-center gap-5 lg:pr-[5.625rem] flex-wrap">
-          <ELearningManagementCards image={controlIcon} title="ثبت نام دانشجویان را کنترل کنید" />
+          <ELearningManagementCards image={certificateIcon} title="گواهی های سفارشی ایجاد کنید" />
           <ELearningManagementCards image={controlIcon} title="ثبت نام دانشجویان را کنترل کنید" />
         </div>
       </div>
