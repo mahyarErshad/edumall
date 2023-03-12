@@ -7,7 +7,7 @@ import featureEmailNotifications from "../../../assets/images/AdministrationsOpt
 import qa1 from "../../../assets/images/AdministrationsOptionTabs/images/qa1.jpg";
 import qa2 from "../../../assets/images/AdministrationsOptionTabs/images/qa2.jpg";
 import wavyShape from "../../../assets/images/wavy-shape.png";
-import backgroundImage from "../../../assets/images/tabs-background-shape.svg";
+import backgroundImage from "../../../assets/images/AdministrationsOptionTabs/svg/background-shape.svg";
 import { ReactComponent as ReportsSvg } from "../../../assets/images/AdministrationsOptionTabs/svg/reports.svg";
 import { ReactComponent as ReviewsSvg } from "../../../assets/images/AdministrationsOptionTabs/svg/reviews.svg";
 import { ReactComponent as EmailSvg } from "../../../assets/images/AdministrationsOptionTabs/svg/email.svg";
