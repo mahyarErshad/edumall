@@ -12,7 +12,7 @@ import BuyProButton from "../../Utils/Buttons/BuyProButton/BuyProButton";
 function WhyEdumall() {
   return (
     <section className="w-full max-lg:pt-8 lg:pt-[15%] flex-center bg-white px-4 flex-col">
-      <div className="flex-center w-full max-lg:gap-4 lg:gap-8 flex-wrap max-lg:mb-24 lg:mb-28">
+      <div id="features" className="flex-center w-full max-lg:gap-4 lg:gap-8 flex-wrap max-lg:mb-24 lg:mb-28">
         <WhyEdumallCards image={image1} title="آموزش دهنده قدرتمند LMS داخلی" description="یک راه حل هوشمند، ساده و کامل LMS برای ساخت دوره ها و مدیریت مرکز آموزشی شما" />
         <WhyEdumallCards image={image2} title="سازنده دوره های مقدماتی گسترده" description="دوره‌های مدبرانه و آزمون ایجاد کنید. همه چیز را با کشیدن و رها کردن کنترل کنید" />
         <WhyEdumallCards image={image3} title="طرح های نوین و کاربردی" description="یک راه حل هوشمند، ساده و کامل LMS برای ساخت دوره ها و مدیریت مرکز آموزشی شما" />
