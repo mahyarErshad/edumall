@@ -1,10 +1,10 @@
 import React from "react";
 
-function ELearningManagementCards() {
+function ELearningManagementCards(props) {
   return (
     <figure className="py-10 px-8 bg-white rounded-lg shadow-md flex-center gap-4 z-10">
-      <img src={test} alt="" />
-      <h3 className="font-medium text-xl">ثبت نام دانشجویان را کنترل کنید</h3>
+      <img src={props.image} alt={props.title} />
+      <h3 className="font-medium text-xl">{props.title}</h3>
     </figure>
   );
 }
