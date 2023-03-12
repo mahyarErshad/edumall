@@ -23,7 +23,7 @@ function AdministrationsOptionTabs() {
         </div>
         <MouseParallaxContainer containerStyle={{ overflow: "visible" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} className="absolute h-full min-h-[27.1875rem] w-full max-lg:hidden">
           <MouseParallaxChild>
-            <img className="absolute top-[-20%] left-[10%]" src={wavyShape} alt="wavy shape" />
+            <img className="absolute top-80 left-[10%]" src={wavyShape} alt="wavy shape" />
           </MouseParallaxChild>
           <MouseParallaxChild className="absolute bottom-0 right-[18%] z-20 bg-gradient-to-b from-[#FDE190] to-[#FEC93D] w-[1.125rem] h-[1.125rem] circle" />
           <MouseParallaxChild className="absolute bottom-12 right-[13%] z-20 bg-gradient-to-b from-[#4E97FD] to-[#77CCFD] w-[1.625rem] h-[1.625rem] circle" inverted={true} />
