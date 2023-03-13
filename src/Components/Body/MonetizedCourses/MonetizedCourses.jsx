@@ -6,16 +6,14 @@ import courseFeatureQuiz from "../../../assets/images/CourseManagementSystem/ima
 import courseFeatureQuiz2 from "../../../assets/images/CourseManagementSystem/images/course-feature-quiz-2.png";
 import multiInstructorsImage from "../../../assets/images/CourseManagementSystem/images/course-feature-multi-instructors.jpg";
 import courseFeaturePrerequisites from "../../../assets/images/CourseManagementSystem/images/course-feature-prerequisites.jpg";
-import wavyShape from "../../../assets/images/wavy-shape.png";
 import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
 import { ReactComponent as CoursePrerequisites } from "../../../assets/images/CourseManagementSystem/svg/coursePrerequisites.svg";
-import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 
 function MonetizedCourses() {
   return (
-    <Tabs className="w-full bg-[#F5F7FD] flex-center max-md:flex-col gap-4 mt-10 md:py-24 max-md:py-12">
+    <Tabs className="w-full bg-[#F5F7FD] flex-center max-md:flex-col gap-4 mt-10 md:py-24 max-md:py-12 px-4">
       <div className="max-md:w-full md:w-[34%]">
         <TabList className="flex flex-col justify-start h-full gap-3 flex-center lg:pr-[10%]">
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
@@ -41,14 +39,6 @@ function MonetizedCourses() {
         </TabList>
       </div>
       <div className="max-md:w-full md:w-[65%] flex-center relative">
-        <MouseParallaxContainer containerStyle={{ overflow: "visible" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} className="absolute h-full min-h-[27.1875rem] w-full max-lg:hidden">
-          <MouseParallaxChild>
-            <img className="absolute top-[-20%] left-[10%]" src={wavyShape} alt="wavy shape" />
-          </MouseParallaxChild>
-          <MouseParallaxChild className="absolute bottom-0 right-[18%] z-20 bg-gradient-to-b from-[#FDE190] to-[#FEC93D] w-[1.125rem] h-[1.125rem] circle" />
-          <MouseParallaxChild className="absolute bottom-12 right-[13%] z-20 bg-gradient-to-b from-[#4E97FD] to-[#77CCFD] w-[1.625rem] h-[1.625rem] circle" inverted={true} />
-          <MouseParallaxChild className="absolute bg-gradient-to-b z-20 left-[25%] bottom-0 from-[#ABE54B] to-[#5EA82C] w-[1.125rem] h-[1.125rem] circle" inverted={true} />
-        </MouseParallaxContainer>
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="course-addons" />
         </TabPanel>
