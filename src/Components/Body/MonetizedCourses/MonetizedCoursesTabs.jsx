@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import styles from "./styles.module.css";
 import moneyManagementImage from "../../../assets/images/monetized-courses/money-management.jpg";
 import monitizedMethords from "../../../assets/images/monetized-courses/monitized-methords.jpg";
-import courseFeatureQuiz2 from "../../../assets/images/CourseManagementSystem/images/course-feature-quiz-2.png";
+import paymentPaypal from "../../../assets/images/monetized-courses/payment-paypal.jpg";
 import multiInstructorsImage from "../../../assets/images/CourseManagementSystem/images/course-feature-multi-instructors.jpg";
 import courseFeaturePrerequisites from "../../../assets/images/CourseManagementSystem/images/course-feature-prerequisites.jpg";
 import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
@@ -44,7 +44,7 @@ function MonetizedCoursesTabs() {
         </TabPanel>
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={monitizedMethords} alt="course-feature-quiz" />
-          <img src={courseFeatureQuiz2} className="absolute -bottom-[20%] -right-[30%]" alt="course-feature-quiz" />
+          <img src={paymentPaypal} className="absolute -bottom-[20%] -right-[30%]" alt="course-feature-quiz" />
         </TabPanel>
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={multiInstructorsImage} alt="course-addons" />
