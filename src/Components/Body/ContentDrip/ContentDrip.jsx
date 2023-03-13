@@ -37,8 +37,10 @@ function ContentDrip() {
           </MouseParallaxContainer>
         </div>
       </section>
-      <section className="bg-red-500 h-20 w-full">
-
+      <section className="w-full flex-center max-md:flex-col gap-8">
+      <div>
+        
+      </div>
       </section>
     </section>
   );
