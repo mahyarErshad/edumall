@@ -3,6 +3,7 @@ import ContentDripCard from "./ContentDripCard";
 import borderImage from "../../../assets/images/contentDrip/circle-dots-border.png";
 import frontImage from "../../../assets/images/contentDrip/lesson-preview.jpg";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
+import doubleCheck from "../../../assets/images/contentDrip/shape-double-check.jpg"
 
 function ContentDrip() {
   return (
