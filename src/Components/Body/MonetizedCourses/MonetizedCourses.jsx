@@ -1,4 +1,5 @@
 import React from "react";
+import MonetizedCoursesTabs from "./MonetizedCoursesTabs";
 
 function MonetizedCourses() {
   return (
@@ -7,7 +8,7 @@ function MonetizedCourses() {
         سیستم <span className="line_after">مدیریت</span> دوره
       </h3>
       <p className="text-center text-[#7E7E7E]">اجومال با پلاگین تیوتر LMS یکپارچه شده است و دارای یک سیستم کامل برای مدیریت دوره های آموزشی است.</p>
-      <CourseManagementSystemTabs />
+      <MonetizedCoursesTabs />
     </section>
   );
 }
