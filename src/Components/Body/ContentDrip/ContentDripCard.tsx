@@ -1,5 +1,10 @@
 import React from "react";
 
+interface IProps{
+  counter: string | number;
+  text: string;
+}
+
 function ContentDripCard() {
   return (
     <figure className="flex-center flex-col gap-3 max-md:w-full md:max-w-[15.625rem]">
