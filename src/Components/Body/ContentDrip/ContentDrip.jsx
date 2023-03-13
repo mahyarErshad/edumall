@@ -41,7 +41,7 @@ function ContentDrip() {
       <section className="w-full flex-center max-md:flex-col-reverse gap-8">
         <img src={certificateImage} alt="Certificate" className="lg:mr-[10%]" />
         <div className="max-md:w-full md:w-2/4 flex-center flex-col gap-8">
-          <h3>سازنده گواهینامه</h3>
+          <h3 className="font-medium max-md:text-3xl md:text-4xl">سازنده گواهینامه</h3>
         </div>
       </section>
     </section>
