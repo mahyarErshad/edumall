@@ -130,11 +130,14 @@ li {
 .hidden-tab.tab.react-tabs__tab--selected {
   grid-template-rows: 1fr 2fr;
 }
-.react-tabs__tab--selected  p{
+.react-tabs__tab--selected p {
   display: block;
 }
 .visible-tab.react-tabs__tab--selected {
   border: none;
   background-color: white;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.09);
+}
+.visible-tab.react-tabs__tab--selected h3 {
+  color: #252525;
 }
