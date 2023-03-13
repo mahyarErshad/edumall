@@ -31,11 +31,6 @@ function MonetizedCoursesTabs() {
             <h3 className="text-black text-xl font-medium">چندین مربی</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>یک دوره می تواند بیش از یک مدرس داشته باشد. شما می توانید هر تعداد مربی که می خواهید داشته باشید.</p>
           </Tab>
-          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
-            <CoursePrerequisites className="w-8 h-8 transition-all duration-300" />
-            <h3 className="text-black text-xl font-medium">پیش نیازهای دوره</h3>
-            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>دوره هایی را که دانشجویان باید قبل از ثبت نام در دوره جدید تکمیل کنند، تنظیم کنید.</p>
-          </Tab>
         </TabList>
       </div>
       <div className="max-md:w-full md:w-[65%] flex-center relative">
@@ -48,9 +43,6 @@ function MonetizedCoursesTabs() {
         </TabPanel>
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={multiInstructorsImage} alt="course-addons" />
-        </TabPanel>
-        <TabPanel className="md:absolute max-md:relative">
-          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeaturePrerequisites} alt="course-addons" />
         </TabPanel>
       </div>
     </Tabs>
