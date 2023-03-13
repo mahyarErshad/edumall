@@ -1,10 +1,10 @@
 import React from "react";
 import ContentDripCard from "./ContentDripCard";
-import border from "../../../assets/images/contentDrip/circle-dots-border.png"
+import borderImage from "../../../assets/images/contentDrip/circle-dots-border.png";
 
 function ContentDrip() {
   return (
-    <section className="w-full px-4 flex-center gap-8 max-md:flex-col pt-32 pb-20">
+    <section className="w-full px-4 flex-center gap-8 max-md:flex-col py-8">
       <div className="max-md:w-full md:w-[60%] flex-center flex-col">
         <h4 className="font-medium max-md:text-3xl md:text-5xl mb-16">جریان محتوا</h4>
         <div className="w-full flex-center">
@@ -13,8 +13,8 @@ function ContentDrip() {
           <ContentDripCard counter="۰۳" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." />
         </div>
       </div>
-      <div className="max-md:w-full md:w-[35%]">
-
+      <div className="max-md:w-full md:w-[35%] relative h-[31.25rem]">
+        <img src={borderImage} alt="a circle made by dots for border" className="w-full h-full absolute" />
       </div>
     </section>
   );
