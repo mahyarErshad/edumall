@@ -6,7 +6,6 @@ import courseFeatureQuiz from "../../../assets/images/CourseManagementSystem/ima
 import courseFeatureQuiz2 from "../../../assets/images/CourseManagementSystem/images/course-feature-quiz-2.png";
 import multiInstructorsImage from "../../../assets/images/CourseManagementSystem/images/course-feature-multi-instructors.jpg";
 import courseFeaturePrerequisites from "../../../assets/images/CourseManagementSystem/images/course-feature-prerequisites.jpg";
-import backgroundImage from "../../../assets/images/tabs-background-shape.svg";
 import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
@@ -40,9 +39,6 @@ function MonetizedCoursesTabs() {
         </TabList>
       </div>
       <div className="max-md:w-full md:w-[65%] flex-center relative">
-        <div className="absolute max-lg:hidden h-full w-full -left-[10%]">
-          <img src={backgroundImage} alt="background shape" />
-        </div>
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="course-addons" />
         </TabPanel>
