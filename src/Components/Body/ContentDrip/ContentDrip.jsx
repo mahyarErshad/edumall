@@ -20,6 +20,9 @@ function ContentDrip() {
         <img src={frontImage} alt="Content drip" className="z-10 border absolute border-[#eee] rounded-[10px] shadow-md lg:h-[80%]" />
         <MouseParallaxContainer resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} containerStyle={{ overflow: "visible" }} className="absolute z-20 w-full h-full max-lg:hidden">
           <MouseParallaxChild className="absolute top-[33%] right-[10%] bg-gradient-to-b from-[#ABE54B] to-[#5EA82C] h-4 w-4 circle" inverted={true} />
+          <MouseParallaxChild className="absolute top-[33%] right-[10%] circle shadow-md">
+
+          </MouseParallaxChild>
         </MouseParallaxContainer>
       </div>
     </section>
