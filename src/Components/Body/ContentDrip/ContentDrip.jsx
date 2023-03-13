@@ -11,7 +11,7 @@ function ContentDrip() {
         <div className="w-full flex-center max-md:flex-col">
           <ContentDripCard counter="۰۱" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." hasDots />
           <ContentDripCard counter="۰۲" text="دانش آموزان تا پایان درس قبلی نمی توانند به درس بعدی دسترسی داشته باشند." hasDots />
-          <ContentDripCard counter="۰۳" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." />
+          <ContentDripCard counter="۰۳" text="مدیر، مربیان می توانند درس را تا زمان شروع قفل کنند." />
         </div>
       </div>
       <div className="max-md:w-full md:w-[35%] relative h-[31.25rem] flex-center max-md:mt-6">
