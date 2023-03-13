@@ -44,7 +44,7 @@ function MonetizedCoursesTabs() {
         </TabPanel>
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={monitizedMethords} alt="course-feature-quiz" />
-          <img src={paymentPaypal} className="absolute -bottom-[20%] -right-[30%]" alt="course-feature-quiz" />
+          <img src={paymentPaypal} className="absolute bottom-[50%] translate-y-[50%] -right-[5%] border border-[#6CBD7E] rounded-md" alt="course-feature-quiz" />
         </TabPanel>
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={multiInstructorsImage} alt="course-addons" />
