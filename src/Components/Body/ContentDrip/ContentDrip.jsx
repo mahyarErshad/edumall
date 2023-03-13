@@ -11,7 +11,7 @@ import { faLock } from "@fortawesome/free-solid-svg-icons";
 
 function ContentDrip() {
   return (
-    <section className="w-full py-8 px-4 flex-center flex-col gap-10">
+    <section className="w-full py-8 px-4 flex-center flex-col max-lg:gap-5 lg:gap-10">
       <section className="w-full flex-center md:gap-8 max-md:flex-col">
         <div className="max-md:w-full md:w-[60%] flex-center flex-col">
           <h4 className="font-medium max-md:text-3xl md:text-5xl mb-16">جریان محتوا</h4>
@@ -38,11 +38,11 @@ function ContentDrip() {
           </MouseParallaxContainer>
         </div>
       </section>
-      <section className="w-full flex-center max-md:flex-col-reverse gap-8">
-        <img src={certificateImage} alt="Certificate" className="lg:mr-[10%]" />
-        <div className="max-md:w-full md:w-2/4 flex-center flex-col gap-8">
+      <section className="w-full flex-center max-lg:flex-col-reverse max-md:gap-6 md:gap-12">
+        <img src={certificateImage} alt="Certificate" className="lg:max-w-2/4" />
+        <div className="max-lg:w-full lg:w-[40%] flex-center flex-col max-lg:gap-2 lg:gap-8">
           <h3 className="font-medium max-md:text-3xl md:text-4xl">سازنده گواهینامه</h3>
-          <p>اجومال تعدادی طرح آماده و حرفه ای گواهینامه را برای انتخاب به کاربران ارائه می دهد یا می توانید گواهینامه خود را مطابق با سبک سازمان خود ایجاد کنید.</p>
+          <p className="max-w-[35.625rem] text-[#696969] max-lg:text-center">اجومال تعدادی طرح آماده و حرفه ای گواهینامه را برای انتخاب به کاربران ارائه می دهد یا می توانید گواهینامه خود را مطابق با سبک سازمان خود ایجاد کنید.</p>
         </div>
       </section>
     </section>
