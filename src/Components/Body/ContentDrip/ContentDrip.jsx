@@ -10,7 +10,7 @@ function ContentDrip() {
         <h4 className="font-medium max-md:text-3xl md:text-5xl mb-16">جریان محتوا</h4>
         <div className="w-full flex-center max-md:flex-col">
           <ContentDripCard counter="۰۱" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." hasDots />
-          <ContentDripCard counter="۰۲" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." hasDots />
+          <ContentDripCard counter="۰۲" text="دانش آموزان تا پایان درس قبلی نمی توانند به درس بعدی دسترسی داشته باشند." hasDots />
           <ContentDripCard counter="۰۳" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." />
         </div>
       </div>
