@@ -4,7 +4,7 @@ function ContentDrip() {
   return (
     <section className="w-full px-4 flex-center gap-8 max-md:flex-col pt-32 pb-20">
       <div className="max-md:w-full md:w-[60%] flex-center flex-col">
-        <h4 className="font-medium max-md:text-3xl md:text-5xl mb-5">جریان محتوا</h4>
+        <h4 className="font-medium max-md:text-3xl md:text-5xl mb-16">جریان محتوا</h4>
         <div className="w-full flex-center">
           <figure className="flex-center flex-col gap-4 max-w-[15.625rem]">
             <div className="flex-center w-full">
