@@ -5,7 +5,7 @@ import moneyManagementImage from "../../../assets/images/monetized-courses/money
 import monitizedMethords from "../../../assets/images/monetized-courses/monitized-methords.jpg";
 import paymentPaypal from "../../../assets/images/monetized-courses/payment-paypal.jpg";
 import lifetimeAccess from "../../../assets/images/monetized-courses/lifetime-access.jpg";
-import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
+import { ReactComponent as MoneyManagementIcon } from "../../../assets/images/monetized-courses/money-management.svg";
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
 
@@ -15,7 +15,7 @@ function MonetizedCoursesTabs() {
       <div className="max-md:w-full md:w-[34%]">
         <TabList className="flex flex-col justify-start h-full gap-3 flex-center lg:pr-[10%]">
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
-            <FrontendSvg className="w-8 h-8 transition-all duration-300" />
+            <MoneyManagementIcon className=" transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">سازنده دوره مقدماتی</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>کاربران می‌توانند محتوای دوره و آزمون‌ها را ایجاد کنند یا مدرس را به راحتی اضافه کنند.</p>
           </Tab>
