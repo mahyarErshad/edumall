@@ -5,11 +5,9 @@ import moneyManagementImage from "../../../assets/images/monetized-courses/money
 import monitizedMethords from "../../../assets/images/monetized-courses/monitized-methords.jpg";
 import paymentPaypal from "../../../assets/images/monetized-courses/payment-paypal.jpg";
 import multiInstructorsImage from "../../../assets/images/CourseManagementSystem/images/course-feature-multi-instructors.jpg";
-import courseFeaturePrerequisites from "../../../assets/images/CourseManagementSystem/images/course-feature-prerequisites.jpg";
 import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
-import { ReactComponent as CoursePrerequisites } from "../../../assets/images/CourseManagementSystem/svg/coursePrerequisites.svg";
 
 function MonetizedCoursesTabs() {
   return (
