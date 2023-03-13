@@ -8,7 +8,7 @@ function ContentDrip() {
     <section className="w-full px-4 flex-center gap-8 max-md:flex-col py-8">
       <div className="max-md:w-full md:w-[60%] flex-center flex-col">
         <h4 className="font-medium max-md:text-3xl md:text-5xl mb-16">جریان محتوا</h4>
-        <div className="w-full flex-center">
+        <div className="w-full flex-center max-md:flex-col">
           <ContentDripCard counter="۰۱" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." hasDots />
           <ContentDripCard counter="۰۲" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." hasDots />
           <ContentDripCard counter="۰۳" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." />
