@@ -6,7 +6,7 @@ import monitizedMethords from "../../../assets/images/monetized-courses/monitize
 import paymentPaypal from "../../../assets/images/monetized-courses/payment-paypal.jpg";
 import lifetimeAccess from "../../../assets/images/monetized-courses/lifetime-access.jpg";
 import { ReactComponent as MoneyManagementIcon } from "../../../assets/images/monetized-courses/money-management.svg";
-import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
+import { ReactComponent as MultiplePayment } from "../../../assets/images/monetized-courses/multiplePayment.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
 
 function MonetizedCoursesTabs() {
@@ -20,7 +20,7 @@ function MonetizedCoursesTabs() {
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>کاربران می‌توانند محتوای دوره و آزمون‌ها را ایجاد کنند یا مدرس را به راحتی اضافه کنند.</p>
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
-            <QuestionMark className="w-8 h-8 transition-all duration-300" />
+            <MultiplePayment className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">تنظیمات آزمون پیشرفته</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>تنظیمات مسابقه به شما امکان می‌دهد انواع سؤالات را انتخاب کنید، محدودیت‌های زمانی تعیین کنید و بسیاری موارد دیگر.</p>
           </Tab>
