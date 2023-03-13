@@ -4,6 +4,8 @@ import borderImage from "../../../assets/images/contentDrip/circle-dots-border.p
 import frontImage from "../../../assets/images/contentDrip/lesson-preview.jpg";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 import doubleCheck from "../../../assets/images/contentDrip/shape-double-check.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLock } from "@fortawesome/free-solid-svg-icons";
 
 function ContentDrip() {
   return (
@@ -20,9 +22,12 @@ function ContentDrip() {
         <img src={borderImage} alt="a circle made by dots for border" className="absolute z-0 lg:h-full" />
         <img src={frontImage} alt="Content drip" className="z-10 border absolute border-[#eee] rounded-[10px] shadow-md lg:h-[80%]" />
         <MouseParallaxContainer resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} containerStyle={{ overflow: "visible" }} className="absolute z-20 w-full h-full max-lg:hidden">
-          <MouseParallaxChild className="absolute top-[33%] right-[10%] bg-gradient-to-b from-[#ABE54B] to-[#5EA82C] h-4 w-4 circle" inverted={true} />
+          <MouseParallaxChild className="absolute top-[20%] right-0 bg-gradient-to-b from-[#ABE54B] to-[#5EA82C] h-4 w-4 circle" inverted={true} />
           <MouseParallaxChild className="absolute top-[10%] left-[10%]">
             <img src={doubleCheck} alt="Double check" className="circle shadow-md" />
+          </MouseParallaxChild>
+          <MouseParallaxChild className="absolute top-[70%] right-[8%] p-6 bg-secondary rounded-[2rem] flex-center shadow-md">
+            <FontAwesomeIcon color="#fff" className="w-[2.125rem] h-[2.125rem]" icon={faLock} />
           </MouseParallaxChild>
         </MouseParallaxContainer>
       </div>
