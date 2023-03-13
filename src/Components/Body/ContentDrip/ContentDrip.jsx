@@ -15,6 +15,7 @@ function ContentDrip() {
       </div>
       <div className="max-md:w-full md:w-[35%] relative h-[31.25rem]">
         <img src={borderImage} alt="a circle made by dots for border" className="w-full h-full absolute z-0" />
+        
       </div>
     </section>
   );
