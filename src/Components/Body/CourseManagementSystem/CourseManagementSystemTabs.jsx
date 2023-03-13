@@ -17,7 +17,7 @@ import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse
 function CourseManagementSystemTabs() {
   return (
     <Tabs className="w-full flex-center max-md:flex-col gap-4 mt-10">
-      <div className="max-md:w-full md:w-[49%] lg:w-[34%]">
+      <div className="max-md:w-full md:w-[49%] lg:w-[34%] max-w-[30rem]">
         <TabList className="flex flex-col justify-start h-full gap-3 flex-center lg:pr-[10%]">
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} hidden-tab`}>
             <FrontendSvg className="w-8 h-8 transition-all duration-300" />
