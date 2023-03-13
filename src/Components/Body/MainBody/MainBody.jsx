@@ -8,6 +8,7 @@ import CourseManagementSystem from "../CourseManagementSystem/CourseManagementSy
 import AdministrationsOption from "../AdministrationsOption/AdministrationsOption";
 import ELearningManagement from "../ELearningManagement/ELearningManagement";
 import ContentDrip from "../ContentDrip/ContentDrip";
+import MonetizedCourses from "../MonetizedCourses/MonetizedCourses";
 
 function MainBody() {
   return (
@@ -21,6 +22,7 @@ function MainBody() {
       <AdministrationsOption />
       <ELearningManagement />
       <ContentDrip />
+      <MonetizedCourses />
     </>
   );
 }
