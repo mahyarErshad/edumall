@@ -1,5 +1,6 @@
 import React from "react";
 import ContentDripCard from "./ContentDripCard";
+import border from "../../../assets/images/contentDrip/circle-dots-border.png"
 
 function ContentDrip() {
   return (
@@ -12,7 +13,9 @@ function ContentDrip() {
           <ContentDripCard counter="۰۳" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." />
         </div>
       </div>
-      <div className="max-md:w-full md:w-[35%]"></div>
+      <div className="max-md:w-full md:w-[35%]">
+
+      </div>
     </section>
   );
 }
