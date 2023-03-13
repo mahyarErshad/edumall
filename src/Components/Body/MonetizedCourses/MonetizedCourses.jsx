@@ -7,7 +7,6 @@ import courseFeatureQuiz2 from "../../../assets/images/CourseManagementSystem/im
 import multiInstructorsImage from "../../../assets/images/CourseManagementSystem/images/course-feature-multi-instructors.jpg";
 import courseFeaturePrerequisites from "../../../assets/images/CourseManagementSystem/images/course-feature-prerequisites.jpg";
 import wavyShape from "../../../assets/images/wavy-shape.png";
-import backgroundImage from "../../../assets/images/tabs-background-shape.svg";
 import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
@@ -16,7 +15,7 @@ import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse
 
 function MonetizedCourses() {
   return (
-    <Tabs className="w-full flex-center max-md:flex-col gap-4 mt-10">
+    <Tabs className="w-full bg-[#F5F7FD] flex-center max-md:flex-col gap-4 mt-10 md:py-24 max-md:py-12">
       <div className="max-md:w-full md:w-[34%]">
         <TabList className="flex flex-col justify-start h-full gap-3 flex-center lg:pr-[10%]">
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
@@ -42,9 +41,6 @@ function MonetizedCourses() {
         </TabList>
       </div>
       <div className="max-md:w-full md:w-[65%] flex-center relative">
-        <div className="absolute max-lg:hidden h-full w-full -left-[10%]">
-          <img src={backgroundImage} alt="background shape" />
-        </div>
         <MouseParallaxContainer containerStyle={{ overflow: "visible" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} className="absolute h-full min-h-[27.1875rem] w-full max-lg:hidden">
           <MouseParallaxChild>
             <img className="absolute top-[-20%] left-[10%]" src={wavyShape} alt="wavy shape" />
