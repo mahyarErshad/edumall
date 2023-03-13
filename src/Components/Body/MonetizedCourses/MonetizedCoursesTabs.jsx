@@ -16,8 +16,8 @@ function MonetizedCoursesTabs() {
         <TabList className="flex flex-col justify-start h-full gap-3 flex-center lg:pr-[10%]">
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
             <MoneyManagementIcon className=" transition-all duration-300" />
-            <h3 className="text-black text-xl font-medium">سازنده دوره مقدماتی</h3>
-            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>کاربران می‌توانند محتوای دوره و آزمون‌ها را ایجاد کنند یا مدرس را به راحتی اضافه کنند.</p>
+            <h3 className="text-black text-xl font-medium">مدیریت مالی</h3>
+            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>با ادغام WooCommerce و EDD، می توانید به راحتی پول خود را در داشبورد خود مدیریت کنید.</p>
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
             <MultiplePayment className="transition-all duration-300" />
