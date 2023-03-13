@@ -7,7 +7,7 @@ function CourseManagementSystem() {
       <h3 className="max-md:text-3xl md:text-5xl font-medium">
         سیستم <span className="line_after">مدیریت</span> دوره
       </h3>
-      <p className="text-center text-[#7E7E7E]">اجومال با پلاگین تیوتر LMS یکپارچه شده است و دارای یک سیستم کامل برای مدیریت دوره های آموزشی است.</p>
+      <p className="text-center text-[#7E7E7E] max-w-[35.625rem]">اجومال با پلاگین تیوتر LMS یکپارچه شده است و دارای یک سیستم کامل برای مدیریت دوره های آموزشی است.</p>
       <CourseManagementSystemTabs />
     </section>
   );
