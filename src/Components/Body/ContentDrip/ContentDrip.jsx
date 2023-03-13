@@ -1,6 +1,7 @@
 import React from "react";
 import ContentDripCard from "./ContentDripCard";
 import borderImage from "../../../assets/images/contentDrip/circle-dots-border.png";
+import frontImage from "../../../assets/images/contentDrip/lesson-preview.jpg";
 
 function ContentDrip() {
   return (
