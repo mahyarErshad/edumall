@@ -21,8 +21,8 @@ function MonetizedCoursesTabs() {
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
             <MultiplePayment className="transition-all duration-300" />
-            <h3 className="text-black text-xl font-medium">تنظیمات آزمون پیشرفته</h3>
-            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>تنظیمات مسابقه به شما امکان می‌دهد انواع سؤالات را انتخاب کنید، محدودیت‌های زمانی تعیین کنید و بسیاری موارد دیگر.</p>
+            <h3 className="text-black text-xl font-medium">روش های پرداخت چندگانه</h3>
+            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>اجومال محبوب ترین روش های پرداخت را در اختیار کاربران قرار می دهد تا به همه کاربران کمک کند تا تراکنش های یکپارچه داشته باشند.</p>
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
             <LifetimeAccess className="transition-all duration-300" />
