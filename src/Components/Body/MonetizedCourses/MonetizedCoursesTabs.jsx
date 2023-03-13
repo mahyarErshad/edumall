@@ -12,7 +12,7 @@ import { ReactComponent as LifetimeAccess } from "../../../assets/images/monetiz
 function MonetizedCoursesTabs() {
   return (
     <Tabs className="w-full flex-center max-md:flex-col gap-4 mt-10">
-      <div className="max-md:w-full md:w-[34%]">
+      <div className="max-md:w-full md:w-[49%]">
         <TabList className="flex flex-col justify-start h-full gap-3 flex-center lg:pr-[10%]">
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
             <MoneyManagementIcon className=" transition-all duration-300" />
@@ -31,7 +31,7 @@ function MonetizedCoursesTabs() {
           </Tab>
         </TabList>
       </div>
-      <div className="max-md:w-full md:w-[65%] flex-center relative">
+      <div className="max-md:w-full md:w-[50%] flex-center relative">
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={moneyManagementImage} alt="course-addons" />
         </TabPanel>
