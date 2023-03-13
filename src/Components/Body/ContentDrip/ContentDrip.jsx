@@ -4,6 +4,7 @@ import borderImage from "../../../assets/images/contentDrip/circle-dots-border.p
 import frontImage from "../../../assets/images/contentDrip/lesson-preview.jpg";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 import doubleCheck from "../../../assets/images/contentDrip/shape-double-check.jpg";
+import certificateImage from "../../../assets/images/contentDrip/certificate.jpg";
 import shapeCube from "../../../assets/images/contentDrip/shape-cube.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
@@ -39,8 +40,9 @@ function ContentDrip() {
       </section>
       <section className="w-full flex-center max-md:flex-col gap-8">
       <div>
-        
+
       </div>
+      
       </section>
     </section>
   );
