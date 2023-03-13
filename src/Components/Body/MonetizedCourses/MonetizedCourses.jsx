@@ -7,7 +7,7 @@ function MonetizedCourses() {
       <h3 className="max-md:text-3xl md:text-5xl font-medium">
         <span className="line_after">درآمد</span> از دوره های آموزشی
       </h3>
-      <p className="text-center text-[#7E7E7E]">اجومال با پلاگین تیوتر LMS یکپارچه شده است و دارای یک سیستم کامل برای مدیریت دوره های آموزشی است.</p>
+      <p className="text-center text-[#7E7E7E]">تیوتر LMS کاربران را قادر می سازد تا پلتفرم آموزش الکترونیکی شما را به راحتی مدیریت کنند و بر تمام دوره های شما نظارت داشته باشند</p>
       <MonetizedCoursesTabs />
     </section>
   );
