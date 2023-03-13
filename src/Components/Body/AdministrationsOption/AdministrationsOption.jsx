@@ -7,7 +7,7 @@ function AdministrationsOption() {
       <h3 className="max-md:text-3xl md:text-5xl font-medium">
         گزینه های <span className="line_after">مدیریت</span>
       </h3>
-      <p className="text-center text-[#7E7E7E]">اجومال به لطف ادغام افزونه تیوتر LMS کنترل کامل وب سایت آموزشی شما را در اختیار کاربران قرار می دهد.</p>
+      <p className="text-center text-[#7E7E7E] max-w-[35.625rem]">اجومال به لطف ادغام افزونه تیوتر LMS کنترل کامل وب سایت آموزشی شما را در اختیار کاربران قرار می دهد.</p>
       <AdministrationsOptionTabs />
     </section>
   );
