@@ -14,9 +14,9 @@ function ContentDrip() {
           <ContentDripCard counter="۰۳" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." />
         </div>
       </div>
-      <div className="max-md:w-full md:w-[35%] relative h-[31.25rem]">
+      <div className="max-md:w-full md:w-[35%] relative h-[31.25rem] flex-center">
         <img src={borderImage} alt="a circle made by dots for border" className="w-full h-full absolute z-0" />
-        
+        <img src={frontImage} alt="Content drip" className="z-20 border border-[#eee] rounded-[10px] shadow-md h-[80%]" />
       </div>
     </section>
   );
