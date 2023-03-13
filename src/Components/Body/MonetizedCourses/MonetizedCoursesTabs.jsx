@@ -1,7 +1,7 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import styles from "./styles.module.css";
-import courseAddons from "../../../assets/images/CourseManagementSystem/images/course-addons.jpg";
+import moneyManagementImage from "../../../assets/images/monetized-courses/money-management.jpg";
 import courseFeatureQuiz from "../../../assets/images/CourseManagementSystem/images/course-feature-quiz.jpg";
 import courseFeatureQuiz2 from "../../../assets/images/CourseManagementSystem/images/course-feature-quiz-2.png";
 import multiInstructorsImage from "../../../assets/images/CourseManagementSystem/images/course-feature-multi-instructors.jpg";
@@ -40,7 +40,7 @@ function MonetizedCoursesTabs() {
       </div>
       <div className="max-md:w-full md:w-[65%] flex-center relative">
         <TabPanel className="md:absolute max-md:relative">
-          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseAddons} alt="course-addons" />
+          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={moneyManagementImage} alt="course-addons" />
         </TabPanel>
         <TabPanel className="md:absolute max-md:relative">
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={courseFeatureQuiz} alt="course-feature-quiz" />
