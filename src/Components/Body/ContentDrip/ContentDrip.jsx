@@ -2,6 +2,7 @@ import React from "react";
 import ContentDripCard from "./ContentDripCard";
 import borderImage from "../../../assets/images/contentDrip/circle-dots-border.png";
 import frontImage from "../../../assets/images/contentDrip/lesson-preview.jpg";
+import { MouseParallaxContainer } from "react-parallax-mouse";
 
 function ContentDrip() {
   return (
@@ -17,9 +18,9 @@ function ContentDrip() {
       <div className="max-md:w-full md:w-[35%] relative h-[31.25rem] flex-center max-md:mt-6">
         <img src={borderImage} alt="a circle made by dots for border" className="absolute z-0 lg:h-full" />
         <img src={frontImage} alt="Content drip" className="z-20 border border-[#eee] rounded-[10px] shadow-md lg:h-[80%]" />
-        <div className="absolute w-full h-full max-lg:hidden">
+        <MouseParallaxContainer resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} containerStyle={{ overflow: "visible" }} className="absolute w-full h-full max-lg:hidden">
 
-        </div>
+        </MouseParallaxContainer>
       </div>
     </section>
   );
