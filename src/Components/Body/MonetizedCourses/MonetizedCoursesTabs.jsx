@@ -7,7 +7,7 @@ import paymentPaypal from "../../../assets/images/monetized-courses/payment-payp
 import lifetimeAccess from "../../../assets/images/monetized-courses/lifetime-access.jpg";
 import { ReactComponent as MoneyManagementIcon } from "../../../assets/images/monetized-courses/money-management.svg";
 import { ReactComponent as MultiplePayment } from "../../../assets/images/monetized-courses/multiplePayment.svg";
-import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
+import { ReactComponent as LifetimeAccess } from "../../../assets/images/monetized-courses/lifetime-access.svg";
 
 function MonetizedCoursesTabs() {
   return (
@@ -25,7 +25,7 @@ function MonetizedCoursesTabs() {
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>تنظیمات مسابقه به شما امکان می‌دهد انواع سؤالات را انتخاب کنید، محدودیت‌های زمانی تعیین کنید و بسیاری موارد دیگر.</p>
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
-            <MultipleInstructors className="w-8 h-8 transition-all duration-300" />
+            <LifetimeAccess className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">چندین مربی</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>یک دوره می تواند بیش از یک مدرس داشته باشد. شما می توانید هر تعداد مربی که می خواهید داشته باشید.</p>
           </Tab>
