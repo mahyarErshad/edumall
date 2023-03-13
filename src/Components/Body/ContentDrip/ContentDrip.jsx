@@ -9,7 +9,7 @@ function ContentDrip() {
           <figure className="flex-center flex-col">
             <div className="flex-center">
               <span className="font-medium w-12 h-12 flex-center rounded-[20px] bg-[#f1f3fa] text-primary">1</span>
-              <span></span>
+              <span className="flex-grow h-1 "></span>
             </div>
             <p>بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید.</p>
           </figure>

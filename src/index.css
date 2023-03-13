@@ -133,3 +133,9 @@ li {
 .tab.react-tabs__tab--selected p {
   display: block;
 }
+.background-infinite-dots{
+  background: radial-gradient(ellipse at center,#e5e8ec 0,#e5e8ec 20%,transparent 0);
+  background-size: 14px 14px;
+  background-repeat: repeat-x;
+  background-position: 0;
+}
