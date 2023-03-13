@@ -26,8 +26,8 @@ function MonetizedCoursesTabs() {
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
             <LifetimeAccess className="transition-all duration-300" />
-            <h3 className="text-black text-xl font-medium">چندین مربی</h3>
-            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>یک دوره می تواند بیش از یک مدرس داشته باشد. شما می توانید هر تعداد مربی که می خواهید داشته باشید.</p>
+            <h3 className="text-black text-xl font-medium">دسترسی مادام العمر</h3>
+            <p className={`${styles.description} text-sm font-normal text-[#696969]`}>به لطف دسترسی مادام العمر ارائه شده از تیوتر LMS، دانشجویان همیشه می توانند به دوره قبل از ثبت نام، دسترسی داشته باشند.</p>
           </Tab>
         </TabList>
       </div>
