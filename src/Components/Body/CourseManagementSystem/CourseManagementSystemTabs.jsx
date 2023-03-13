@@ -19,22 +19,22 @@ function CourseManagementSystemTabs() {
     <Tabs className="w-full flex-center max-md:flex-col gap-4 mt-10">
       <div className="max-md:w-full md:w-[34%]">
         <TabList className="flex flex-col justify-start h-full gap-3 flex-center lg:pr-[10%]">
-          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
+          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} hidden-tab`}>
             <FrontendSvg className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">سازنده دوره مقدماتی</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>کاربران می‌توانند محتوای دوره و آزمون‌ها را ایجاد کنند یا مدرس را به راحتی اضافه کنند.</p>
           </Tab>
-          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
+          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} hidden-tab`}>
             <QuestionMark className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">تنظیمات آزمون پیشرفته</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>تنظیمات مسابقه به شما امکان می‌دهد انواع سؤالات را انتخاب کنید، محدودیت‌های زمانی تعیین کنید و بسیاری موارد دیگر.</p>
           </Tab>
-          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
+          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} hidden-tab`}>
             <MultipleInstructors className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">چندین مربی</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>یک دوره می تواند بیش از یک مدرس داشته باشد. شما می توانید هر تعداد مربی که می خواهید داشته باشید.</p>
           </Tab>
-          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
+          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} hidden-tab`}>
             <CoursePrerequisites className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">پیش نیازهای دوره</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>دوره هایی را که دانشجویان باید قبل از ثبت نام در دوره جدید تکمیل کنند، تنظیم کنید.</p>

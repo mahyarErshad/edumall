@@ -119,17 +119,17 @@ li {
 .circle {
   border-radius: 50%;
 }
-.react-tabs__tab--selected {
+.hidden-tab.react-tabs__tab--selected {
   border: none;
   background-color: white;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.09);
 }
-.react-tabs__tab--selected svg {
+.hidden-tab.react-tabs__tab--selected svg {
   fill: var(--primary-color) !important;
 }
-.tab.react-tabs__tab--selected {
+.hidden-tab.tab.react-tabs__tab--selected {
   grid-template-rows: 1fr 2fr;
 }
-.tab.react-tabs__tab--selected p {
+.react-tabs__tab--selected  p{
   display: block;
 }

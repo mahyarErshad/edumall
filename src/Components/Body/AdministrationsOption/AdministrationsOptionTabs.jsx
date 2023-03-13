@@ -45,22 +45,22 @@ function AdministrationsOptionTabs() {
       </div>
       <div className="max-md:w-full md:w-[34%]">
         <TabList className="flex flex-col justify-start h-full gap-3 flex-center lg:pr-[10%]">
-          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
+          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} hidden-tab`}>
             <ReportsSvg className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">گزارشات و تجزیه و تحلیل پیشرفته</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>مدیر می تواند آمار را پیگیری کند، تمام مدرسان و دانش آموزان را از داشبورد مدیریت کند</p>
           </Tab>
-          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
+          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} hidden-tab`}>
             <ReviewsSvg className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">مدیریت نظرات</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>کلیه بررسی دوره های دانشجویان توسط مدیر نظارت (تأیید، حذف) خواهد شد</p>
           </Tab>
-          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
+          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} hidden-tab`}>
             <EmailSvg className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">اعلان ایمیلی</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>گزینه هایی برای اطلاع رسانی پیشرفت یا اطلاع رسانی به دانش آموزان و معلمان از طریق ایمیل وجود دارد</p>
           </Tab>
-          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
+          <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} hidden-tab`}>
             <QASvg className="w-8 h-8 transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">عملیات پرسش و پاسخ</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>بستری که دانش آموزان می توانند نظر بدهند، در مورد دوره ها یا مشکلات مربوطه سوال بپرسند</p>
