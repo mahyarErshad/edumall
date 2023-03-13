@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 import moneyManagementImage from "../../../assets/images/monetized-courses/money-management.jpg";
 import monitizedMethords from "../../../assets/images/monetized-courses/monitized-methords.jpg";
 import paymentPaypal from "../../../assets/images/monetized-courses/payment-paypal.jpg";
-import multiInstructorsImage from "../../../assets/images/CourseManagementSystem/images/course-feature-multi-instructors.jpg";
+import lifetimeAccess from "../../../assets/images/monetized-courses/lifetime-access.jpg";
 import { ReactComponent as FrontendSvg } from "../../../assets/images/CourseManagementSystem/svg/frontend.svg";
 import { ReactComponent as QuestionMark } from "../../../assets/images/CourseManagementSystem/svg/questionMark.svg";
 import { ReactComponent as MultipleInstructors } from "../../../assets/images/CourseManagementSystem/svg/multipleInstructors.svg";
@@ -40,7 +40,7 @@ function MonetizedCoursesTabs() {
           <img src={paymentPaypal} className="absolute bottom-[50%] translate-y-[50%] -right-[5%] border border-[#6CBD7E] rounded-md" alt="course-feature-quiz" />
         </TabPanel>
         <TabPanel className="md:absolute max-md:relative">
-          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={multiInstructorsImage} alt="course-addons" />
+          <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] h-full z-10" src={lifetimeAccess} alt="course-addons" />
         </TabPanel>
       </div>
     </Tabs>
