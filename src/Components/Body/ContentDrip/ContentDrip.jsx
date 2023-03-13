@@ -42,6 +42,7 @@ function ContentDrip() {
         <img src={certificateImage} alt="Certificate" className="lg:mr-[10%]" />
         <div className="max-md:w-full md:w-2/4 flex-center flex-col gap-8">
           <h3 className="font-medium max-md:text-3xl md:text-4xl">سازنده گواهینامه</h3>
+          <p>اجومال تعدادی طرح آماده و حرفه ای گواهینامه را برای انتخاب به کاربران ارائه می دهد یا می توانید گواهینامه خود را مطابق با سبک سازمان خود ایجاد کنید.</p>
         </div>
       </section>
     </section>
