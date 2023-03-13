@@ -17,7 +17,7 @@ import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse
 function AdministrationsOptionTabs() {
   return (
     <Tabs className="w-full flex-center max-md:flex-col-reverse gap-4 mt-10">
-      <div className="max-md:w-full md:w-[65%] flex-center relative">
+      <div className="max-md:w-full md:w-[49%] lg:w-[65%] flex-center relative">
         <div className="absolute max-lg:hidden h-full w-full top-[80%] -rotate-45">
           <img src={backgroundImage} alt="background shape" />
         </div>
@@ -43,7 +43,7 @@ function AdministrationsOptionTabs() {
           <img className="border-[0.375rem] border-[#333] test shadow-lg rounded-[1.25rem] w-[40%] z-10" src={qa2} alt="course-addons" />
         </TabPanel>
       </div>
-      <div className="max-md:w-full md:w-[34%]">
+      <div className="max-md:w-full md:w-[49%] lg:w-[34%]">
         <TabList className="flex flex-col justify-start h-full gap-3 flex-center lg:pr-[10%]">
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} hidden-tab`}>
             <ReportsSvg className="w-8 h-8 transition-all duration-300" />
