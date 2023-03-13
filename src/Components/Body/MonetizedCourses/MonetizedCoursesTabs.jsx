@@ -20,7 +20,7 @@ function MonetizedCoursesTabs() {
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>کاربران می‌توانند محتوای دوره و آزمون‌ها را ایجاد کنند یا مدرس را به راحتی اضافه کنند.</p>
           </Tab>
           <Tab className={`gap-4 w-full py-6 px-8 rounded-lg cursor-pointer ${styles.tab} tab`}>
-            <MultiplePayment className="w-8 h-8 transition-all duration-300" />
+            <MultiplePayment className="transition-all duration-300" />
             <h3 className="text-black text-xl font-medium">تنظیمات آزمون پیشرفته</h3>
             <p className={`${styles.description} text-sm font-normal text-[#696969]`}>تنظیمات مسابقه به شما امکان می‌دهد انواع سؤالات را انتخاب کنید، محدودیت‌های زمانی تعیین کنید و بسیاری موارد دیگر.</p>
           </Tab>
