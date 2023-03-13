@@ -19,3 +19,6 @@
   .tab:hover h3{
     color: #252525;
   }
+  .tab h3{
+    transition: all ease 0.3s;
+  }
