@@ -22,6 +22,9 @@ function BodyPress() {
         </div>
       </div>
       <div className="max-md:w-full md:w-[60%] relative flex-center">
+      <div className="absolute circle bg-white w-[12.8125rem] h-[12.8125rem] opacity-10">
+
+      </div>
         <img src={image} alt="Body Press" />
       </div>
     </section>
