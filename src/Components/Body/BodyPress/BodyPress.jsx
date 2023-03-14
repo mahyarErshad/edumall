@@ -14,7 +14,7 @@ function BodyPress() {
           <p className="mt-6 max-md:text-center text-white">با ادغام بادی پرس، همه کاربران شامل دانشجویان و مدرسان می توانند:</p>
           <section className="flex flex-col mt-8 gap-6">
             <BodyPressCheckList text="تعامل در گروه های دوره" />
-            <BodyPressCheckList text="تعامل در گروه های دوره" />
+            <BodyPressCheckList text="اخبار و به‌ روزرسانی‌ها را در فیدهایی درست مثل شبکه‌های اجتماعی بخوانید" />
             <BodyPressCheckList text="تعامل در گروه های دوره" />
           </section>
         </div>
