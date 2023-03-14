@@ -10,6 +10,7 @@ import ELearningManagement from "../ELearningManagement/ELearningManagement";
 import ContentDrip from "../ContentDrip/ContentDrip";
 import MonetizedCourses from "../MonetizedCourses/MonetizedCourses";
 import BodyPress from "../BodyPress/BodyPress";
+import CourseLayout from "../CourseLayout/CourseLayout";
 
 function MainBody() {
   return (
@@ -25,6 +26,7 @@ function MainBody() {
       <ContentDrip />
       <MonetizedCourses />
       <BodyPress />
+      <CourseLayout />
     </>
   );
 }
