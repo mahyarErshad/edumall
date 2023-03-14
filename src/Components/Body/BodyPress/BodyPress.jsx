@@ -10,6 +10,7 @@ function BodyPress() {
           <h3 className={`${styles["line-height"]} font-medium max-md:text-xl md:text-5xl text-white`}>
             بهترین جامعه آموزشی را با <mark className={styles["text-shadow"]}>بادی پرس</mark> بسازید
           </h3>
+          <p>با ادغام بادی پرس، همه کاربران شامل دانشجویان و مدرسان می توانند:</p>
         </div>
       </div>
       <div className="max-md:w-full md:w-[60%]"></div>
