@@ -6,6 +6,7 @@ function BodyPress() {
       <div className="max-md:w-full md:w-[40%] flex-center">
         <div className="flex flex-col justify-start">
           <span className="py-1 px-4 bg-gradient-to-bl from-[#F646A9] to-[#5C51FF] text-white font-medium text-lg w-fit rounded-md mb-7">جامعه</span>
+          <h3 className="font-medium max-md:text-xl md:text-5xl text-white leading-5">بهترین جامعه آموزشی را با</h3>
         </div>
       </div>
       <div className="max-md:w-full md:w-[60%]"></div>
