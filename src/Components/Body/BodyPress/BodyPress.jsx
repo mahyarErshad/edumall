@@ -1,6 +1,7 @@
 import React from "react";
 import BodyPressCheckList from "./BodyPressCheckList";
 import styles from "./styles.module.css";
+import image from "../../../assets/images/body-press-image.png"
 
 function BodyPress() {
   return (
@@ -20,7 +21,7 @@ function BodyPress() {
         </div>
       </div>
       <div className="max-md:w-full md:w-[60%] relative flex-center">
-      
+
       </div>
     </section>
   );
