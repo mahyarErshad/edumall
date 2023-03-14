@@ -15,7 +15,7 @@ function BodyPress() {
           <section className="flex flex-col mt-8 gap-6">
             <BodyPressCheckList text="تعامل در گروه های دوره" />
             <BodyPressCheckList text="اخبار و به‌ روزرسانی‌ها را در فیدهایی درست مثل شبکه‌های اجتماعی بخوانید" />
-            <BodyPressCheckList text="تعامل در گروه های دوره" />
+            <BodyPressCheckList text="نمایه خود را ایجاد کنید و گفتگوهای خصوصی داشته باشید." />
           </section>
         </div>
       </div>
