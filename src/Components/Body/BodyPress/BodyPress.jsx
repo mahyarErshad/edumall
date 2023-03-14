@@ -1,4 +1,5 @@
 import React from "react";
+import BodyPressCheckList from "./BodyPressCheckList";
 import styles from "./styles.module.css";
 
 function BodyPress() {
@@ -13,7 +14,7 @@ function BodyPress() {
           <p className="mt-6 max-md:text-center text-white">با ادغام بادی پرس، همه کاربران شامل دانشجویان و مدرسان می توانند:</p>
         </div>
         <section className="flex flex-col justify-start mt-8 gap-6">
-
+          <BodyPressCheckList text="تعامل در گروه های دوره" />
         </section>
       </div>
       <div className="max-md:w-full md:w-[60%]"></div>
