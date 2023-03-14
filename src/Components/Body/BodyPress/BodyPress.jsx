@@ -6,8 +6,8 @@ import bodyPressLogo from "../../../assets/images/buddypress-logo.jpg";
 
 function BodyPress() {
   return (
-    <section className="w-full px-4 bg-gradient-to-b from-[#1600C3] to-[#AE6DD7] py-10 flex-center max-md:flex-col">
-      <div className="max-md:w-full md:w-[40%] flex-center">
+    <section className="w-full px-4 bg-gradient-to-b from-[#1600C3] to-[#AE6DD7] py-10 flex-center max-lg:flex-col">
+      <div className="max-lg:w-full lg:w-[40%] flex-center">
         <div className="flex flex-col justify-start max-w-[31.25rem]">
           <span className="py-1 px-4 bg-gradient-to-bl from-[#F646A9] to-[#5C51FF] text-white font-medium text-lg w-fit rounded-md mb-7">جامعه</span>
           <h3 className={`${styles["line-height"]} font-medium max-md:text-xl md:text-5xl text-white`}>
@@ -21,7 +21,7 @@ function BodyPress() {
           </section>
         </div>
       </div>
-      <div className="max-md:w-full md:w-[60%] relative flex-center">
+      <div className="max-lg:w-full lg:w-[60%] relative flex-center">
         <div className={`${styles.hover} absolute circle bg-white w-[12.8125rem] h-[12.8125rem] bg-[#FFFFFF1A] flex-center top-0 right-0 max-lg:hidden`}>
           <img src={bodyPressLogo} alt="Bodypress Logo" className="circle opacity-80 w-[6.125rem] h-[6.125rem] transition-all duration-300" />
         </div>
