@@ -9,6 +9,7 @@ import AdministrationsOption from "../AdministrationsOption/AdministrationsOptio
 import ELearningManagement from "../ELearningManagement/ELearningManagement";
 import ContentDrip from "../ContentDrip/ContentDrip";
 import MonetizedCourses from "../MonetizedCourses/MonetizedCourses";
+import BodyPress from "../BodyPress/BodyPress";
 
 function MainBody() {
   return (
@@ -23,6 +24,7 @@ function MainBody() {
       <ELearningManagement />
       <ContentDrip />
       <MonetizedCourses />
+      <BodyPress />
     </>
   );
 }
