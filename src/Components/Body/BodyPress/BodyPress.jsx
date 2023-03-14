@@ -8,7 +8,7 @@ function BodyPress() {
         <div className="flex flex-col justify-start max-w-[27.1875rem]">
           <span className="py-1 px-4 bg-gradient-to-bl from-[#F646A9] to-[#5C51FF] text-white font-medium text-lg w-fit rounded-md mb-7">جامعه</span>
           <h3 className={`${styles["line-height"]} font-medium max-md:text-xl md:text-5xl text-white`}>
-            بهترین جامعه آموزشی را با <mark className="">بادی پرس</mark> بسازید
+            بهترین جامعه آموزشی را با <mark className={styles["text-shadow"]}>بادی پرس</mark> بسازید
           </h3>
         </div>
       </div>
