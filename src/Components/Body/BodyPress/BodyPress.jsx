@@ -19,7 +19,9 @@ function BodyPress() {
           </section>
         </div>
       </div>
-      <div className="max-md:w-full md:w-[60%]"></div>
+      <div className="max-md:w-full md:w-[60%] relative flex-center">
+      
+      </div>
     </section>
   );
 }
