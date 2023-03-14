@@ -12,10 +12,10 @@ function BodyPress() {
             بهترین جامعه آموزشی را با <mark className={styles["text-shadow"]}>بادی پرس</mark> بسازید
           </h3>
           <p className="mt-6 max-md:text-center text-white">با ادغام بادی پرس، همه کاربران شامل دانشجویان و مدرسان می توانند:</p>
+          <section className="flex flex-col mt-8 gap-6">
+            <BodyPressCheckList text="تعامل در گروه های دوره" />
+          </section>
         </div>
-        <section className="flex flex-col justify-start mt-8 gap-6">
-          <BodyPressCheckList text="تعامل در گروه های دوره" />
-        </section>
       </div>
       <div className="max-md:w-full md:w-[60%]"></div>
     </section>
