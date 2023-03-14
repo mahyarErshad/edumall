@@ -12,9 +12,9 @@ function BodyPress() {
           </h3>
           <p className="mt-6 max-md:text-center text-white">با ادغام بادی پرس، همه کاربران شامل دانشجویان و مدرسان می توانند:</p>
         </div>
-        <div className="flex flex-col justify-start mt-8 gap-6">
-        
-        </div>
+        <section className="flex flex-col justify-start mt-8 gap-6">
+
+        </section>
       </div>
       <div className="max-md:w-full md:w-[60%]"></div>
     </section>
