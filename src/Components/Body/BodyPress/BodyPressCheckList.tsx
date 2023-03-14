@@ -11,6 +11,7 @@ function BodyPressCheckList(props: IProps) {
       <span className="circle w-[1.875rem] h-[1.875rem] bg-[#6CBD7E] flex-center">
         <FontAwesomeIcon icon={faCheck} />
       </span>
+      <p>{props.text}</p>
     </div>
   );
 }
