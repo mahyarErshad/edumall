@@ -2,7 +2,7 @@ import React from 'react'
 
 function BodyPress() {
   return (
-    <section className=''>BodyPress</section>
+    <section className='w-full px-4 bg-gradient-to-b from-[#1600C3] to-[#AE6DD7]'>BodyPress</section>
   )
 }
 
