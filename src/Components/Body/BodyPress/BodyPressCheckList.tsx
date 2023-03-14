@@ -1,6 +1,9 @@
 import React from 'react'
+interface IProps{
+  text: string;
+}
 
-function BodyPressCheckList() {
+function BodyPressCheckList(props:IProps) {
   return (
     <div>
         
