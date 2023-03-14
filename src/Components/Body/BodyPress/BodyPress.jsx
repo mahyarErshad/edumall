@@ -22,9 +22,9 @@ function BodyPress() {
         </div>
       </div>
       <div className="max-md:w-full md:w-[60%] relative flex-center">
-      <div className="absolute circle bg-white w-[12.8125rem] h-[12.8125rem] opacity-10">
-
-      </div>
+        <div className={`${styles.hover} absolute circle bg-white w-[12.8125rem] h-[12.8125rem] bg-[#FFFFFF1A] flex-center top-0 right-0`}>
+          <img src={bodyPressLogo} alt="Bodypress Logo" className="circle opacity-80 w-[6.125rem] h-[6.125rem] transition-all duration-300" />
+        </div>
         <img src={image} alt="Body Press" />
       </div>
     </section>

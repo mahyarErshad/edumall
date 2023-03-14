@@ -9,3 +9,6 @@
   background-clip: text;
   text-shadow: 0px 0px 40px rgba(255, 155.99999999999994, 22.000000000000007, 0.39);
 }
+.hover:hover img{
+    opacity: 1;
+}
