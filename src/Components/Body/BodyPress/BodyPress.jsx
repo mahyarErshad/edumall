@@ -2,6 +2,7 @@ import React from "react";
 import BodyPressCheckList from "./BodyPressCheckList";
 import styles from "./styles.module.css";
 import image from "../../../assets/images/body-press-image.png";
+import bodyPressLogo from "../../../assets/images/buddypress-logo.jpg";
 
 function BodyPress() {
   return (
