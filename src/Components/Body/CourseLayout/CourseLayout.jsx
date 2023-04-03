@@ -24,6 +24,7 @@ function CourseLayout() {
         <MouseParallaxChild className="absolute top-[-8.125rem] right-[1.4375rem] bg-transparent border border-white circle w-[28.625rem] h-[28.625rem] opacity-40" />
         <MouseParallaxChild className="absolute top-0 right-[10rem] bg-transparent border border-white circle w-[12rem] h-[12rem] opacity-40" inverted={true} />
         <MouseParallaxChild className="absolute left-[9.8125rem] top-[18.0625rem] bg-gradient-to-b from-[#529CFD] to-[#75C9FD] h-[3.375rem] w-[3.375rem] circle" />
+        <MouseParallaxChild className="absolute left-[20rem] top-[25rem] bg-gradient-to-b from-[#AFE84F] to-[#55A229] h-[0.875rem] w-[0.875rem] circle" inverted={true} />
       </MouseParallaxContainer>
     </section>
   );
