@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./style.module.css";
+import laptopImage from "../../../assets/images/course-laptop.png"
 
 function CourseLayout() {
   return (
@@ -11,7 +12,9 @@ function CourseLayout() {
           <p className="text-base text-[#FFFFFFB3] leading-8">کاربران می‌توانند از میان ۷+ طرح‌بندی دوره‌های مختلف برای پلتفرم آموزش الکترونیکی شما انتخاب کنند</p>
         </div>
       </div>
-      <div className="max-lg:w-full lg:w-[60%] relative flex-center"></div>
+      <div className="max-lg:w-full lg:w-[60%] relative flex-center">
+
+      </div>
     </section>
   );
 }
