@@ -8,7 +8,7 @@ function CourseLayout() {
         <div className="flex flex-col justify-start max-w-[31.25rem] w-full max-md:gap-4 md:gap-6">
           <span className={`${styles.counter} line_after w-fit`}>+۰۷</span>
           <h3 className="max-md:text-2xl md:text-5xl text-white font-medium">طرح بندی دوره</h3>
-          <p>کاربران می‌توانند از میان ۷+ طرح‌بندی دوره‌های مختلف برای پلتفرم آموزش الکترونیکی شما انتخاب کنند</p>
+          <p className="text-base text-[#FFFFFFB3] leading-8">کاربران می‌توانند از میان ۷+ طرح‌بندی دوره‌های مختلف برای پلتفرم آموزش الکترونیکی شما انتخاب کنند</p>
         </div>
       </div>
       <div className="max-lg:w-full lg:w-[60%] relative flex-center"></div>
