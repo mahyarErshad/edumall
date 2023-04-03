@@ -4,7 +4,7 @@ import laptopImage from "../../../assets/images/course-laptop.png";
 
 function CourseLayout() {
   return (
-    <section className="w-full px-4 bg-navy pt-24 pb-10 flex-center max-lg:flex-col-reverse overflow-visible">
+    <section className="w-full px-4 bg-navy pt-24 pb-10 flex-center max-lg:flex-col-reverse overflow-y-visible">
       <div className="max-lg:w-full lg:w-[40%] flex-center">
         <div className="flex flex-col justify-start max-w-[31.25rem] w-full max-md:gap-4 md:gap-6">
           <span className={`${styles.counter} line_after w-fit`}>+۰۷</span>
