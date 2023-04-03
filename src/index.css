@@ -107,15 +107,8 @@ li {
   height: 100%;
   right: 0;
 }
-@media screen and (min-width: 768px) {
-  .line_after::after {
-    bottom: -2.5rem;
-  }
-}
-@media not all and (min-width: 768px) {
-  .line_after::after {
-    bottom: -1.5rem;
-  }
+.line_after::after {
+  bottom: -2.5rem;
 }
 .circle {
   border-radius: 50%;
