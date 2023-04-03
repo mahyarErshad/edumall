@@ -3,16 +3,14 @@ import styles from "./style.module.css";
 
 function CourseLayout() {
   return (
-    <section className="px-4 py-10 w-full flex flex-col bg-navy">
-      <div className="max-lg:w-full lg:w-[40%] flex-center max-md:flex-col-reverse">
-        <div className="flex justify-start max-w-[34.125rem]">
-          <span className={`${styles.counter} line_after`}>+۰۷</span>
-          <h3>طرح بندی دوره</h3>
+    <section className="w-full px-4 bg-navy py-10 flex-center max-lg:flex-col">
+      <div className="max-lg:w-full lg:w-[40%] flex-center">
+        <div className="flex flex-col justify-start max-w-[31.25rem] w-full">
+          <span className={`${styles.counter} line_after w-fit`}>+۰۷</span>
         </div>
-        <div className="flex justify-start max-md:w-full md:w-2/4"></div>
       </div>
+      <div className="max-lg:w-full lg:w-[60%] relative flex-center"></div>
     </section>
   );
 }
-
 export default CourseLayout;
