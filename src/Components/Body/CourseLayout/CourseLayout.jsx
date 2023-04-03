@@ -12,7 +12,7 @@ function CourseLayout() {
           <p className="text-base text-[#FFFFFFB3] leading-8">کاربران می‌توانند از میان ۷+ طرح‌بندی دوره‌های مختلف برای پلتفرم آموزش الکترونیکی شما انتخاب کنند</p>
         </div>
       </div>
-      <div className="max-lg:w-full lg:w-[60%] relative flex-center">
+      <div className="max-lg:w-full lg:w-[60%] relative flex-center lg:justify-start lg:pr-[10%]">
         <img src={laptopImage} alt="An open laptop showing courses" />
       </div>
     </section>
