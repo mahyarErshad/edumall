@@ -7,7 +7,7 @@ function CourseLayout() {
       <div className="max-lg:w-full lg:w-[40%] flex-center">
         <div className="flex flex-col justify-start max-w-[31.25rem] w-full">
           <span className={`${styles.counter} line_after w-fit`}>+۰۷</span>
-          <h3 className="max-md:text-2xl md:text-5xl text-white font-medium">طرح بندی دوره</h3>
+          <h3 className="max-md:text-2xl md:text-5xl text-white font-medium max-md:mt-4 md:mt-6">طرح بندی دوره</h3>
         </div>
       </div>
       <div className="max-lg:w-full lg:w-[60%] relative flex-center"></div>
