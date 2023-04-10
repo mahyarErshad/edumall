@@ -12,6 +12,7 @@ import MonetizedCourses from "../MonetizedCourses/MonetizedCourses";
 import BodyPress from "../BodyPress/BodyPress";
 import CourseLayout from "../CourseLayout/CourseLayout";
 import WooCommerceIntegration from "../WooCommerceIntegration/WooCommerceIntegration";
+import PremiumPlugins from "../PremiumPlugins/PremiumPlugins";
 
 function MainBody() {
   return (
@@ -29,6 +30,7 @@ function MainBody() {
       <BodyPress />
       <CourseLayout />
       <WooCommerceIntegration />
+      <PremiumPlugins />
     </>
   );
 }
