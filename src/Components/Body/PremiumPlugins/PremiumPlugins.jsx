@@ -1,4 +1,12 @@
 import React from "react";
+import tutor from "../../../assets/images/premium-plugins/tutor.jpg";
+import zoom from "../../../assets/images/premium-plugins/zoom.jpg";
+import elementor from "../../../assets/images/premium-plugins/elementor.jpg";
+import MailChimp from "../../../assets/images/premium-plugins/MailChimp.jpg";
+import BuddyPress from "../../../assets/images/premium-plugins/buddypress.jpg";
+import WooCommerce from "../../../assets/images/premium-plugins/woocommerce.jpg";
+import paidMemberShip from "../../../assets/images/premium-plugins/paid-membership.jpg";
+import contactForm from "../../../assets/images/premium-plugins/contact-form.jpg";
 
 function PremiumPlugins() {
   return (
