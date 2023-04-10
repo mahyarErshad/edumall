@@ -59,7 +59,7 @@ export default function Slider() {
     },
   ];
   return (
-    <section className="w-full px-4">
+    <section className="w-full">
       <Swiper
         slidesPerView={"auto"}
         spaceBetween={30}
@@ -72,11 +72,9 @@ export default function Slider() {
       >
         {data.map((item, index) => {
           return (
-            <SwiperSlide key={index}>
-              <a className="flex flex-col gap-5" target="_blank" rel="noreferrer" href={data.href}>
-                <img className="rounded-[0.625rem]" src={item.image} alt={item.text} />
-                <p className="text-base text-white text-right">{item.text}</p>
-              </a>
+            <SwiperSlide className="flex flex-col items-start gap-5 cursor-pointer" onClick={() => window.open(item.href, "_blank")} key={index}>
+              <img className="rounded-[0.625rem]" src={item.image} alt={item.text} />
+              <p className="text-base text-white transition-all duration-300">{item.text}</p>
             </SwiperSlide>
           );
         })}
