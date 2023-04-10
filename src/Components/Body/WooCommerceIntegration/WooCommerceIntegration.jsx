@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../../assets/images/WooCommerceIntegration.jpg";
+import WooCommerceIntegrationCard from "./WooCommerceIntegrationCard";
 
 function WooCommerceIntegration() {
   return (
@@ -10,9 +11,9 @@ function WooCommerceIntegration() {
       <div className="max-md:w-full md:w-2/4 flex flex-col justify-start items-start">
         <h3 className="font-medium max-md:text-[1.75rem] md:text-5xl line_after mb-[4.6875rem]">ادغام ووکامرس</h3>
         <div className="w-full flex flex-col gap-2">
-          <ContentDripCard counter="۰۱" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." />
-          <ContentDripCard counter="۰۲" text="دانش آموزان تا پایان درس قبلی نمی توانند به درس بعدی دسترسی داشته باشند." />
-          <ContentDripCard counter="۰۳" text="مدیر، مربیان می توانند درس را تا زمان شروع قفل کنند." />
+          <WooCommerceIntegrationCard counter="۰۱" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." />
+          <WooCommerceIntegrationCard counter="۰۲" text="دانش آموزان تا پایان درس قبلی نمی توانند به درس بعدی دسترسی داشته باشند." />
+          <WooCommerceIntegrationCard counter="۰۳" text="مدیر، مربیان می توانند درس را تا زمان شروع قفل کنند." />
         </div>
       </div>
     </section>
