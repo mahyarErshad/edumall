@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./style.module.css";
 import laptopImage from "../../../assets/images/course-laptop.png";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
+import Slider from "../../Slider/Slider";
 
 function CourseLayout() {
   return (
@@ -26,6 +27,7 @@ function CourseLayout() {
         <MouseParallaxChild className="absolute left-[9.8125rem] top-[18.0625rem] bg-gradient-to-b from-[#529CFD] to-[#75C9FD] h-[3.375rem] w-[3.375rem] circle" />
         <MouseParallaxChild className="absolute left-[20rem] top-[25rem] bg-gradient-to-b from-[#AFE84F] to-[#55A229] h-[0.875rem] w-[0.875rem] circle" inverted={true} />
       </MouseParallaxContainer>
+      <Slider />
     </section>
   );
 }

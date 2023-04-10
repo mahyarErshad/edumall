@@ -11,7 +11,6 @@ import ContentDrip from "../ContentDrip/ContentDrip";
 import MonetizedCourses from "../MonetizedCourses/MonetizedCourses";
 import BodyPress from "../BodyPress/BodyPress";
 import CourseLayout from "../CourseLayout/CourseLayout";
-import Slider from "../../Slider/Slider";
 
 function MainBody() {
   return (
@@ -28,7 +27,6 @@ function MainBody() {
       <MonetizedCourses />
       <BodyPress />
       <CourseLayout />
-      <Slider />
     </>
   );
 }
