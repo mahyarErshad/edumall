@@ -25,8 +25,8 @@ function App() {
         <main className="bg-white z-10">
           <MainBody />
         </main>
-        <Footer />
       </div>
+      <Footer />
     </MyContext.Provider>
   );
 }
