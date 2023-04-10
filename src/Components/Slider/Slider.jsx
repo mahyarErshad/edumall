@@ -66,6 +66,7 @@ export default function Slider() {
         pagination={{
           clickable: true,
         }}
+        rewind={true}
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
