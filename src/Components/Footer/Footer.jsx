@@ -2,8 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="w-full bg-[#F8F8F8] px-4 flex justify-start items-center flex-col py-24">
-      <h3 className="text-3xl font-medium text-navy">راه حلی هوشمند برای پلتفرم آموزش الکترونیکی</h3>
+    <footer className="w-full bg-[#F8F8F8] px-4 flex justify-start items-center flex-col py-24 gap-8">
+      <h3 className="text-3xl font-medium text-primary">راه حلی هوشمند برای پلتفرم آموزش الکترونیکی</h3>
+      <p className="max-md:text-[1.75rem] md:text-[3rem] font-medium text-navy max-w-3xl text-center leading-[3.5rem]">امروز وب سایت آموزش خود را با اجومال راه اندازی کنید</p>
     </footer>
   );
 }
