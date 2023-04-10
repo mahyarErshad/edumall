@@ -1,6 +1,8 @@
 import React from "react";
 import image from "../../../assets/images/WooCommerceIntegration.jpg";
 import WooCommerceIntegrationCard from "./WooCommerceIntegrationCard";
+import wooCommerceLogo from "../../../assets/images/woocommerce-logo-purple.jpg"
+
 
 function WooCommerceIntegration() {
   return (
