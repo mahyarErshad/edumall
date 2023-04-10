@@ -11,9 +11,9 @@ function WooCommerceIntegration() {
       <div className="max-md:w-full md:w-2/4 flex flex-col justify-start items-start">
         <h3 className="font-medium max-md:text-[1.75rem] md:text-5xl line_after mb-[4.6875rem]">ادغام ووکامرس</h3>
         <div className="w-full flex flex-col">
-          <WooCommerceIntegrationCard counter="۰۱" text="بخش ها و ترتیب درس های خود را تنظیم و سفارشی کنید." />
-          <WooCommerceIntegrationCard counter="۰۲" text="دانش آموزان تا پایان درس قبلی نمی توانند به درس بعدی دسترسی داشته باشند." />
-          <WooCommerceIntegrationCard counter="۰۳" text="مدیر، مربیان می توانند درس را تا زمان شروع قفل کنند." />
+          <WooCommerceIntegrationCard counter="۰۱" text="فروش هر چیزی از محصولات دیجیتال گرفته تا فیزیکی با افزونه ووکامرس." />
+          <WooCommerceIntegrationCard counter="۰۲" text="راه اندازی سیستم پرداخت با محبوب ترین روش های پرداخت: پی پال، استریپ، حواله بانکی." />
+          <WooCommerceIntegrationCard counter="۰۳" text="داشتن گزارش کامل از فروش خود در هر زمان." />
         </div>
       </div>
     </section>
