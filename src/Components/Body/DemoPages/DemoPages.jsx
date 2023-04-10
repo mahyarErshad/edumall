@@ -12,7 +12,7 @@ import cardImage9 from "../../../assets/images/demo-cards/9.jpg";
 
 function DemoPages() {
   return (
-    <div className="py-28 bg-[#F5F7FD] w-full px-4 flex-center flex-col">
+    <div id="demos" className="py-28 bg-[#F5F7FD] w-full px-4 flex-center flex-col">
       <div className="flex-center gap-4">
         <span className="max-md:text-5xl line_after md:text-8xl font-bold text-primary">+۹</span>
         <div className="flex justify-start items-center flex-col gap-3">
