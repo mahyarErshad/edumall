@@ -70,15 +70,16 @@ export default function Slider() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        {data.map((item, index) => {
+          return (
+            <SwiperSlide key={index}>
+              <a className="flex flex-col gap-5" target="_blank" rel="noreferrer" href={data.href}>
+                <img className="rounded-[0.625rem]" src={item.image} alt={item.text} />
+                <p className="text-base text-white">{item.text}</p>
+              </a>
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </section>
   );
