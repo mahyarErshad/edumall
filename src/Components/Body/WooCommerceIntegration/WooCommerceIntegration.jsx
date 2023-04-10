@@ -12,12 +12,13 @@ function WooCommerceIntegration() {
       <div className="max-md:w-full md:w-2/4 flex justify-end items-start relative">
         <MouseParallaxContainer containerStyle={{ position: "absolute", overflow: "visible" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} className="max-lg:hidden h-full w-full">
           <MouseParallaxChild className="bg-gradient-to-b from-[#AFE84F] to-[#55A229] h-5 w-5 absolute right-[20%] circle" inverted={true} />
-          <MouseParallaxChild className="absolute left-0 top-0">
+          <MouseParallaxChild className="absolute left-0 top-0" inverted={true}>
             <img src={wooCommerceLogo} alt="woocommerce logo" className="rounded-[1.6875rem] shadow-md" />
           </MouseParallaxChild>
           <MouseParallaxChild className="absolute right-[20%] bottom-[10%]">
             <FontAwesomeIcon color="#fff" icon={faCartShopping} className="p-6 bg-primary rounded-[1.6875rem] shadow-md w-14 h-14 mirror" />
           </MouseParallaxChild>
+          <MouseParallaxChild className="absolute left-0 bottom-[10%] bg-gradient-to-b from-[#529CFD] to-[#75C9FD] h-[1.625rem] w-[1.625rem] circle" />
         </MouseParallaxContainer>
         <img src={image} alt="WooCommerce Integration" className="shadow-md border-[0.625rem] rounded-[1.25rem] border-black self-start" />
       </div>
