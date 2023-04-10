@@ -4,13 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import "./styles.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Navigation } from "swiper";
 
 import image1 from "../../assets/images/layout-slider/1.jpg";
 import image2 from "../../assets/images/layout-slider/2.jpg";
@@ -60,17 +59,7 @@ export default function Slider() {
   ];
   return (
     <section className="w-full">
-      <Swiper
-        slidesPerView={"auto"}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        rewind={true}
-        navigation={true}
-        modules={[Pagination, Navigation]}
-        className="mySwiper"
-      >
+      <Swiper slidesPerView={"auto"} spaceBetween={30} rewind={true} loop={true} navigation={true} modules={[Navigation]} className="mySwiper">
         {data.map((item, index) => {
           return (
             <SwiperSlide className="flex flex-col items-start gap-5 cursor-pointer" onClick={() => window.open(item.href, "_blank")} key={index}>
