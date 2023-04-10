@@ -3,6 +3,7 @@ import styles from "./style.module.css";
 import laptopImage from "../../../assets/images/course-laptop.png";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 import wavyShape from "../../../assets/images/wavy-shape.png";
+import shapeCubePurple from "../../../assets/images/shape-cube-purple.png";
 import Slider from "../../Slider/Slider";
 
 function CourseLayout() {
