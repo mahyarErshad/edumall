@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import MainBody from "./Components/Body/MainBody/MainBody";
 import SideBar from "./Components/SideBar/SideBar";
 import MyContext from "./Context/MyContext";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,7 @@ function App() {
         <main className="bg-white z-10">
           <MainBody />
         </main>
+        <Footer />
       </div>
     </MyContext.Provider>
   );
