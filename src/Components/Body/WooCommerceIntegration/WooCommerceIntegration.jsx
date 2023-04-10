@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function WooCommerceIntegration() {
-  return (
-    <div>WooCommerceIntegration</div>
-  )
+  return <section className="py-[7.5rem] flex max-md:flex-col md:gap-24">
+    
+  </section>;
 }
 
-export default WooCommerceIntegration
+export default WooCommerceIntegration;
