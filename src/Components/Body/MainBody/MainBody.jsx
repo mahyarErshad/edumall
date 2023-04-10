@@ -11,6 +11,7 @@ import ContentDrip from "../ContentDrip/ContentDrip";
 import MonetizedCourses from "../MonetizedCourses/MonetizedCourses";
 import BodyPress from "../BodyPress/BodyPress";
 import CourseLayout from "../CourseLayout/CourseLayout";
+import WooCommerceIntegration from "../WooCommerceIntegration/WooCommerceIntegration";
 
 function MainBody() {
   return (
@@ -27,6 +28,7 @@ function MainBody() {
       <MonetizedCourses />
       <BodyPress />
       <CourseLayout />
+      <WooCommerceIntegration />
     </>
   );
 }
