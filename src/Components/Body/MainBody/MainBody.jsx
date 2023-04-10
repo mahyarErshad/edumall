@@ -13,6 +13,7 @@ import BodyPress from "../BodyPress/BodyPress";
 import CourseLayout from "../CourseLayout/CourseLayout";
 import WooCommerceIntegration from "../WooCommerceIntegration/WooCommerceIntegration";
 import PremiumPlugins from "../PremiumPlugins/PremiumPlugins";
+import Footer from "../../Footer/Footer";
 
 function MainBody() {
   return (
@@ -31,6 +32,7 @@ function MainBody() {
       <CourseLayout />
       <WooCommerceIntegration />
       <PremiumPlugins />
+      <Footer />
     </>
   );
 }
