@@ -7,6 +7,7 @@ import BuddyPress from "../../../assets/images/premium-plugins/buddypress.jpg";
 import WooCommerce from "../../../assets/images/premium-plugins/woocommerce.jpg";
 import paidMemberShip from "../../../assets/images/premium-plugins/paid-membership.jpg";
 import contactForm from "../../../assets/images/premium-plugins/contact-form.jpg";
+import PremiumPluginCard from "./PremiumPluginCard";
 
 function PremiumPlugins() {
   return (
@@ -15,7 +16,10 @@ function PremiumPlugins() {
         <h3 className="text-white font-medium max-md:text-[1.75rem] md:text-5xl">ادغام پلاگین های پریمیوم</h3>
         <p className="text-base text-[#FFFFFFCC] md:max-w-[33.75rem]">فقط مناسب ترین افزونه ها در اجومال ادغام شده اند تا به کاربران کمک کنند تا وب سایت های آموزشی قدرتمند و کاملاً کاربردی بسازند.</p>
       </div>
-      <div className="md:w-2/4 max-md:w-full flex-center"></div>
+      <div className="md:w-2/4 max-md:w-full flex-center flex-wrap">
+        <PremiumPluginCard image={tutor} text="Tutor LMS Pro" />
+        <PremiumPluginCard image={tutor} text="Tutor LMS Pro" />
+      </div>
     </section>
   );
 }
