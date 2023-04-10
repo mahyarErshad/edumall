@@ -75,7 +75,7 @@ export default function Slider() {
             <SwiperSlide key={index}>
               <a className="flex flex-col gap-5" target="_blank" rel="noreferrer" href={data.href}>
                 <img className="rounded-[0.625rem]" src={item.image} alt={item.text} />
-                <p className="text-base text-white">{item.text}</p>
+                <p className="text-base text-white text-right">{item.text}</p>
               </a>
             </SwiperSlide>
           );
