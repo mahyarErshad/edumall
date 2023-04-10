@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./style.module.css";
 import laptopImage from "../../../assets/images/course-laptop.png";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
+import wavyShape from "../../../assets/images/wavy-shape.png";
 import Slider from "../../Slider/Slider";
 
 function CourseLayout() {
@@ -15,7 +16,7 @@ function CourseLayout() {
             <p className="text-base text-[#FFFFFFB3] leading-8">کاربران می‌توانند از میان ۷+ طرح‌بندی دوره‌های مختلف برای پلتفرم آموزش الکترونیکی شما انتخاب کنند</p>
           </div>
         </div>
-        <div className="max-lg:w-full lg:w-[60%] relative flex-center lg:justify-start lg:pr-[10%]">
+        <div className="max-lg:w-full lg:w-[60%] relative flex-center lg:justify-start lg:pr-[10%] z-10">
           <img src={laptopImage} alt="An open laptop showing courses" />
         </div>
       </div>
@@ -26,6 +27,9 @@ function CourseLayout() {
         <MouseParallaxChild className="absolute top-0 right-[10rem] bg-transparent border border-white circle w-[12rem] h-[12rem] opacity-40" inverted={true} />
         <MouseParallaxChild className="absolute left-[9.8125rem] top-[18.0625rem] bg-gradient-to-b from-[#529CFD] to-[#75C9FD] h-[3.375rem] w-[3.375rem] circle" />
         <MouseParallaxChild className="absolute left-[20rem] top-[25rem] bg-gradient-to-b from-[#AFE84F] to-[#55A229] h-[0.875rem] w-[0.875rem] circle" inverted={true} />
+        <MouseParallaxChild className="absolute right-[50%] top-[25%]">
+          <img src={wavyShape} alt="a wavy shape" />
+        </MouseParallaxChild>
       </MouseParallaxContainer>
       <Slider />
     </section>
