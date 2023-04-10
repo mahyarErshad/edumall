@@ -6,7 +6,7 @@ import Slider from "../../Slider/Slider";
 
 function CourseLayout() {
   return (
-    <section className="w-full bg-navy pt-24 pb-10 px-4 overflow-y-visible relative flex flex-col">
+    <section id="courses" className="w-full bg-navy pt-24 pb-10 px-4 overflow-y-visible relative flex flex-col">
       <div className="w-full flex-center max-lg:flex-col-reverse mb-16">
         <div className="max-lg:w-full lg:w-[40%] flex-center">
           <div className="flex flex-col justify-start max-w-[31.25rem] w-full max-md:gap-4 md:gap-6">
