@@ -32,6 +32,9 @@ function CourseLayout() {
         <MouseParallaxChild className="absolute right-[50%] top-[25%]">
           <img src={wavyShape} alt="a wavy shape" />
         </MouseParallaxChild>
+        <MouseParallaxChild className="absolute right-[40%] top-[20%]" inverted={true}>
+          <img src={shapeCubePurple} alt="a purple cube" className="w-[3.875rem] h-[3.625rem]" />
+        </MouseParallaxChild>
       </MouseParallaxContainer>
       <Slider />
     </section>
