@@ -8,6 +8,7 @@ import WooCommerce from "../../../assets/images/premium-plugins/woocommerce.jpg"
 import paidMemberShip from "../../../assets/images/premium-plugins/paid-membership.jpg";
 import contactForm from "../../../assets/images/premium-plugins/contact-form.jpg";
 import PremiumPluginCard from "./PremiumPluginCard";
+import wavyShape from "../../../assets/images/wavy-shape.png";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 
 function PremiumPlugins() {
@@ -18,6 +19,9 @@ function PremiumPlugins() {
         <MouseParallaxChild className="absolute left-[50%] top-0 bg-gradient-to-b from-[#529CFD] to-[#75C9FD] h-[1.125rem] w-[1.125rem] circle" />
         <MouseParallaxChild className="absolute left-[5%] bottom-[25%] bg-gradient-to-b from-[#529CFD] to-[#75C9FD] h-[2.875rem] w-[2.875rem] circle" />
         <MouseParallaxChild className="bg-gradient-to-b from-[#FDE190] to-[#FEC93D] h-[1.375rem] w-[1.375rem] absolute left-[5%] bottom-[45%] circle" inverted={true} />
+        <MouseParallaxChild className="absolute right-0 top-[25%]">
+          <img src={wavyShape} alt="a wavy shape" />
+        </MouseParallaxChild>
       </MouseParallaxContainer>
       <div className="lg:w-2/4 max-lg:w-full flex justify-start max-lg:items-center lg:items-center flex-col gap-9">
         <h3 className="text-white font-medium max-md:text-[1.75rem] md:text-5xl">
