@@ -1,0 +1,15 @@
+.tabs_parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.125rem;
+}
+.tabs {
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #dfe2e7;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100;
+}
