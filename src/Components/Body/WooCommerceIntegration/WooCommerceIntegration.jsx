@@ -6,6 +6,7 @@ import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { TabList, TabPanel, Tabs } from "react-tabs";
+import styles from "./styles.module.css"
 
 function WooCommerceIntegration() {
   return (
@@ -27,7 +28,7 @@ function WooCommerceIntegration() {
               <img src={image} alt="WooCommerce Integration" className="rounded-[1.25rem]" />
             </TabPanel>
           </div>
-          <TabList>
+          <TabList className={styles.tabs}>
           </TabList>
         </Tabs>
       </div>
