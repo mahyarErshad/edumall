@@ -1,5 +1,9 @@
 import React from "react";
-import image from "../../../assets/images/WooCommerceIntegration.jpg";
+import image1 from "../../../assets/images/WooCommerceIntegration/1.jpg";
+import image2 from "../../../assets/images/WooCommerceIntegration/2.jpg";
+import image3 from "../../../assets/images/WooCommerceIntegration/3.jpg";
+import image4 from "../../../assets/images/WooCommerceIntegration/4.jpg";
+import image5 from "../../../assets/images/WooCommerceIntegration/5.jpg";
 import WooCommerceIntegrationCard from "./WooCommerceIntegrationCard";
 import wooCommerceLogo from "../../../assets/images/woocommerce-logo-purple.jpg";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
@@ -25,7 +29,7 @@ function WooCommerceIntegration() {
         <Tabs className={styles["tabs_parent"]}>
           <div className="shadow-md border-[0.625rem] rounded-[1.25rem] border-black self-start">
             <TabPanel>
-              <img src={image} alt="WooCommerce Integration" className="rounded-[1.25rem]" />
+              <img src={image1} alt="WooCommerce Integration" className="rounded-[1.25rem]" />
             </TabPanel>
             <TabPanel>sarfwsrfsf</TabPanel>
           </div>
