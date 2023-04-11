@@ -5,7 +5,7 @@ import wooCommerceLogo from "../../../assets/images/woocommerce-logo-purple.jpg"
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import { TabList, TabPanel, Tabs } from "react-tabs";
+import { Tabs, TabList, Tab, TabPanel } from "react-tabs";
 import styles from "./styles.module.css";
 
 function WooCommerceIntegration() {
@@ -27,9 +27,12 @@ function WooCommerceIntegration() {
             <TabPanel>
               <img src={image} alt="WooCommerce Integration" className="rounded-[1.25rem]" />
             </TabPanel>
+            <TabPanel>sarfwsrfsf</TabPanel>
           </div>
-          <TabList className={styles.tabs}></TabList>
-          <TabList className={styles.tabs}></TabList>
+          <TabList className="z-30 flex-center gap-4">
+            <Tab className={`${styles.tabs} WooCommerceIntegrationTabs`}></Tab>
+            <Tab className={`${styles.tabs} WooCommerceIntegrationTabs`}></Tab>
+          </TabList>
         </Tabs>
       </div>
       <div className="max-md:w-full md:w-2/4 flex flex-col justify-start items-start">

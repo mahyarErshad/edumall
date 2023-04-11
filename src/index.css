@@ -135,3 +135,8 @@ li {
 .visible-tab.react-tabs__tab--selected h3 {
   color: #252525;
 }
+.WooCommerceIntegrationTabs.react-tabs__tab--selected {
+  background-color: #a7aebc;
+  width: 2.5rem;
+  border-radius: 0.375rem;
+}
