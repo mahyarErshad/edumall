@@ -14,3 +14,6 @@
   z-index: 100;
   transition: all 0.3s;
 }
+.tabs:focus-visible {
+  outline: 0;
+}

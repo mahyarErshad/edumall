@@ -31,9 +31,24 @@ function WooCommerceIntegration() {
             <TabPanel>
               <img src={image1} alt="WooCommerce Integration" className="rounded-[1.25rem]" />
             </TabPanel>
+            <TabPanel>
+              <img src={image2} alt="WooCommerce Integration" className="rounded-[1.25rem]" />
+            </TabPanel>
+            <TabPanel>
+              <img src={image3} alt="WooCommerce Integration" className="rounded-[1.25rem]" />
+            </TabPanel>
+            <TabPanel>
+              <img src={image4} alt="WooCommerce Integration" className="rounded-[1.25rem]" />
+            </TabPanel>
+            <TabPanel>
+              <img src={image5} alt="WooCommerce Integration" className="rounded-[1.25rem]" />
+            </TabPanel>
             <TabPanel>sarfwsrfsf</TabPanel>
           </div>
           <TabList className="z-30 flex-center gap-4">
+            <Tab className={`${styles.tabs} WooCommerceIntegrationTabs`}></Tab>
+            <Tab className={`${styles.tabs} WooCommerceIntegrationTabs`}></Tab>
+            <Tab className={`${styles.tabs} WooCommerceIntegrationTabs`}></Tab>
             <Tab className={`${styles.tabs} WooCommerceIntegrationTabs`}></Tab>
             <Tab className={`${styles.tabs} WooCommerceIntegrationTabs`}></Tab>
           </TabList>
