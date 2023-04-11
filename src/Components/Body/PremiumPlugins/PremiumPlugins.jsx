@@ -8,10 +8,15 @@ import WooCommerce from "../../../assets/images/premium-plugins/woocommerce.jpg"
 import paidMemberShip from "../../../assets/images/premium-plugins/paid-membership.jpg";
 import contactForm from "../../../assets/images/premium-plugins/contact-form.jpg";
 import PremiumPluginCard from "./PremiumPluginCard";
+import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 
 function PremiumPlugins() {
   return (
-    <section className="py-[7.5rem] bg-navy flex max-lg:flex-col max-lg:gap-12 w-full px-4">
+    <section className="py-[7.5rem] bg-navy flex max-lg:flex-col max-lg:gap-12 w-full px-4 relative">
+      <MouseParallaxContainer containerStyle={{ position: "absolute", overflow: "visible" }} resetOnLeave={true} useWindowMouseEvents={true} globalFactorX={0.1} globalFactorY={0.1} className="max-lg:hidden h-full w-full">
+        <MouseParallaxChild className="bg-gradient-to-b from-[#AFE84F] to-[#55A229] h-5 w-5 absolute right-[5%] top-[20%] circle" inverted={true} />
+        <MouseParallaxChild className="absolute left-[50%] top-0 bg-gradient-to-b from-[#529CFD] to-[#75C9FD] h-[1.125rem] w-[1.125rem] circle" />
+      </MouseParallaxContainer>
       <div className="lg:w-2/4 max-lg:w-full flex justify-start max-lg:items-center lg:items-center flex-col gap-9">
         <h3 className="text-white font-medium max-md:text-[1.75rem] md:text-5xl">
           ادغام پلاگین های <span className="line_after">حرفه ای</span>
