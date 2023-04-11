@@ -5,6 +5,7 @@ import wooCommerceLogo from "../../../assets/images/woocommerce-logo-purple.jpg"
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { TabList, TabPanel, Tabs } from "react-tabs";
 
 function WooCommerceIntegration() {
   return (
@@ -20,7 +21,15 @@ function WooCommerceIntegration() {
           </MouseParallaxChild>
           <MouseParallaxChild className="absolute left-0 bottom-[10%] bg-gradient-to-b from-[#529CFD] to-[#75C9FD] h-[1.625rem] w-[1.625rem] circle" />
         </MouseParallaxContainer>
-        <img src={image} alt="WooCommerce Integration" className="shadow-md border-[0.625rem] rounded-[1.25rem] border-black self-start" />
+        <Tabs>
+          <div className="shadow-md border-[0.625rem] rounded-[1.25rem] border-black self-start">
+            <TabPanel>
+              <img src={image} alt="WooCommerce Integration" className="rounded-[1.25rem]" />
+            </TabPanel>
+          </div>
+          <TabList>
+          </TabList>
+        </Tabs>
       </div>
       <div className="max-md:w-full md:w-2/4 flex flex-col justify-start items-start">
         <h3 className="font-medium max-md:self-center max-md:text-[1.75rem] md:text-5xl mb-[4.6875rem]">
