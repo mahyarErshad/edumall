@@ -24,7 +24,7 @@ function DemoPages() {
         اجومال بیش از <strong>۹ دمو منحصر به فرد و تخصصی</strong> با تمرکز بر مراکز آموزشی و دوره های آنلاین در اختیار کاربران قرار می دهد.
       </p>
       <section className="flex-center flex-wrap max-lg:gap-4 lg:gap-8 w-full">
-        <DemoPagesCard image={cardImage1} title="دموی اصلی" href="https://edumall.thememove.com/main/" />
+        <DemoPagesCard image={cardImage1} title="دموی اصلی" href="https://dana-team.com/products/edumall/" />
         <DemoPagesCard image={cardImage2} title="مرکز دوره های آنلاین" href="https://edumall.thememove.com/main/course-hub/" />
         <DemoPagesCard image={cardImage3} title="آکادمی آنلاین" href="https://edumall.thememove.com/main/online-academy/" />
         <DemoPagesCard image={cardImage4} title="مرکز آموزش" href="https://edumall.thememove.com/main/education-center/" />
