@@ -43,7 +43,6 @@ function WooCommerceIntegration() {
             <TabPanel>
               <img src={image5} alt="WooCommerce Integration" className="rounded-[1.25rem]" />
             </TabPanel>
-            <TabPanel>sarfwsrfsf</TabPanel>
           </div>
           <TabList className="z-30 flex-center gap-4">
             <Tab className={`${styles.tabs} WooCommerceIntegrationTabs`}></Tab>
