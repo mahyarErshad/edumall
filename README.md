@@ -1,3 +1,8 @@
+# Available On:
+
+<a href="https://dana-team.com/products/edumall/landing/" target="_blank" > Dana Team </a>  
+<a href="https://www.zhaket.com/web/edumall-lms-education-wordpress-theme/demo" target="_blank" > Zhaket </a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
